@@ -1,0 +1,11 @@
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\bin\Debug\MyApp.DAL.dll.config
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\bin\Debug\MyApp.DAL.dll
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\bin\Debug\MyApp.DAL.pdb
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\bin\Debug\EntityFramework.dll
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\bin\Debug\EntityFramework.xml
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\obj\Debug\MyApp.DAL.csprojResolveAssemblyReference.cache
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\obj\Debug\MyApp.DAL.csproj.CoreCompileInputs.cache
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\obj\Debug\MyApp.DAL.dll
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\obj\Debug\MyApp.DAL.pdb
