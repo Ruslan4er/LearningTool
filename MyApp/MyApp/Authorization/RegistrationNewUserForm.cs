@@ -17,11 +17,18 @@ namespace MyApp
         {
             InitializeComponent();
         }
-
-
+        
         private bool IsDataCorrect()
         {
-            return this.Controls.OfType<TextBox>().All(pb => !string.IsNullOrEmpty(pb.Text));
+            if (Controls.OfType<TextBox>().Any(pb => string.IsNullOrWhiteSpace(pb.Text)))
+            {
+                MessageBox.Show(@"Заполните все поля");
+                return false;
+            }
+
+            if (PasswordTextBox.Text == CheckPasswordTextBox.Text) return true;
+            MessageBox.Show(@"Пароли не совпадают");
+            return false;
         }
 
         private bool IsUnique()
@@ -64,14 +71,16 @@ namespace MyApp
         private void CreateButton_Click(object sender, EventArgs e)
         {
             if (!IsDataCorrect())
-                MessageBox.Show(@"Заполните все поля");
-            else if (!IsUnique())
-                MessageBox.Show(@"Пользователь с таким логином уже существует");
-            else
+                return;
+            if (!IsUnique())
             {
-                AddUser();
-                DialogResult = DialogResult.OK;
+                MessageBox.Show(@"Пользователь с таким логином уже существует");
+                return;
             }
+
+            AddUser();
+            DialogResult = DialogResult.OK;
+
         }
 
         private void CancelButton_Click(object sender, EventArgs e)

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MyApp.Account;
+using MyApp.Theory;
 
 namespace MyApp
 {
@@ -17,7 +19,10 @@ namespace MyApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new AuthorizationForm());
-            Application.Run(new MainMenuForm("Ruslan"));
+            Application.Run(new MainMenuForm());
+            //Application.Run(new AccountForm());
+
+
         }
     }
 }

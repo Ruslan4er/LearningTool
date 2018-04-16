@@ -16,9 +16,8 @@ namespace MyApp
         public AuthorizationForm()
         {
             InitializeComponent();
+            Аuthorization("222", "222");
         }
-
-        private string _userName;
 
         private void RegistrationLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -29,15 +28,25 @@ namespace MyApp
                 : @"Регистрация отменена");
         }
 
-        private bool Аuthorization(string login, string password)
+        private static bool Аuthorization(string login, string password)
         {
             using (var context = new LearningToolDBEntities())
             {
                 var user = context.Users.FirstOrDefault(u => u.Login == login);
                 if (user == null || user.Password != password) return false;
-                _userName = user.UserInformation.Name;
+
+                RememberUser(user);
                 return true;
             }
+        }
+
+        private static void RememberUser(User user)
+        {
+            UserProfile.Login = user.Login;
+            UserProfile.Password = user.Login;
+            UserProfile.Name = user.UserInformation.Name;
+            UserProfile.SecondName = user.UserInformation.SecondName;
+            //UserProfile.Groupe = user.UserInformation.Groupe;
         }
 
         private void LoginButton_Click(object sender, EventArgs e)
@@ -46,16 +55,14 @@ namespace MyApp
             var password = PasswordTextBox.Text;
             var task = new Task<bool>(() => Аuthorization(login, password));
             task.Start();
-            //if (!Аuthorization(login, password))
             if (!task.Result)
-                MessageBox.Show(@"Такой пользователь не найден");
+                MessageBox.Show(@"Пользователь с таким логином не найден");
             else
             {
-                var frm = new MainMenuForm(_userName);
-                this.Visible= false;
+                var frm = new MainMenuForm();
+                this.Visible = false;
                 frm.ShowDialog();
                 this.Visible = true;
-
             }
         }
     }

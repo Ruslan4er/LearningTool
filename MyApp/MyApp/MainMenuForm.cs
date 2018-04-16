@@ -14,20 +14,20 @@ namespace MyApp
 {
     public partial class MainMenuForm : Telerik.WinControls.UI.RadForm
     {
-        public MainMenuForm(string userName)
+        public MainMenuForm()
         {
             InitializeComponent();
-            UserNameLabel.Text = userName;
+            UserNameLabel.Text = UserProfile.Name;
         }
 
         private void CloseFormButton_Click(object sender, EventArgs e)
         {
-            
+            Close();
         }
 
         private void TheoryPanel_Click(object sender, EventArgs e)
         {
-            var frm = new TheoryForm();
+            var frm = new TheoryForm1();
             this.Visible = false;
             frm.ShowDialog();
             this.Visible = true;
