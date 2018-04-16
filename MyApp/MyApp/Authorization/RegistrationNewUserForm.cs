@@ -5,30 +5,34 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using MyApp.DAL;
+using Telerik.WinControls;
+using Telerik.WinControls.UI;
 
-namespace MyApp
+namespace MyApp.Authorization
 {
-    public partial class RegistrationNewUserForm : Form
+    public partial class RegistrationNewUserForm : Telerik.WinControls.UI.RadForm
     {
         public RegistrationNewUserForm()
         {
             InitializeComponent();
         }
-        
+
         private bool IsDataCorrect()
         {
-            if (Controls.OfType<TextBox>().Any(pb => string.IsNullOrWhiteSpace(pb.Text)))
+            if (Controls.OfType<RadTextBox>().Any(pb => string.IsNullOrWhiteSpace(pb.Text)))
             {
-                MessageBox.Show(@"Заполните все поля");
+                RadMessageBox.Show(@"Заполните все поля");
                 return false;
             }
 
-            if (PasswordTextBox.Text == CheckPasswordTextBox.Text) return true;
-            MessageBox.Show(@"Пароли не совпадают");
-            return false;
+            if (PasswordTextBox.Text != CheckPasswordTextBox.Text)
+            {
+                RadMessageBox.Show(@"Пароли не совпадают");
+                return false;
+            }
+            return true;
         }
 
         private bool IsUnique()
@@ -36,8 +40,8 @@ namespace MyApp
             using (var context = new LearningToolDBEntities())
             {
                 var users = from user in context.Users
-                            where user.Login == LoginTextBox.Text
-                            select user;
+                    where user.Login == LoginTextBox.Text
+                    select user;
                 return !users.Any();
             }
 
@@ -58,8 +62,8 @@ namespace MyApp
 
                 var userInfo = new UserInformation
                 {
-                    Name = FirstNameTextBox.Text,
-                    SecondName = LastNameTextBox.Text,
+                    Name = NameTextBox.Text,
+                    SecondName = SecondNameTextBox.Text,
                     //Groupe = groupe,
                     Id = user.Id
                 };
@@ -68,22 +72,22 @@ namespace MyApp
             }
         }
 
-        private void CreateButton_Click(object sender, EventArgs e)
+
+        private void CreateUserButton_Click(object sender, EventArgs e)
         {
             if (!IsDataCorrect())
                 return;
             if (!IsUnique())
             {
-                MessageBox.Show(@"Пользователь с таким логином уже существует");
+                RadMessageBox.Show(@"Пользователь с таким логином уже существует");
                 return;
             }
 
             AddUser();
             DialogResult = DialogResult.OK;
-
         }
 
-        private void CancelButton_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
         }

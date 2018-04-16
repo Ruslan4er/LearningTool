@@ -40,6 +40,7 @@
             this.CloseFormButton = new Telerik.WinControls.UI.RadButton();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
+            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
@@ -54,6 +55,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel4)).BeginInit();
             this.splitPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CloseFormButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -156,6 +158,7 @@
             // splitPanel4
             // 
             this.splitPanel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitPanel4.Controls.Add(this.radButton1);
             this.splitPanel4.Controls.Add(this.CloseFormButton);
             this.splitPanel4.Controls.Add(this.UserNameLabel);
             this.splitPanel4.Controls.Add(this.Label3);
@@ -173,6 +176,7 @@
             // CloseFormButton
             // 
             this.CloseFormButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.CloseFormButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CloseFormButton.Location = new System.Drawing.Point(16, 389);
             this.CloseFormButton.Name = "CloseFormButton";
             this.CloseFormButton.Size = new System.Drawing.Size(130, 49);
@@ -200,6 +204,16 @@
             this.Label3.Size = new System.Drawing.Size(123, 20);
             this.Label3.TabIndex = 4;
             this.Label3.Text = "Приветствуем,";
+            // 
+            // radButton1
+            // 
+            this.radButton1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.radButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radButton1.Location = new System.Drawing.Point(16, 283);
+            this.radButton1.Name = "radButton1";
+            this.radButton1.Size = new System.Drawing.Size(130, 45);
+            this.radButton1.TabIndex = 7;
+            this.radButton1.Text = "Личный кабинет";
             // 
             // MainMenuForm
             // 
@@ -229,6 +243,7 @@
             this.splitPanel4.ResumeLayout(false);
             this.splitPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CloseFormButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -247,5 +262,6 @@
         private Telerik.WinControls.UI.RadButton CloseFormButton;
         private System.Windows.Forms.Label UserNameLabel;
         private System.Windows.Forms.Label Label3;
+        private Telerik.WinControls.UI.RadButton radButton1;
     }
 }

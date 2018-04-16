@@ -1,4 +1,4 @@
-﻿namespace MyApp
+﻿namespace MyApp.Authorization
 {
     partial class RegistrationNewUserForm
     {
@@ -28,175 +28,221 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.CreateButton = new System.Windows.Forms.Button();
-            this.ExitButton = new System.Windows.Forms.Button();
+            this.LoginTextBox = new Telerik.WinControls.UI.RadTextBox();
+            this.PasswordTextBox = new Telerik.WinControls.UI.RadTextBox();
+            this.CheckPasswordTextBox = new Telerik.WinControls.UI.RadTextBox();
+            this.NameTextBox = new Telerik.WinControls.UI.RadTextBox();
+            this.SecondNameTextBox = new Telerik.WinControls.UI.RadTextBox();
+            this.GroupeTextBox = new Telerik.WinControls.UI.RadTextBox();
+            this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
+            this.radLabel3 = new Telerik.WinControls.UI.RadLabel();
+            this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
+            this.radLabel5 = new Telerik.WinControls.UI.RadLabel();
+            this.radLabel6 = new Telerik.WinControls.UI.RadLabel();
+            this.radLabel7 = new Telerik.WinControls.UI.RadLabel();
+            this.CreateUserButton = new Telerik.WinControls.UI.RadButton();
+            this.ExitButton = new Telerik.WinControls.UI.RadButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.FirstNameTextBox = new System.Windows.Forms.TextBox();
-            this.GroupeTextBox = new System.Windows.Forms.TextBox();
-            this.LastNameTextBox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
-            this.LoginTextBox = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.CheckPasswordTextBox = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.LoginTextBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PasswordTextBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CheckPasswordTextBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NameTextBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondNameTextBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GroupeTextBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CreateUserButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ExitButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
-            // CreateButton
+            // LoginTextBox
             // 
-            this.CreateButton.Location = new System.Drawing.Point(18, 204);
-            this.CreateButton.Name = "CreateButton";
-            this.CreateButton.Size = new System.Drawing.Size(85, 33);
-            this.CreateButton.TabIndex = 5;
-            this.CreateButton.TabStop = false;
-            this.CreateButton.Text = "Создать";
-            this.CreateButton.UseVisualStyleBackColor = true;
-            this.CreateButton.Click += new System.EventHandler(this.CreateButton_Click);
+            this.LoginTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoginTextBox.Location = new System.Drawing.Point(147, 92);
+            this.LoginTextBox.Name = "LoginTextBox";
+            this.LoginTextBox.Size = new System.Drawing.Size(145, 23);
+            this.LoginTextBox.TabIndex = 0;
+            // 
+            // PasswordTextBox
+            // 
+            this.PasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordTextBox.Location = new System.Drawing.Point(147, 127);
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.Size = new System.Drawing.Size(145, 23);
+            this.PasswordTextBox.TabIndex = 1;
+            // 
+            // CheckPasswordTextBox
+            // 
+            this.CheckPasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CheckPasswordTextBox.Location = new System.Drawing.Point(147, 162);
+            this.CheckPasswordTextBox.Name = "CheckPasswordTextBox";
+            this.CheckPasswordTextBox.Size = new System.Drawing.Size(145, 23);
+            this.CheckPasswordTextBox.TabIndex = 2;
+            // 
+            // NameTextBox
+            // 
+            this.NameTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NameTextBox.Location = new System.Drawing.Point(147, 197);
+            this.NameTextBox.Name = "NameTextBox";
+            this.NameTextBox.Size = new System.Drawing.Size(145, 23);
+            this.NameTextBox.TabIndex = 3;
+            // 
+            // SecondNameTextBox
+            // 
+            this.SecondNameTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SecondNameTextBox.Location = new System.Drawing.Point(147, 233);
+            this.SecondNameTextBox.Name = "SecondNameTextBox";
+            this.SecondNameTextBox.Size = new System.Drawing.Size(145, 23);
+            this.SecondNameTextBox.TabIndex = 4;
+            // 
+            // GroupeTextBox
+            // 
+            this.GroupeTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GroupeTextBox.Location = new System.Drawing.Point(147, 268);
+            this.GroupeTextBox.Name = "GroupeTextBox";
+            this.GroupeTextBox.Size = new System.Drawing.Size(145, 23);
+            this.GroupeTextBox.TabIndex = 5;
+            // 
+            // radLabel2
+            // 
+            this.radLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel2.Location = new System.Drawing.Point(12, 93);
+            this.radLabel2.Name = "radLabel2";
+            this.radLabel2.Size = new System.Drawing.Size(44, 21);
+            this.radLabel2.TabIndex = 4;
+            this.radLabel2.Text = "Логин";
+            // 
+            // radLabel3
+            // 
+            this.radLabel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel3.Location = new System.Drawing.Point(12, 128);
+            this.radLabel3.Name = "radLabel3";
+            this.radLabel3.Size = new System.Drawing.Size(53, 21);
+            this.radLabel3.TabIndex = 4;
+            this.radLabel3.Text = "Пароль";
+            // 
+            // radLabel4
+            // 
+            this.radLabel4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel4.Location = new System.Drawing.Point(12, 163);
+            this.radLabel4.Name = "radLabel4";
+            this.radLabel4.Size = new System.Drawing.Size(121, 21);
+            this.radLabel4.TabIndex = 5;
+            this.radLabel4.Text = "Повторите пароль";
+            // 
+            // radLabel5
+            // 
+            this.radLabel5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel5.Location = new System.Drawing.Point(12, 269);
+            this.radLabel5.Name = "radLabel5";
+            this.radLabel5.Size = new System.Drawing.Size(50, 21);
+            this.radLabel5.TabIndex = 8;
+            this.radLabel5.Text = "Группа";
+            // 
+            // radLabel6
+            // 
+            this.radLabel6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel6.Location = new System.Drawing.Point(12, 234);
+            this.radLabel6.Name = "radLabel6";
+            this.radLabel6.Size = new System.Drawing.Size(62, 21);
+            this.radLabel6.TabIndex = 6;
+            this.radLabel6.Text = "Фамилия";
+            // 
+            // radLabel7
+            // 
+            this.radLabel7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel7.Location = new System.Drawing.Point(12, 198);
+            this.radLabel7.Name = "radLabel7";
+            this.radLabel7.Size = new System.Drawing.Size(33, 21);
+            this.radLabel7.TabIndex = 7;
+            this.radLabel7.Text = "Имя";
+            // 
+            // CreateUserButton
+            // 
+            this.CreateUserButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CreateUserButton.Location = new System.Drawing.Point(12, 330);
+            this.CreateUserButton.Name = "CreateUserButton";
+            this.CreateUserButton.Size = new System.Drawing.Size(135, 48);
+            this.CreateUserButton.TabIndex = 6;
+            this.CreateUserButton.Text = "Регистрация";
+            this.CreateUserButton.Click += new System.EventHandler(this.CreateUserButton_Click);
             // 
             // ExitButton
             // 
             this.ExitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.ExitButton.Location = new System.Drawing.Point(129, 204);
+            this.ExitButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExitButton.Location = new System.Drawing.Point(174, 330);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(125, 33);
-            this.ExitButton.TabIndex = 6;
-            this.ExitButton.TabStop = false;
+            this.ExitButton.Size = new System.Drawing.Size(118, 48);
+            this.ExitButton.TabIndex = 7;
             this.ExitButton.Text = "Отмена";
-            this.ExitButton.UseVisualStyleBackColor = true;
-            this.ExitButton.Click += new System.EventHandler(this.CancelButton_Click);
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 116);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(59, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Имя";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 140);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Фамилия";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(17, 164);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Группа";
-            // 
-            // FirstNameTextBox
-            // 
-            this.FirstNameTextBox.Location = new System.Drawing.Point(121, 113);
-            this.FirstNameTextBox.Name = "FirstNameTextBox";
-            this.FirstNameTextBox.Size = new System.Drawing.Size(133, 20);
-            this.FirstNameTextBox.TabIndex = 2;
-            // 
-            // GroupeTextBox
-            // 
-            this.GroupeTextBox.Location = new System.Drawing.Point(121, 161);
-            this.GroupeTextBox.Name = "GroupeTextBox";
-            this.GroupeTextBox.Size = new System.Drawing.Size(133, 20);
-            this.GroupeTextBox.TabIndex = 4;
-            // 
-            // LastNameTextBox
-            // 
-            this.LastNameTextBox.Location = new System.Drawing.Point(121, 137);
-            this.LastNameTextBox.Name = "LastNameTextBox";
-            this.LastNameTextBox.Size = new System.Drawing.Size(133, 20);
-            this.LastNameTextBox.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(32, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(168, 13);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Создание нового пользователя";
-            // 
-            // PasswordTextBox
-            // 
-            this.PasswordTextBox.Location = new System.Drawing.Point(121, 61);
-            this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(133, 20);
-            this.PasswordTextBox.TabIndex = 1;
-            // 
-            // LoginTextBox
-            // 
-            this.LoginTextBox.Location = new System.Drawing.Point(121, 37);
-            this.LoginTextBox.Name = "LoginTextBox";
-            this.LoginTextBox.Size = new System.Drawing.Size(133, 20);
-            this.LoginTextBox.TabIndex = 0;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(17, 64);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 13);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Пароль";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(17, 40);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 13);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Логин";
-            // 
-            // CheckPasswordTextBox
-            // 
-            this.CheckPasswordTextBox.Location = new System.Drawing.Point(121, 87);
-            this.CheckPasswordTextBox.Name = "CheckPasswordTextBox";
-            this.CheckPasswordTextBox.Size = new System.Drawing.Size(133, 20);
-            this.CheckPasswordTextBox.TabIndex = 11;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(15, 90);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Повторите пароль";
+            this.label1.Size = new System.Drawing.Size(205, 50);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Регистрация нового\r\nпользователя\r\n";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RegistrationNewUserForm
             // 
-            this.AcceptButton = this.CreateButton;
+            this.AcceptButton = this.CreateUserButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.ExitButton;
-            this.ClientSize = new System.Drawing.Size(261, 249);
-            this.Controls.Add(this.CheckPasswordTextBox);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.PasswordTextBox);
-            this.Controls.Add(this.LoginTextBox);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.LastNameTextBox);
-            this.Controls.Add(this.GroupeTextBox);
-            this.Controls.Add(this.FirstNameTextBox);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(314, 390);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ExitButton);
-            this.Controls.Add(this.CreateButton);
+            this.Controls.Add(this.CreateUserButton);
+            this.Controls.Add(this.radLabel5);
+            this.Controls.Add(this.radLabel4);
+            this.Controls.Add(this.radLabel6);
+            this.Controls.Add(this.radLabel3);
+            this.Controls.Add(this.radLabel7);
+            this.Controls.Add(this.radLabel2);
+            this.Controls.Add(this.GroupeTextBox);
+            this.Controls.Add(this.SecondNameTextBox);
+            this.Controls.Add(this.NameTextBox);
+            this.Controls.Add(this.CheckPasswordTextBox);
+            this.Controls.Add(this.PasswordTextBox);
+            this.Controls.Add(this.LoginTextBox);
+            this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(322, 420);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(322, 420);
             this.Name = "RegistrationNewUserForm";
-            this.Text = "RegistrationForm";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Регистрация";
+            ((System.ComponentModel.ISupportInitialize)(this.LoginTextBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PasswordTextBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CheckPasswordTextBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NameTextBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondNameTextBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GroupeTextBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CreateUserButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ExitButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,20 +250,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Button CreateButton;
-        private System.Windows.Forms.Button ExitButton;
+        private Telerik.WinControls.UI.RadTextBox LoginTextBox;
+        private Telerik.WinControls.UI.RadTextBox PasswordTextBox;
+        private Telerik.WinControls.UI.RadTextBox CheckPasswordTextBox;
+        private Telerik.WinControls.UI.RadTextBox NameTextBox;
+        private Telerik.WinControls.UI.RadTextBox SecondNameTextBox;
+        private Telerik.WinControls.UI.RadTextBox GroupeTextBox;
+        private Telerik.WinControls.UI.RadLabel radLabel2;
+        private Telerik.WinControls.UI.RadLabel radLabel3;
+        private Telerik.WinControls.UI.RadLabel radLabel4;
+        private Telerik.WinControls.UI.RadLabel radLabel5;
+        private Telerik.WinControls.UI.RadLabel radLabel6;
+        private Telerik.WinControls.UI.RadLabel radLabel7;
+        private Telerik.WinControls.UI.RadButton CreateUserButton;
+        private Telerik.WinControls.UI.RadButton ExitButton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox FirstNameTextBox;
-        private System.Windows.Forms.TextBox GroupeTextBox;
-        private System.Windows.Forms.TextBox LastNameTextBox;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox PasswordTextBox;
-        private System.Windows.Forms.TextBox LoginTextBox;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox CheckPasswordTextBox;
-        private System.Windows.Forms.Label label7;
     }
 }

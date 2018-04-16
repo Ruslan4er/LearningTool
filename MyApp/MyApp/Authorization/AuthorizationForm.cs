@@ -8,24 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MyApp.DAL;
+using Telerik.WinControls;
 
-namespace MyApp
+namespace MyApp.Authorization
 {
-    public partial class AuthorizationForm : Form
+    public partial class AuthorizationForm : Telerik.WinControls.UI.RadForm
     {
         public AuthorizationForm()
         {
             InitializeComponent();
             Аuthorization("222", "222");
-        }
-
-        private void RegistrationLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            var frm = new RegistrationNewUserForm();
-            frm.ShowDialog();
-            MessageBox.Show(frm.DialogResult == DialogResult.OK
-                ? @"Вы успешно зарегестрированы"
-                : @"Регистрация отменена");
         }
 
         private static bool Аuthorization(string login, string password)
@@ -56,7 +48,8 @@ namespace MyApp
             var task = new Task<bool>(() => Аuthorization(login, password));
             task.Start();
             if (!task.Result)
-                MessageBox.Show(@"Пользователь с таким логином не найден");
+                RadMessageBox.Show(@"Пользователь с таким логином не найден");
+            //MessageBox.Show(@"Пользователь с таким логином не найден");
             else
             {
                 var frm = new MainMenuForm();
@@ -64,6 +57,16 @@ namespace MyApp
                 frm.ShowDialog();
                 this.Visible = true;
             }
+        }
+
+        private void RegistrationLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            var frm = new RegistrationNewUserForm();
+            frm.ShowDialog();
+            RadMessageBox.Show(frm.DialogResult == DialogResult.OK
+                ? @"Вы успешно зарегестрированы"
+                : @"Регистрация отменена");
         }
     }
 }

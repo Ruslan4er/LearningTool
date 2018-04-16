@@ -27,7 +27,7 @@ namespace MyApp
 
         private void TheoryPanel_Click(object sender, EventArgs e)
         {
-            var frm = new TheoryForm1();
+            var frm = new TheoryForm();
             this.Visible = false;
             frm.ShowDialog();
             this.Visible = true;

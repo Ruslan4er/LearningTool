@@ -14,54 +14,24 @@ namespace MyApp.Theory
         public TheoryForm()
         {
             InitializeComponent();
+            FillPdfViewers();
         }
 
-        private void Chapter2Label_Click(object sender, EventArgs e)
+        private void FillPdfViewers()
         {
-            TheoryPdfViewer.LoadDocument((Application.StartupPath + "\\Content\\Theory\\2.pdf"));
+            TheoryPdfViewer1.LoadDocument((Application.StartupPath + "\\Content\\Theory\\1.pdf"));
+            TheoryPdfViewer2.LoadDocument((Application.StartupPath + "\\Content\\Theory\\2.pdf"));
+            TheoryPdfViewer3.LoadDocument((Application.StartupPath + "\\Content\\Theory\\3.pdf"));
+            TheoryPdfViewer4.LoadDocument((Application.StartupPath + "\\Content\\Theory\\4.pdf"));
+            TheoryPdfViewer5.LoadDocument((Application.StartupPath + "\\Content\\Theory\\5.pdf"));
+            TheoryPdfViewer6.LoadDocument((Application.StartupPath + "\\Content\\Theory\\6.pdf"));
+            TheoryPdfViewer7.LoadDocument((Application.StartupPath + "\\Content\\Theory\\7.pdf"));
+            TheoryPdfViewer8.LoadDocument((Application.StartupPath + "\\Content\\Theory\\8.pdf"));
+            TheoryPdfViewer9.LoadDocument((Application.StartupPath + "\\Content\\Theory\\9.pdf"));
+
         }
 
-        private void Chapter1Label_Click(object sender, EventArgs e)
-        {
-            TheoryPdfViewer.LoadDocument((Application.StartupPath + "\\Content\\Theory\\1.pdf"));
-        }
-
-        private void Chapter3Label_Click(object sender, EventArgs e)
-        {
-            TheoryPdfViewer.LoadDocument((Application.StartupPath + "\\Content\\Theory\\3.pdf"));
-        }
-
-        private void Chapter4Label_Click(object sender, EventArgs e)
-        {
-            TheoryPdfViewer.LoadDocument((Application.StartupPath + "\\Content\\Theory\\4.pdf"));
-        }
-
-        private void Chapter5Label_Click(object sender, EventArgs e)
-        {
-            TheoryPdfViewer.LoadDocument((Application.StartupPath + "\\Content\\Theory\\5.pdf"));
-        }
-
-        private void Chapter6Label_Click(object sender, EventArgs e)
-        {
-            TheoryPdfViewer.LoadDocument((Application.StartupPath + "\\Content\\Theory\\6.pdf"));
-        }
-
-        private void Chapter7Label_Click(object sender, EventArgs e)
-        {
-            TheoryPdfViewer.LoadDocument((Application.StartupPath + "\\Content\\Theory\\7.pdf"));
-        }
-
-        private void Chapter8Label_Click(object sender, EventArgs e)
-        {
-            TheoryPdfViewer.LoadDocument((Application.StartupPath + "\\Content\\Theory\\8.pdf"));
-        }
-
-        private void Chapter9Label_Click(object sender, EventArgs e)
-        {
-            TheoryPdfViewer.LoadDocument((Application.StartupPath + "\\Content\\Theory\\9.pdf"));
-        }
-
-        private void CloseFormButton_Click(object sender, EventArgs e)
+        private void CloseFormPictureBox_Click(object sender, EventArgs e)
         {
             Close();
         }

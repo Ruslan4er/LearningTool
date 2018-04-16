@@ -94,11 +94,11 @@
     <Compile Include="Authorization\AuthorizationForm.Designer.cs">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ContentForm.cs">
+    <Compile Include="Authorization\RegistrationNewUserForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ContentForm.Designer.cs">
-      <DependentUpon>ContentForm.cs</DependentUpon>
+    <Compile Include="Authorization\RegistrationNewUserForm.Designer.cs">
+      <DependentUpon>RegistrationNewUserForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Labs\LabsForm.cs">
       <SubType>Form</SubType>
@@ -114,30 +114,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Authorization\RegistrationNewUserForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Authorization\RegistrationNewUserForm.Designer.cs">
-      <DependentUpon>RegistrationNewUserForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Tests\TestsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tests\TestsForm.Designer.cs">
       <DependentUpon>TestsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Authorization\UserProfile.cs" />
     <Compile Include="Theory\TheoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Theory\TheoryForm.Designer.cs">
       <DependentUpon>TheoryForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Authorization\UserProfile.cs" />
-    <Compile Include="Theory\TheoryForm1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Theory\TheoryForm1.Designer.cs">
-      <DependentUpon>TheoryForm1.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Account\AccountForm.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
@@ -145,8 +133,8 @@
     <EmbeddedResource Include="Authorization\AuthorizationForm.resx">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ContentForm.resx">
-      <DependentUpon>ContentForm.cs</DependentUpon>
+    <EmbeddedResource Include="Authorization\RegistrationNewUserForm.resx">
+      <DependentUpon>RegistrationNewUserForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Labs\LabsForm.resx">
       <DependentUpon>LabsForm.cs</DependentUpon>
@@ -164,14 +152,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Authorization\RegistrationNewUserForm.resx">
-      <DependentUpon>RegistrationNewUserForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Theory\TheoryForm.resx">
       <DependentUpon>TheoryForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Theory\TheoryForm1.resx">
-      <DependentUpon>TheoryForm1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
