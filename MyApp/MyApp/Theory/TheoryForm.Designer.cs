@@ -31,55 +31,55 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TheoryForm));
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
+            this.CloseFormPictureBox = new System.Windows.Forms.PictureBox();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.TheoryPageView = new Telerik.WinControls.UI.RadPageView();
             this.radPageViewItemPage1 = new Telerik.WinControls.UI.RadPageViewItemPage();
             this.radPageViewPage1 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage2 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage3 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage4 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage5 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage6 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage7 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage8 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage9 = new Telerik.WinControls.UI.RadPageViewPage();
             this.TheoryPdfViewer1 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.radPageViewPage2 = new Telerik.WinControls.UI.RadPageViewPage();
             this.TheoryPdfViewer2 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.radPageViewPage3 = new Telerik.WinControls.UI.RadPageViewPage();
             this.TheoryPdfViewer3 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.radPageViewPage4 = new Telerik.WinControls.UI.RadPageViewPage();
             this.TheoryPdfViewer4 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.radPageViewPage5 = new Telerik.WinControls.UI.RadPageViewPage();
             this.TheoryPdfViewer5 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.radPageViewPage6 = new Telerik.WinControls.UI.RadPageViewPage();
             this.TheoryPdfViewer6 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.radPageViewPage7 = new Telerik.WinControls.UI.RadPageViewPage();
             this.TheoryPdfViewer7 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.radPageViewPage8 = new Telerik.WinControls.UI.RadPageViewPage();
             this.TheoryPdfViewer8 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.radPageViewPage9 = new Telerik.WinControls.UI.RadPageViewPage();
             this.TheoryPdfViewer9 = new Telerik.WinControls.UI.RadPdfViewer();
-            this.CloseFormPictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
             this.splitPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
             this.splitPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPageView)).BeginInit();
             this.TheoryPageView.SuspendLayout();
             this.radPageViewPage1.SuspendLayout();
-            this.radPageViewPage2.SuspendLayout();
-            this.radPageViewPage3.SuspendLayout();
-            this.radPageViewPage4.SuspendLayout();
-            this.radPageViewPage5.SuspendLayout();
-            this.radPageViewPage6.SuspendLayout();
-            this.radPageViewPage7.SuspendLayout();
-            this.radPageViewPage8.SuspendLayout();
-            this.radPageViewPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer1)).BeginInit();
+            this.radPageViewPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer2)).BeginInit();
+            this.radPageViewPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer3)).BeginInit();
+            this.radPageViewPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer4)).BeginInit();
+            this.radPageViewPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer5)).BeginInit();
+            this.radPageViewPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer6)).BeginInit();
+            this.radPageViewPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer7)).BeginInit();
+            this.radPageViewPage8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer8)).BeginInit();
+            this.radPageViewPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,6 +88,7 @@
             this.radSplitContainer1.Controls.Add(this.splitPanel1);
             this.radSplitContainer1.Controls.Add(this.splitPanel2);
             this.radSplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radSplitContainer1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radSplitContainer1.Location = new System.Drawing.Point(0, 0);
             this.radSplitContainer1.Name = "radSplitContainer1";
             // 
@@ -113,6 +114,17 @@
             this.splitPanel1.TabIndex = 0;
             this.splitPanel1.TabStop = false;
             this.splitPanel1.Text = "splitPanel1";
+            // 
+            // CloseFormPictureBox
+            // 
+            this.CloseFormPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("CloseFormPictureBox.Image")));
+            this.CloseFormPictureBox.Location = new System.Drawing.Point(3, 54);
+            this.CloseFormPictureBox.Name = "CloseFormPictureBox";
+            this.CloseFormPictureBox.Size = new System.Drawing.Size(89, 89);
+            this.CloseFormPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.CloseFormPictureBox.TabIndex = 0;
+            this.CloseFormPictureBox.TabStop = false;
+            this.CloseFormPictureBox.Click += new System.EventHandler(this.CloseFormPictureBox_Click);
             // 
             // splitPanel2
             // 
@@ -144,20 +156,22 @@
             this.TheoryPageView.Controls.Add(this.radPageViewPage9);
             this.TheoryPageView.DefaultPage = this.radPageViewItemPage1;
             this.TheoryPageView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TheoryPageView.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TheoryPageView.Location = new System.Drawing.Point(0, 0);
             this.TheoryPageView.Name = "TheoryPageView";
-            this.TheoryPageView.SelectedPage = this.radPageViewItemPage1;
+            this.TheoryPageView.SelectedPage = this.radPageViewPage1;
             this.TheoryPageView.Size = new System.Drawing.Size(1259, 690);
             this.TheoryPageView.TabIndex = 0;
             this.TheoryPageView.ViewMode = Telerik.WinControls.UI.PageViewMode.Backstage;
             // 
             // radPageViewItemPage1
             // 
+            this.radPageViewItemPage1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radPageViewItemPage1.ItemSize = new System.Drawing.SizeF(333F, 40F);
             this.radPageViewItemPage1.ItemType = Telerik.WinControls.UI.PageViewItemType.GroupHeaderItem;
-            this.radPageViewItemPage1.Location = new System.Drawing.Point(0, 0);
+            this.radPageViewItemPage1.Location = new System.Drawing.Point(363, 4);
             this.radPageViewItemPage1.Name = "radPageViewItemPage1";
-            this.radPageViewItemPage1.Size = new System.Drawing.Size(0, 0);
+            this.radPageViewItemPage1.Size = new System.Drawing.Size(892, 682);
             this.radPageViewItemPage1.Text = "Темы:";
             // 
             // radPageViewPage1
@@ -168,78 +182,7 @@
             this.radPageViewPage1.Name = "radPageViewPage1";
             this.radPageViewPage1.Size = new System.Drawing.Size(892, 682);
             this.radPageViewPage1.Text = "Электрические цепи";
-            // 
-            // radPageViewPage2
-            // 
-            this.radPageViewPage2.Controls.Add(this.TheoryPdfViewer2);
-            this.radPageViewPage2.ItemSize = new System.Drawing.SizeF(333F, 45F);
-            this.radPageViewPage2.Location = new System.Drawing.Point(363, 4);
-            this.radPageViewPage2.Name = "radPageViewPage2";
-            this.radPageViewPage2.Size = new System.Drawing.Size(892, 682);
-            this.radPageViewPage2.Text = "Электромагнетизм";
-            // 
-            // radPageViewPage3
-            // 
-            this.radPageViewPage3.Controls.Add(this.TheoryPdfViewer3);
-            this.radPageViewPage3.ItemSize = new System.Drawing.SizeF(333F, 45F);
-            this.radPageViewPage3.Location = new System.Drawing.Point(363, 4);
-            this.radPageViewPage3.Name = "radPageViewPage3";
-            this.radPageViewPage3.Size = new System.Drawing.Size(892, 682);
-            this.radPageViewPage3.Text = "Электрические цепи";
-            // 
-            // radPageViewPage4
-            // 
-            this.radPageViewPage4.Controls.Add(this.TheoryPdfViewer4);
-            this.radPageViewPage4.ItemSize = new System.Drawing.SizeF(333F, 45F);
-            this.radPageViewPage4.Location = new System.Drawing.Point(363, 4);
-            this.radPageViewPage4.Name = "radPageViewPage4";
-            this.radPageViewPage4.Size = new System.Drawing.Size(892, 682);
-            this.radPageViewPage4.Text = "Трансформаторы";
-            // 
-            // radPageViewPage5
-            // 
-            this.radPageViewPage5.Controls.Add(this.TheoryPdfViewer5);
-            this.radPageViewPage5.ItemSize = new System.Drawing.SizeF(333F, 45F);
-            this.radPageViewPage5.Location = new System.Drawing.Point(363, 4);
-            this.radPageViewPage5.Name = "radPageViewPage5";
-            this.radPageViewPage5.Size = new System.Drawing.Size(892, 682);
-            this.radPageViewPage5.Text = "Электронные приборы ";
-            // 
-            // radPageViewPage6
-            // 
-            this.radPageViewPage6.Controls.Add(this.TheoryPdfViewer6);
-            this.radPageViewPage6.ItemSize = new System.Drawing.SizeF(333F, 45F);
-            this.radPageViewPage6.Location = new System.Drawing.Point(363, 4);
-            this.radPageViewPage6.Name = "radPageViewPage6";
-            this.radPageViewPage6.Size = new System.Drawing.Size(892, 682);
-            this.radPageViewPage6.Text = "Электроизмерительные приборы и их применение";
-            // 
-            // radPageViewPage7
-            // 
-            this.radPageViewPage7.Controls.Add(this.TheoryPdfViewer7);
-            this.radPageViewPage7.ItemSize = new System.Drawing.SizeF(333F, 45F);
-            this.radPageViewPage7.Location = new System.Drawing.Point(363, 4);
-            this.radPageViewPage7.Name = "radPageViewPage7";
-            this.radPageViewPage7.Size = new System.Drawing.Size(892, 682);
-            this.radPageViewPage7.Text = "Электрические машины";
-            // 
-            // radPageViewPage8
-            // 
-            this.radPageViewPage8.Controls.Add(this.TheoryPdfViewer8);
-            this.radPageViewPage8.ItemSize = new System.Drawing.SizeF(333F, 45F);
-            this.radPageViewPage8.Location = new System.Drawing.Point(363, 4);
-            this.radPageViewPage8.Name = "radPageViewPage8";
-            this.radPageViewPage8.Size = new System.Drawing.Size(892, 682);
-            this.radPageViewPage8.Text = "Электрические аппараты";
-            // 
-            // radPageViewPage9
-            // 
-            this.radPageViewPage9.Controls.Add(this.TheoryPdfViewer9);
-            this.radPageViewPage9.ItemSize = new System.Drawing.SizeF(333F, 45F);
-            this.radPageViewPage9.Location = new System.Drawing.Point(363, 4);
-            this.radPageViewPage9.Name = "radPageViewPage9";
-            this.radPageViewPage9.Size = new System.Drawing.Size(892, 682);
-            this.radPageViewPage9.Text = "Производство и распределение электрической энергии";
+            this.radPageViewPage1.Click += new System.EventHandler(this.radPageViewPage1_Click);
             // 
             // TheoryPdfViewer1
             // 
@@ -250,6 +193,15 @@
             this.TheoryPdfViewer1.TabIndex = 0;
             this.TheoryPdfViewer1.ThumbnailsScaleFactor = 0.15F;
             // 
+            // radPageViewPage2
+            // 
+            this.radPageViewPage2.Controls.Add(this.TheoryPdfViewer2);
+            this.radPageViewPage2.ItemSize = new System.Drawing.SizeF(333F, 45F);
+            this.radPageViewPage2.Location = new System.Drawing.Point(363, 4);
+            this.radPageViewPage2.Name = "radPageViewPage2";
+            this.radPageViewPage2.Size = new System.Drawing.Size(892, 682);
+            this.radPageViewPage2.Text = "Электромагнетизм";
+            // 
             // TheoryPdfViewer2
             // 
             this.TheoryPdfViewer2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -258,6 +210,15 @@
             this.TheoryPdfViewer2.Size = new System.Drawing.Size(892, 682);
             this.TheoryPdfViewer2.TabIndex = 1;
             this.TheoryPdfViewer2.ThumbnailsScaleFactor = 0.15F;
+            // 
+            // radPageViewPage3
+            // 
+            this.radPageViewPage3.Controls.Add(this.TheoryPdfViewer3);
+            this.radPageViewPage3.ItemSize = new System.Drawing.SizeF(333F, 45F);
+            this.radPageViewPage3.Location = new System.Drawing.Point(363, 4);
+            this.radPageViewPage3.Name = "radPageViewPage3";
+            this.radPageViewPage3.Size = new System.Drawing.Size(892, 682);
+            this.radPageViewPage3.Text = "Электрические цепи";
             // 
             // TheoryPdfViewer3
             // 
@@ -268,6 +229,15 @@
             this.TheoryPdfViewer3.TabIndex = 1;
             this.TheoryPdfViewer3.ThumbnailsScaleFactor = 0.15F;
             // 
+            // radPageViewPage4
+            // 
+            this.radPageViewPage4.Controls.Add(this.TheoryPdfViewer4);
+            this.radPageViewPage4.ItemSize = new System.Drawing.SizeF(333F, 45F);
+            this.radPageViewPage4.Location = new System.Drawing.Point(363, 4);
+            this.radPageViewPage4.Name = "radPageViewPage4";
+            this.radPageViewPage4.Size = new System.Drawing.Size(892, 682);
+            this.radPageViewPage4.Text = "Трансформаторы";
+            // 
             // TheoryPdfViewer4
             // 
             this.TheoryPdfViewer4.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -276,6 +246,15 @@
             this.TheoryPdfViewer4.Size = new System.Drawing.Size(892, 682);
             this.TheoryPdfViewer4.TabIndex = 1;
             this.TheoryPdfViewer4.ThumbnailsScaleFactor = 0.15F;
+            // 
+            // radPageViewPage5
+            // 
+            this.radPageViewPage5.Controls.Add(this.TheoryPdfViewer5);
+            this.radPageViewPage5.ItemSize = new System.Drawing.SizeF(333F, 45F);
+            this.radPageViewPage5.Location = new System.Drawing.Point(363, 4);
+            this.radPageViewPage5.Name = "radPageViewPage5";
+            this.radPageViewPage5.Size = new System.Drawing.Size(892, 682);
+            this.radPageViewPage5.Text = "Электронные приборы ";
             // 
             // TheoryPdfViewer5
             // 
@@ -286,6 +265,15 @@
             this.TheoryPdfViewer5.TabIndex = 1;
             this.TheoryPdfViewer5.ThumbnailsScaleFactor = 0.15F;
             // 
+            // radPageViewPage6
+            // 
+            this.radPageViewPage6.Controls.Add(this.TheoryPdfViewer6);
+            this.radPageViewPage6.ItemSize = new System.Drawing.SizeF(333F, 45F);
+            this.radPageViewPage6.Location = new System.Drawing.Point(363, 4);
+            this.radPageViewPage6.Name = "radPageViewPage6";
+            this.radPageViewPage6.Size = new System.Drawing.Size(892, 682);
+            this.radPageViewPage6.Text = "Электроизмерительные приборы и их применение";
+            // 
             // TheoryPdfViewer6
             // 
             this.TheoryPdfViewer6.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -294,6 +282,15 @@
             this.TheoryPdfViewer6.Size = new System.Drawing.Size(892, 682);
             this.TheoryPdfViewer6.TabIndex = 1;
             this.TheoryPdfViewer6.ThumbnailsScaleFactor = 0.15F;
+            // 
+            // radPageViewPage7
+            // 
+            this.radPageViewPage7.Controls.Add(this.TheoryPdfViewer7);
+            this.radPageViewPage7.ItemSize = new System.Drawing.SizeF(333F, 45F);
+            this.radPageViewPage7.Location = new System.Drawing.Point(363, 4);
+            this.radPageViewPage7.Name = "radPageViewPage7";
+            this.radPageViewPage7.Size = new System.Drawing.Size(892, 682);
+            this.radPageViewPage7.Text = "Электрические машины";
             // 
             // TheoryPdfViewer7
             // 
@@ -304,6 +301,15 @@
             this.TheoryPdfViewer7.TabIndex = 1;
             this.TheoryPdfViewer7.ThumbnailsScaleFactor = 0.15F;
             // 
+            // radPageViewPage8
+            // 
+            this.radPageViewPage8.Controls.Add(this.TheoryPdfViewer8);
+            this.radPageViewPage8.ItemSize = new System.Drawing.SizeF(333F, 45F);
+            this.radPageViewPage8.Location = new System.Drawing.Point(363, 4);
+            this.radPageViewPage8.Name = "radPageViewPage8";
+            this.radPageViewPage8.Size = new System.Drawing.Size(892, 682);
+            this.radPageViewPage8.Text = "Электрические аппараты";
+            // 
             // TheoryPdfViewer8
             // 
             this.TheoryPdfViewer8.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -312,6 +318,15 @@
             this.TheoryPdfViewer8.Size = new System.Drawing.Size(892, 682);
             this.TheoryPdfViewer8.TabIndex = 1;
             this.TheoryPdfViewer8.ThumbnailsScaleFactor = 0.15F;
+            // 
+            // radPageViewPage9
+            // 
+            this.radPageViewPage9.Controls.Add(this.TheoryPdfViewer9);
+            this.radPageViewPage9.ItemSize = new System.Drawing.SizeF(333F, 45F);
+            this.radPageViewPage9.Location = new System.Drawing.Point(363, 4);
+            this.radPageViewPage9.Name = "radPageViewPage9";
+            this.radPageViewPage9.Size = new System.Drawing.Size(892, 682);
+            this.radPageViewPage9.Text = "Производство и распределение электрической энергии";
             // 
             // TheoryPdfViewer9
             // 
@@ -322,57 +337,48 @@
             this.TheoryPdfViewer9.TabIndex = 1;
             this.TheoryPdfViewer9.ThumbnailsScaleFactor = 0.15F;
             // 
-            // CloseFormPictureBox
-            // 
-            this.CloseFormPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("CloseFormPictureBox.Image")));
-            this.CloseFormPictureBox.Location = new System.Drawing.Point(3, 54);
-            this.CloseFormPictureBox.Name = "CloseFormPictureBox";
-            this.CloseFormPictureBox.Size = new System.Drawing.Size(89, 89);
-            this.CloseFormPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.CloseFormPictureBox.TabIndex = 0;
-            this.CloseFormPictureBox.TabStop = false;
-            this.CloseFormPictureBox.Click += new System.EventHandler(this.CloseFormPictureBox_Click);
-            // 
-            // TheoryForm1
+            // TheoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1358, 690);
             this.Controls.Add(this.radSplitContainer1);
-            this.Name = "TheoryForm1";
+            this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Name = "TheoryForm";
             // 
             // 
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "TheoryForm1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.TheoryForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).EndInit();
             this.radSplitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPageView)).EndInit();
             this.TheoryPageView.ResumeLayout(false);
             this.radPageViewPage1.ResumeLayout(false);
-            this.radPageViewPage2.ResumeLayout(false);
-            this.radPageViewPage3.ResumeLayout(false);
-            this.radPageViewPage4.ResumeLayout(false);
-            this.radPageViewPage5.ResumeLayout(false);
-            this.radPageViewPage6.ResumeLayout(false);
-            this.radPageViewPage7.ResumeLayout(false);
-            this.radPageViewPage8.ResumeLayout(false);
-            this.radPageViewPage9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer1)).EndInit();
+            this.radPageViewPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer2)).EndInit();
+            this.radPageViewPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer3)).EndInit();
+            this.radPageViewPage4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer4)).EndInit();
+            this.radPageViewPage5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer5)).EndInit();
+            this.radPageViewPage6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer6)).EndInit();
+            this.radPageViewPage7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer7)).EndInit();
+            this.radPageViewPage8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer8)).EndInit();
+            this.radPageViewPage9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 

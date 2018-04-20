@@ -1,0 +1,11 @@
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\bin\Release\MyApp.DAL.dll.config
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\bin\Release\MyApp.DAL.dll
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\bin\Release\MyApp.DAL.pdb
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\bin\Release\EntityFramework.dll
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\bin\Release\EntityFramework.SqlServer.dll
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\bin\Release\EntityFramework.xml
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\bin\Release\EntityFramework.SqlServer.xml
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\obj\Release\MyApp.DAL.csprojResolveAssemblyReference.cache
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\obj\Release\MyApp.DAL.csproj.CoreCompileInputs.cache
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\obj\Release\MyApp.DAL.dll
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\obj\Release\MyApp.DAL.pdb

@@ -4,11 +4,13 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Text;
+using System.Threading;
 using System.Windows.Forms;
 using MyApp.Labs;
 using MyApp.Tests;
 using MyApp.Theory;
 using Telerik.WinControls;
+using Telerik.WinControls.UI;
 
 namespace MyApp
 {
@@ -32,13 +34,15 @@ namespace MyApp
             frm.ShowDialog();
             this.Visible = true;
         }
-
+        
         private void LabsPanel_Click(object sender, EventArgs e)
         {
             var frm = new LabsForm();
-            this.Visible = false;
+            //this.Visible = false;
+            this.Hide();
             frm.ShowDialog();
-            this.Visible = true;
+            //this.Visible = true;
+            this.Show();
         }
 
         private void TestingPanel_Click(object sender, EventArgs e)

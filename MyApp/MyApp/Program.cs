@@ -20,8 +20,8 @@ namespace MyApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AuthorizationForm());
-            //Application.Run(new MainMenuForm());
+            //Application.Run(new AuthorizationForm());
+            Application.Run(new MainMenuForm());
             //Application.Run(new LabsForm());
 
 
