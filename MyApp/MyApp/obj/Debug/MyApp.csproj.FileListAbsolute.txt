@@ -91,3 +91,4 @@ D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyAp
 D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp\obj\Debug\MyApp.Account.AccountForm.resources
 D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp\obj\Debug\MyApp.Authorization.AuthorizationForm.resources
 D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp\obj\Debug\MyApp.Authorization.RegistrationNewUserForm.resources
+D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp\obj\Debug\MyApp.Tests.TestsForm.resources

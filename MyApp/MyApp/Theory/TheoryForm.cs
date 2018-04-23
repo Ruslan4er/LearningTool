@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using MyApp.Tests;
 using Telerik.WinControls.UI;
 
 namespace MyApp.Theory
@@ -84,6 +85,26 @@ namespace MyApp.Theory
         private void radPageViewPage2_Click(object sender, EventArgs e)
         {
             TheoryPdfViewer2.LoadDocument((Application.StartupPath + "\\Content\\Theory\\2.pdf"));
+        }
+
+        private void OpenTestsFormPictureBox_Click(object sender, EventArgs e)
+        {
+            var frm = new TestsForm (2);
+            Hide();
+            frm.ShowDialog();
+            if (frm.DialogResult != DialogResult.OK)
+                Close();
+            Show();
+        }
+
+        private void CloseFormPictureBox_Click_1(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void splitPanel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

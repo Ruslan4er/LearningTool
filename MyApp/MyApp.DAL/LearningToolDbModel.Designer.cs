@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'D:\BSUIR\4 course\8 семестр\Диплом\App_Test\MyApp\MyApp.DAL\LearningToolDbModel.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\BSUIR\4 course\8 семестр\Диплом\App_Test\LearningTool\MyApp\MyApp.DAL\LearningToolDbModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

@@ -47,7 +47,7 @@ namespace MyApp
 
         private void TestingPanel_Click(object sender, EventArgs e)
         {
-            var frm = new TestsForm();
+            var frm = new TestsForm(2);
             this.Visible = false;
             frm.ShowDialog();
             this.Visible = true;

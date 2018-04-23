@@ -10,15 +10,10 @@
 namespace MyApp.DAL
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class Answer
+    public partial class sp_helpdiagramdefinition_Result
     {
-        public int Id { get; set; }
-        public string Text { get; set; }
-        public bool IsCorrect { get; set; }
-        public int QuestionId { get; set; }
-    
-        public virtual Question Question { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

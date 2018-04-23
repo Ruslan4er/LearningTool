@@ -10,15 +10,13 @@
 namespace MyApp.DAL
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class Answer
+    public partial class sp_helpdiagrams_Result
     {
-        public int Id { get; set; }
-        public string Text { get; set; }
-        public bool IsCorrect { get; set; }
-        public int QuestionId { get; set; }
-    
-        public virtual Question Question { get; set; }
+        public string Database { get; set; }
+        public string Name { get; set; }
+        public int ID { get; set; }
+        public string Owner { get; set; }
+        public int OwnerID { get; set; }
     }
 }
