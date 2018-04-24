@@ -22,10 +22,10 @@ namespace MyApp.Tests
             NextQuestion();
         }
 
-        private List<Question> _questionList;
-        private List<List<Answer>> _answersList;
-        private int _questionId;
-        private int _correctAnswersCount;
+        private List<Question> questionList;
+        private List<List<Answer>> answersList;
+        private int questionId;
+        private int correctAnswersCount;
 
         private void FillData(int chapterId)
         {
@@ -35,24 +35,24 @@ namespace MyApp.Tests
                                 where ch.Id == chapterId
                                 select ch.Questions;
                 foreach (var q in questions)
-                    _questionList = new List<Question>(q);
+                    questionList = new List<Question>(q);
 
-                _answersList = new List<List<Answer>>();
-                foreach (var question in _questionList)
-                    _answersList.Add(new List<Answer>(question.Answers));
+                answersList = new List<List<Answer>>();
+                foreach (var question in questionList)
+                    answersList.Add(new List<Answer>(question.Answers));
             }
         }
 
         private void CheckAnswers()
         {
             Answer correctAnswer = null;
-            foreach (var answer in _answersList[_questionId])
+            foreach (var answer in answersList[questionId])
                 if (answer.IsCorrect)
                     correctAnswer = answer;
 
             foreach (var rb in QuestionGroupBox.Controls.OfType<RadRadioButton>())
                 if (rb.IsChecked && rb.Text == correctAnswer?.Text)
-                    _correctAnswersCount++;
+                    correctAnswersCount++;
 
             foreach (var rb in QuestionGroupBox.Controls.OfType<RadRadioButton>())
                 rb.IsChecked = false;
@@ -60,27 +60,27 @@ namespace MyApp.Tests
 
         private void NextQuestion()
         {
-            if (_questionId == _questionList.Count - 1)
+            if (questionId == questionList.Count)
             {
                 NextQuestionButton.Enabled = false;
-                QuestionLabel.Text = $@"Правильных ответов - {_correctAnswersCount}";
+                QuestionLabel.Text = $@"Правильных ответов - {correctAnswersCount}";
                 return;
             }
 
-            if (_questionId == _questionList.Count - 2)
+            if (questionId == questionList.Count - 1)
                 NextQuestionButton.Text = @"Завершить";
 
-            QuestionLabel.Text = _questionList[_questionId].Text;
+            QuestionLabel.Text = questionList[questionId].Text;
             var counter = 0;
             foreach (var rb in QuestionGroupBox.Controls.OfType<RadRadioButton>())
             {
-                rb.Text = _answersList[_questionId][counter].Text;
+                rb.Text = answersList[questionId][counter].Text;
                 counter++;
             }
 
             CheckAnswers();
-            _questionId++;
-            QuestionCounterLabel.Text = $@"Вопрос {_questionId} из {_questionList.Count}";
+            questionId++;
+            QuestionCounterLabel.Text = $@"Вопрос {questionId} из {questionList.Count}";
         }
 
         private bool AnswerIsSelected()
@@ -90,7 +90,8 @@ namespace MyApp.Tests
 
         private void CloseFormPictureBox_Click(object sender, EventArgs e)
         {
-            Close();
+            DialogResult = DialogResult.Cancel;
+            //Close();
         }
 
         private void NextQuestionButton_Click(object sender, EventArgs e)
@@ -101,8 +102,11 @@ namespace MyApp.Tests
                 return;
             }
             NextQuestion();
+        }
 
-
+        private void ToTheoryFormPictureBox_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.OK;
         }
     }
 }

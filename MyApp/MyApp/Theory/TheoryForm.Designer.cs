@@ -354,7 +354,7 @@
             this.CloseFormPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.CloseFormPictureBox.TabIndex = 5;
             this.CloseFormPictureBox.TabStop = false;
-            this.CloseFormPictureBox.Click += new System.EventHandler(this.CloseFormPictureBox_Click_1);
+            this.CloseFormPictureBox.Click += new System.EventHandler(this.CloseFormPictureBox_Click);
             // 
             // label1
             // 
@@ -384,7 +384,6 @@
             this.splitPanel1.TabIndex = 0;
             this.splitPanel1.TabStop = false;
             this.splitPanel1.Text = "splitPanel1";
-            this.splitPanel1.Click += new System.EventHandler(this.splitPanel1_Click);
             // 
             // TheoryForm
             // 

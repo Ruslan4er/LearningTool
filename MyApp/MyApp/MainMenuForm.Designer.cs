@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenuForm));
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
             this.TheoryPanel = new System.Windows.Forms.PictureBox();
@@ -37,10 +36,12 @@
             this.splitPanel3 = new Telerik.WinControls.UI.SplitPanel();
             this.TestingPanel = new System.Windows.Forms.PictureBox();
             this.splitPanel4 = new Telerik.WinControls.UI.SplitPanel();
+            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             this.CloseFormButton = new Telerik.WinControls.UI.RadButton();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
-            this.radButton1 = new Telerik.WinControls.UI.RadButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
@@ -54,8 +55,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.TestingPanel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel4)).BeginInit();
             this.splitPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseFormButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseFormButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,6 +80,7 @@
             // splitPanel1
             // 
             this.splitPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.splitPanel1.Controls.Add(this.label1);
             this.splitPanel1.Controls.Add(this.TheoryPanel);
             this.splitPanel1.Location = new System.Drawing.Point(0, 0);
             this.splitPanel1.Name = "splitPanel1";
@@ -94,7 +96,6 @@
             // TheoryPanel
             // 
             this.TheoryPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TheoryPanel.Image = ((System.Drawing.Image)(resources.GetObject("TheoryPanel.Image")));
             this.TheoryPanel.Location = new System.Drawing.Point(0, 0);
             this.TheoryPanel.Name = "TheoryPanel";
             this.TheoryPanel.Size = new System.Drawing.Size(163, 447);
@@ -106,6 +107,7 @@
             // splitPanel2
             // 
             this.splitPanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.splitPanel2.Controls.Add(this.label2);
             this.splitPanel2.Controls.Add(this.LabsPanel);
             this.splitPanel2.Location = new System.Drawing.Point(171, 0);
             this.splitPanel2.Name = "splitPanel2";
@@ -173,6 +175,16 @@
             this.splitPanel4.TabStop = false;
             this.splitPanel4.Text = "splitPanel4";
             // 
+            // radButton1
+            // 
+            this.radButton1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.radButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radButton1.Location = new System.Drawing.Point(16, 283);
+            this.radButton1.Name = "radButton1";
+            this.radButton1.Size = new System.Drawing.Size(130, 45);
+            this.radButton1.TabIndex = 7;
+            this.radButton1.Text = "Личный кабинет";
+            // 
             // CloseFormButton
             // 
             this.CloseFormButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -205,15 +217,25 @@
             this.Label3.TabIndex = 4;
             this.Label3.Text = "Приветствуем,";
             // 
-            // radButton1
+            // label1
             // 
-            this.radButton1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.radButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radButton1.Location = new System.Drawing.Point(16, 283);
-            this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(130, 45);
-            this.radButton1.TabIndex = 7;
-            this.radButton1.Text = "Личный кабинет";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(45, 153);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Теория";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(3, 153);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(142, 50);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Помощник по \r\nлабораторным";
             // 
             // MainMenuForm
             // 
@@ -232,9 +254,11 @@
             this.radSplitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
+            this.splitPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPanel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
+            this.splitPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LabsPanel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel3)).EndInit();
             this.splitPanel3.ResumeLayout(false);
@@ -242,8 +266,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel4)).EndInit();
             this.splitPanel4.ResumeLayout(false);
             this.splitPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseFormButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseFormButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -263,5 +287,7 @@
         private System.Windows.Forms.Label UserNameLabel;
         private System.Windows.Forms.Label Label3;
         private Telerik.WinControls.UI.RadButton radButton1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

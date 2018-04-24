@@ -30,27 +30,25 @@ namespace MyApp
         private void TheoryPanel_Click(object sender, EventArgs e)
         {
             var frm = new TheoryForm();
-            this.Visible = false;
+            this.Hide();
             frm.ShowDialog();
-            this.Visible = true;
+            this.Show();
         }
         
         private void LabsPanel_Click(object sender, EventArgs e)
         {
             var frm = new LabsForm();
-            //this.Visible = false;
             this.Hide();
             frm.ShowDialog();
-            //this.Visible = true;
             this.Show();
         }
 
         private void TestingPanel_Click(object sender, EventArgs e)
         {
-            var frm = new TestsForm(2);
-            this.Visible = false;
-            frm.ShowDialog();
-            this.Visible = true;
+            //var frm = new TestsForm(2);
+            //this.Visible = false;
+            //frm.ShowDialog();
+            //this.Visible = true;
         }
     }
 }

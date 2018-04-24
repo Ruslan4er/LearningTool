@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using MyApp.Account;
 using MyApp.Authorization;
 using MyApp.Labs;
+using MyApp.Tests;
 using MyApp.Theory;
 
 namespace MyApp
@@ -20,8 +21,8 @@ namespace MyApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new AuthorizationForm());
-            Application.Run(new MainMenuForm());
+            Application.Run(new AuthorizationForm());
+            //Application.Run(new TheoryForm());
             //Application.Run(new LabsForm());
 
 

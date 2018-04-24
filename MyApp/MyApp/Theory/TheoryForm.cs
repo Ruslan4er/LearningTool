@@ -14,6 +14,8 @@ namespace MyApp.Theory
             SubscribeElements();
         }
 
+        private int _chapterId;
+
         private void SubscribeElements()
         {
             this.radPageViewPage1.Item.Click += new System.EventHandler(this.radPageViewPage1_Click);
@@ -36,7 +38,6 @@ namespace MyApp.Theory
         {
             var newfont = new Font(this.TheoryPageView.Font.FontFamily, 11);
             var stripElement = (RadPageViewStripElement)this.TheoryPageView.ViewElement;
-
             foreach (RadPageViewStripItem item in stripElement.ItemContainer.ItemLayout.Children)
                 item.Font = newfont;
         }
@@ -44,67 +45,67 @@ namespace MyApp.Theory
         private void radPageViewPage1_Click(object sender, EventArgs e)
         {
             TheoryPdfViewer1.LoadDocument((Application.StartupPath + "\\Content\\Theory\\1.pdf"));
-
+            _chapterId = 1;
         }
 
         private void radPageViewPage3_Click(object sender, EventArgs e)
         {
             TheoryPdfViewer3.LoadDocument((Application.StartupPath + "\\Content\\Theory\\3.pdf"));
+            _chapterId = 3;
         }
 
         private void radPageViewPage4_Click(object sender, EventArgs e)
         {
             TheoryPdfViewer4.LoadDocument((Application.StartupPath + "\\Content\\Theory\\4.pdf"));
+            _chapterId = 4;
         }
 
         private void radPageViewPage5_Click(object sender, EventArgs e)
         {
             TheoryPdfViewer5.LoadDocument((Application.StartupPath + "\\Content\\Theory\\5.pdf"));
+            _chapterId = 5;
         }
 
         private void radPageViewPage6_Click(object sender, EventArgs e)
         {
             TheoryPdfViewer6.LoadDocument((Application.StartupPath + "\\Content\\Theory\\6.pdf"));
+            _chapterId = 6;
         }
 
         private void radPageViewPage7_Click(object sender, EventArgs e)
         {
             TheoryPdfViewer7.LoadDocument((Application.StartupPath + "\\Content\\Theory\\7.pdf"));
+            _chapterId = 7;
         }
 
         private void radPageViewPage8_Click(object sender, EventArgs e)
         {
             TheoryPdfViewer8.LoadDocument((Application.StartupPath + "\\Content\\Theory\\8.pdf"));
+            _chapterId = 8;
         }
 
         private void radPageViewPage9_Click(object sender, EventArgs e)
         {
             TheoryPdfViewer9.LoadDocument((Application.StartupPath + "\\Content\\Theory\\9.pdf"));
+            _chapterId = 9;
         }
 
         private void radPageViewPage2_Click(object sender, EventArgs e)
         {
             TheoryPdfViewer2.LoadDocument((Application.StartupPath + "\\Content\\Theory\\2.pdf"));
+            _chapterId = 2;
         }
 
         private void OpenTestsFormPictureBox_Click(object sender, EventArgs e)
         {
-            var frm = new TestsForm (2);
-            Hide();
+            var frm = new TestsForm(_chapterId);
+            this.Hide();
             frm.ShowDialog();
             if (frm.DialogResult != DialogResult.OK)
                 Close();
-            Show();
+            this.Show();
         }
 
-        private void CloseFormPictureBox_Click_1(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void splitPanel1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
