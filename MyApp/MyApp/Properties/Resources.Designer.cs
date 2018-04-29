@@ -73,6 +73,26 @@ namespace MyApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lab2_clip_image002 {
+            get {
+                object obj = ResourceManager.GetObject("lab2_clip_image002", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lab2_clip_image002_0000 {
+            get {
+                object obj = ResourceManager.GetObject("lab2_clip_image002_0000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tests {
             get {
                 object obj = ResourceManager.GetObject("Tests", resourceCulture);

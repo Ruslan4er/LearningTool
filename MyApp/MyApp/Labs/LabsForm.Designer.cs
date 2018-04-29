@@ -36,6 +36,63 @@
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.TheoryPageView = new Telerik.WinControls.UI.RadPageView();
             this.radPageViewPage1 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radScrollablePanel1 = new Telerik.WinControls.UI.RadScrollablePanel();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.FirstTablePictureBox = new System.Windows.Forms.PictureBox();
+            this.CalculateSecondTableButton = new Telerik.WinControls.UI.RadButton();
+            this.CalculateFirstTableDataButton = new Telerik.WinControls.UI.RadButton();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.SecondTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.PTable2TextBox = new System.Windows.Forms.TextBox();
+            this.P3Table2TextBox = new System.Windows.Forms.TextBox();
+            this.P2Table2TextBox = new System.Windows.Forms.TextBox();
+            this.P1Table2TextBox = new System.Windows.Forms.TextBox();
+            this.I3Table2TextBox = new System.Windows.Forms.TextBox();
+            this.I2Table2TextBox = new System.Windows.Forms.TextBox();
+            this.I1Table2TextBox = new System.Windows.Forms.TextBox();
+            this.ITable2TextBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.UTable2TextBox = new System.Windows.Forms.TextBox();
+            this.FirstTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.PTable1TextBox = new System.Windows.Forms.TextBox();
+            this.P3Table1TextBox = new System.Windows.Forms.TextBox();
+            this.P2Table1TextBox = new System.Windows.Forms.TextBox();
+            this.P1Table1TextBox = new System.Windows.Forms.TextBox();
+            this.I3Table1TextBox = new System.Windows.Forms.TextBox();
+            this.I2Table1TextBox = new System.Windows.Forms.TextBox();
+            this.I1Table1TextBox = new System.Windows.Forms.TextBox();
+            this.ITable1TextBox = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.UTable1TextBox = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             this.radPageViewPage2 = new Telerik.WinControls.UI.RadPageViewPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.label33 = new System.Windows.Forms.Label();
@@ -98,63 +155,7 @@
             this.radPageViewPage11 = new Telerik.WinControls.UI.RadPageViewPage();
             this.radPageViewPage12 = new Telerik.WinControls.UI.RadPageViewPage();
             this.radPageViewPage13 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.UTable1TextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.ITable1TextBox = new System.Windows.Forms.TextBox();
-            this.I1Table1TextBox = new System.Windows.Forms.TextBox();
-            this.I2Table1TextBox = new System.Windows.Forms.TextBox();
-            this.I3Table1TextBox = new System.Windows.Forms.TextBox();
-            this.P1Table1TextBox = new System.Windows.Forms.TextBox();
-            this.P2Table1TextBox = new System.Windows.Forms.TextBox();
-            this.P3Table1TextBox = new System.Windows.Forms.TextBox();
-            this.PTable1TextBox = new System.Windows.Forms.TextBox();
-            this.FirstTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.UTable2TextBox = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.ITable2TextBox = new System.Windows.Forms.TextBox();
-            this.I1Table2TextBox = new System.Windows.Forms.TextBox();
-            this.I2Table2TextBox = new System.Windows.Forms.TextBox();
-            this.I3Table2TextBox = new System.Windows.Forms.TextBox();
-            this.P1Table2TextBox = new System.Windows.Forms.TextBox();
-            this.P2Table2TextBox = new System.Windows.Forms.TextBox();
-            this.P3Table2TextBox = new System.Windows.Forms.TextBox();
-            this.PTable2TextBox = new System.Windows.Forms.TextBox();
-            this.SecondTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.CalculateFirstTableDataButton = new Telerik.WinControls.UI.RadButton();
-            this.CalculateSecondTableButton = new Telerik.WinControls.UI.RadButton();
+            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
@@ -165,21 +166,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPageView)).BeginInit();
             this.TheoryPageView.SuspendLayout();
             this.radPageViewPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radScrollablePanel1)).BeginInit();
+            this.radScrollablePanel1.PanelContainer.SuspendLayout();
+            this.radScrollablePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstTablePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CalculateSecondTableButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CalculateFirstTableDataButton)).BeginInit();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.SecondTableLayoutPanel.SuspendLayout();
+            this.FirstTableLayoutPanel.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
             this.radPageViewPage2.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
-            this.radPanel1.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.FirstTableLayoutPanel.SuspendLayout();
-            this.SecondTableLayoutPanel.SuspendLayout();
-            this.tableLayoutPanel6.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CalculateFirstTableDataButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CalculateSecondTableButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -284,12 +287,694 @@
             // radPageViewPage1
             // 
             this.radPageViewPage1.AutoScroll = true;
-            this.radPageViewPage1.Controls.Add(this.radPanel1);
+            this.radPageViewPage1.Controls.Add(this.radScrollablePanel1);
             this.radPageViewPage1.ItemSize = new System.Drawing.SizeF(170F, 45F);
             this.radPageViewPage1.Location = new System.Drawing.Point(225, 4);
             this.radPageViewPage1.Name = "radPageViewPage1";
             this.radPageViewPage1.Size = new System.Drawing.Size(990, 682);
             this.radPageViewPage1.Text = "Лабораторная работа №1";
+            // 
+            // radScrollablePanel1
+            // 
+            this.radScrollablePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radScrollablePanel1.Location = new System.Drawing.Point(0, 0);
+            this.radScrollablePanel1.Name = "radScrollablePanel1";
+            // 
+            // radScrollablePanel1.PanelContainer
+            // 
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.label30);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.label29);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.label24);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.label23);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.pictureBox1);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.FirstTablePictureBox);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.CalculateSecondTableButton);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.CalculateFirstTableDataButton);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.tableLayoutPanel5);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.SecondTableLayoutPanel);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.FirstTableLayoutPanel);
+            this.radScrollablePanel1.PanelContainer.Controls.Add(this.tableLayoutPanel4);
+            this.radScrollablePanel1.PanelContainer.Size = new System.Drawing.Size(971, 680);
+            this.radScrollablePanel1.Size = new System.Drawing.Size(990, 682);
+            this.radScrollablePanel1.TabIndex = 0;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label30.Location = new System.Drawing.Point(394, 937);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(296, 20);
+            this.label30.TabIndex = 26;
+            this.label30.Text = "Схема 2 - последовательное соединение";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label29.Location = new System.Drawing.Point(342, 437);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(266, 20);
+            this.label29.TabIndex = 25;
+            this.label29.Text = "Схема 1 - параллельное соединение";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(644, 1176);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(0, 13);
+            this.label24.TabIndex = 24;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(396, 69);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(44, 13);
+            this.label23.TabIndex = 23;
+            this.label23.Text = "label23";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MyApp.Properties.Resources.lab2_clip_image002_0000;
+            this.pictureBox1.Location = new System.Drawing.Point(309, 719);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(423, 215);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
+            // 
+            // FirstTablePictureBox
+            // 
+            this.FirstTablePictureBox.Image = global::MyApp.Properties.Resources.lab2_clip_image002;
+            this.FirstTablePictureBox.Location = new System.Drawing.Point(268, 222);
+            this.FirstTablePictureBox.Name = "FirstTablePictureBox";
+            this.FirstTablePictureBox.Size = new System.Drawing.Size(420, 212);
+            this.FirstTablePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.FirstTablePictureBox.TabIndex = 21;
+            this.FirstTablePictureBox.TabStop = false;
+            // 
+            // CalculateSecondTableButton
+            // 
+            this.CalculateSecondTableButton.Location = new System.Drawing.Point(615, 1093);
+            this.CalculateSecondTableButton.Name = "CalculateSecondTableButton";
+            this.CalculateSecondTableButton.Size = new System.Drawing.Size(322, 56);
+            this.CalculateSecondTableButton.TabIndex = 20;
+            this.CalculateSecondTableButton.Text = "Посчитать";
+            this.CalculateSecondTableButton.Click += new System.EventHandler(this.CalculateSecondTableButton_Click);
+            // 
+            // CalculateFirstTableDataButton
+            // 
+            this.CalculateFirstTableDataButton.Location = new System.Drawing.Point(608, 589);
+            this.CalculateFirstTableDataButton.Name = "CalculateFirstTableDataButton";
+            this.CalculateFirstTableDataButton.Size = new System.Drawing.Size(302, 56);
+            this.CalculateFirstTableDataButton.TabIndex = 17;
+            this.CalculateFirstTableDataButton.Text = "Посчитать";
+            this.CalculateFirstTableDataButton.Click += new System.EventHandler(this.CalculateFirstTableDataButton_Click);
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel5.ColumnCount = 2;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.7178F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.2822F));
+            this.tableLayoutPanel5.Controls.Add(this.label27, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label28, 0, 0);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(43, 980);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 1;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(894, 41);
+            this.tableLayoutPanel5.TabIndex = 18;
+            // 
+            // label27
+            // 
+            this.label27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label27.Location = new System.Drawing.Point(572, 8);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(318, 25);
+            this.label27.TabIndex = 2;
+            this.label27.Text = "Вычислено";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label28
+            // 
+            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label28.Location = new System.Drawing.Point(4, 8);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(561, 25);
+            this.label28.TabIndex = 1;
+            this.label28.Text = "Задано";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // SecondTableLayoutPanel
+            // 
+            this.SecondTableLayoutPanel.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.SecondTableLayoutPanel.ColumnCount = 10;
+            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19F));
+            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.SecondTableLayoutPanel.Controls.Add(this.PTable2TextBox, 9, 1);
+            this.SecondTableLayoutPanel.Controls.Add(this.P3Table2TextBox, 8, 1);
+            this.SecondTableLayoutPanel.Controls.Add(this.P2Table2TextBox, 7, 1);
+            this.SecondTableLayoutPanel.Controls.Add(this.P1Table2TextBox, 6, 1);
+            this.SecondTableLayoutPanel.Controls.Add(this.I3Table2TextBox, 5, 1);
+            this.SecondTableLayoutPanel.Controls.Add(this.I2Table2TextBox, 4, 1);
+            this.SecondTableLayoutPanel.Controls.Add(this.I1Table2TextBox, 3, 1);
+            this.SecondTableLayoutPanel.Controls.Add(this.ITable2TextBox, 2, 1);
+            this.SecondTableLayoutPanel.Controls.Add(this.label3, 0, 1);
+            this.SecondTableLayoutPanel.Controls.Add(this.label4, 9, 0);
+            this.SecondTableLayoutPanel.Controls.Add(this.label5, 8, 0);
+            this.SecondTableLayoutPanel.Controls.Add(this.label6, 7, 0);
+            this.SecondTableLayoutPanel.Controls.Add(this.label7, 6, 0);
+            this.SecondTableLayoutPanel.Controls.Add(this.label8, 5, 0);
+            this.SecondTableLayoutPanel.Controls.Add(this.label9, 4, 0);
+            this.SecondTableLayoutPanel.Controls.Add(this.label10, 2, 0);
+            this.SecondTableLayoutPanel.Controls.Add(this.label11, 1, 0);
+            this.SecondTableLayoutPanel.Controls.Add(this.label21, 0, 0);
+            this.SecondTableLayoutPanel.Controls.Add(this.label22, 3, 0);
+            this.SecondTableLayoutPanel.Controls.Add(this.UTable2TextBox, 1, 1);
+            this.SecondTableLayoutPanel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SecondTableLayoutPanel.Location = new System.Drawing.Point(43, 1018);
+            this.SecondTableLayoutPanel.Name = "SecondTableLayoutPanel";
+            this.SecondTableLayoutPanel.RowCount = 2;
+            this.SecondTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.SecondTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.SecondTableLayoutPanel.Size = new System.Drawing.Size(894, 74);
+            this.SecondTableLayoutPanel.TabIndex = 16;
+            // 
+            // PTable2TextBox
+            // 
+            this.PTable2TextBox.Enabled = false;
+            this.PTable2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PTable2TextBox.Location = new System.Drawing.Point(812, 40);
+            this.PTable2TextBox.Name = "PTable2TextBox";
+            this.PTable2TextBox.Size = new System.Drawing.Size(73, 29);
+            this.PTable2TextBox.TabIndex = 18;
+            // 
+            // P3Table2TextBox
+            // 
+            this.P3Table2TextBox.Enabled = false;
+            this.P3Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.P3Table2TextBox.Location = new System.Drawing.Point(732, 40);
+            this.P3Table2TextBox.Name = "P3Table2TextBox";
+            this.P3Table2TextBox.Size = new System.Drawing.Size(73, 29);
+            this.P3Table2TextBox.TabIndex = 17;
+            // 
+            // P2Table2TextBox
+            // 
+            this.P2Table2TextBox.Enabled = false;
+            this.P2Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.P2Table2TextBox.Location = new System.Drawing.Point(652, 40);
+            this.P2Table2TextBox.Name = "P2Table2TextBox";
+            this.P2Table2TextBox.Size = new System.Drawing.Size(73, 29);
+            this.P2Table2TextBox.TabIndex = 16;
+            // 
+            // P1Table2TextBox
+            // 
+            this.P1Table2TextBox.Enabled = false;
+            this.P1Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.P1Table2TextBox.Location = new System.Drawing.Point(572, 40);
+            this.P1Table2TextBox.Name = "P1Table2TextBox";
+            this.P1Table2TextBox.Size = new System.Drawing.Size(73, 29);
+            this.P1Table2TextBox.TabIndex = 15;
+            // 
+            // I3Table2TextBox
+            // 
+            this.I3Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.I3Table2TextBox.Location = new System.Drawing.Point(492, 40);
+            this.I3Table2TextBox.Name = "I3Table2TextBox";
+            this.I3Table2TextBox.Size = new System.Drawing.Size(73, 29);
+            this.I3Table2TextBox.TabIndex = 14;
+            // 
+            // I2Table2TextBox
+            // 
+            this.I2Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.I2Table2TextBox.Location = new System.Drawing.Point(412, 40);
+            this.I2Table2TextBox.Name = "I2Table2TextBox";
+            this.I2Table2TextBox.Size = new System.Drawing.Size(73, 29);
+            this.I2Table2TextBox.TabIndex = 13;
+            // 
+            // I1Table2TextBox
+            // 
+            this.I1Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.I1Table2TextBox.Location = new System.Drawing.Point(332, 40);
+            this.I1Table2TextBox.Name = "I1Table2TextBox";
+            this.I1Table2TextBox.Size = new System.Drawing.Size(73, 29);
+            this.I1Table2TextBox.TabIndex = 12;
+            // 
+            // ITable2TextBox
+            // 
+            this.ITable2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ITable2TextBox.Location = new System.Drawing.Point(252, 40);
+            this.ITable2TextBox.Name = "ITable2TextBox";
+            this.ITable2TextBox.Size = new System.Drawing.Size(73, 29);
+            this.ITable2TextBox.TabIndex = 11;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(4, 44);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(161, 21);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "Последовательное";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(812, 6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(78, 25);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "P,Bт";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(732, 6);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(73, 25);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "P3,Bт";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(652, 6);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(73, 25);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "P2,Bт";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label7
+            // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(572, 6);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(73, 25);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "P1,Bт";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label8
+            // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(492, 6);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(73, 25);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "I3,A";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(412, 6);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(73, 25);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "I2,A";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(252, 6);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(73, 25);
+            this.label10.TabIndex = 10;
+            this.label10.Text = "I,A";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label11.Location = new System.Drawing.Point(172, 6);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(73, 25);
+            this.label11.TabIndex = 9;
+            this.label11.Text = "U,B";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label21.Location = new System.Drawing.Point(4, 6);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(161, 25);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "Соединение";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label22.Location = new System.Drawing.Point(332, 6);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(73, 25);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "I1,A";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // UTable2TextBox
+            // 
+            this.UTable2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.UTable2TextBox.Location = new System.Drawing.Point(172, 40);
+            this.UTable2TextBox.Name = "UTable2TextBox";
+            this.UTable2TextBox.Size = new System.Drawing.Size(73, 29);
+            this.UTable2TextBox.TabIndex = 10;
+            // 
+            // FirstTableLayoutPanel
+            // 
+            this.FirstTableLayoutPanel.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.FirstTableLayoutPanel.ColumnCount = 10;
+            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19F));
+            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
+            this.FirstTableLayoutPanel.Controls.Add(this.PTable1TextBox, 9, 1);
+            this.FirstTableLayoutPanel.Controls.Add(this.P3Table1TextBox, 8, 1);
+            this.FirstTableLayoutPanel.Controls.Add(this.P2Table1TextBox, 7, 1);
+            this.FirstTableLayoutPanel.Controls.Add(this.P1Table1TextBox, 6, 1);
+            this.FirstTableLayoutPanel.Controls.Add(this.I3Table1TextBox, 5, 1);
+            this.FirstTableLayoutPanel.Controls.Add(this.I2Table1TextBox, 4, 1);
+            this.FirstTableLayoutPanel.Controls.Add(this.I1Table1TextBox, 3, 1);
+            this.FirstTableLayoutPanel.Controls.Add(this.ITable1TextBox, 2, 1);
+            this.FirstTableLayoutPanel.Controls.Add(this.label20, 0, 1);
+            this.FirstTableLayoutPanel.Controls.Add(this.label19, 9, 0);
+            this.FirstTableLayoutPanel.Controls.Add(this.label18, 8, 0);
+            this.FirstTableLayoutPanel.Controls.Add(this.label17, 7, 0);
+            this.FirstTableLayoutPanel.Controls.Add(this.label16, 6, 0);
+            this.FirstTableLayoutPanel.Controls.Add(this.label15, 5, 0);
+            this.FirstTableLayoutPanel.Controls.Add(this.label14, 4, 0);
+            this.FirstTableLayoutPanel.Controls.Add(this.label12, 2, 0);
+            this.FirstTableLayoutPanel.Controls.Add(this.label2, 1, 0);
+            this.FirstTableLayoutPanel.Controls.Add(this.UTable1TextBox, 1, 1);
+            this.FirstTableLayoutPanel.Controls.Add(this.label13, 3, 0);
+            this.FirstTableLayoutPanel.Controls.Add(this.label1, 0, 0);
+            this.FirstTableLayoutPanel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FirstTableLayoutPanel.Location = new System.Drawing.Point(65, 509);
+            this.FirstTableLayoutPanel.Name = "FirstTableLayoutPanel";
+            this.FirstTableLayoutPanel.RowCount = 2;
+            this.FirstTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.FirstTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.FirstTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.FirstTableLayoutPanel.Size = new System.Drawing.Size(845, 74);
+            this.FirstTableLayoutPanel.TabIndex = 15;
+            // 
+            // PTable1TextBox
+            // 
+            this.PTable1TextBox.Enabled = false;
+            this.PTable1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PTable1TextBox.Location = new System.Drawing.Point(771, 40);
+            this.PTable1TextBox.Name = "PTable1TextBox";
+            this.PTable1TextBox.Size = new System.Drawing.Size(69, 29);
+            this.PTable1TextBox.TabIndex = 9;
+            // 
+            // P3Table1TextBox
+            // 
+            this.P3Table1TextBox.Enabled = false;
+            this.P3Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.P3Table1TextBox.Location = new System.Drawing.Point(695, 40);
+            this.P3Table1TextBox.Name = "P3Table1TextBox";
+            this.P3Table1TextBox.Size = new System.Drawing.Size(69, 29);
+            this.P3Table1TextBox.TabIndex = 8;
+            // 
+            // P2Table1TextBox
+            // 
+            this.P2Table1TextBox.Enabled = false;
+            this.P2Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.P2Table1TextBox.Location = new System.Drawing.Point(619, 40);
+            this.P2Table1TextBox.Name = "P2Table1TextBox";
+            this.P2Table1TextBox.Size = new System.Drawing.Size(69, 29);
+            this.P2Table1TextBox.TabIndex = 7;
+            // 
+            // P1Table1TextBox
+            // 
+            this.P1Table1TextBox.Enabled = false;
+            this.P1Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.P1Table1TextBox.Location = new System.Drawing.Point(543, 40);
+            this.P1Table1TextBox.Name = "P1Table1TextBox";
+            this.P1Table1TextBox.Size = new System.Drawing.Size(69, 29);
+            this.P1Table1TextBox.TabIndex = 6;
+            // 
+            // I3Table1TextBox
+            // 
+            this.I3Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.I3Table1TextBox.Location = new System.Drawing.Point(467, 40);
+            this.I3Table1TextBox.Name = "I3Table1TextBox";
+            this.I3Table1TextBox.Size = new System.Drawing.Size(69, 29);
+            this.I3Table1TextBox.TabIndex = 5;
+            // 
+            // I2Table1TextBox
+            // 
+            this.I2Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.I2Table1TextBox.Location = new System.Drawing.Point(391, 40);
+            this.I2Table1TextBox.Name = "I2Table1TextBox";
+            this.I2Table1TextBox.Size = new System.Drawing.Size(69, 29);
+            this.I2Table1TextBox.TabIndex = 4;
+            // 
+            // I1Table1TextBox
+            // 
+            this.I1Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.I1Table1TextBox.Location = new System.Drawing.Point(315, 40);
+            this.I1Table1TextBox.Name = "I1Table1TextBox";
+            this.I1Table1TextBox.Size = new System.Drawing.Size(69, 29);
+            this.I1Table1TextBox.TabIndex = 3;
+            // 
+            // ITable1TextBox
+            // 
+            this.ITable1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ITable1TextBox.Location = new System.Drawing.Point(239, 40);
+            this.ITable1TextBox.Name = "ITable1TextBox";
+            this.ITable1TextBox.Size = new System.Drawing.Size(69, 29);
+            this.ITable1TextBox.TabIndex = 2;
+            // 
+            // label20
+            // 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label20.Location = new System.Drawing.Point(4, 42);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(152, 25);
+            this.label20.TabIndex = 18;
+            this.label20.Text = "Параллельное";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label19
+            // 
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label19.Location = new System.Drawing.Point(771, 6);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(70, 25);
+            this.label19.TabIndex = 17;
+            this.label19.Text = "P,Bт";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label18
+            // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label18.Location = new System.Drawing.Point(695, 6);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(69, 25);
+            this.label18.TabIndex = 16;
+            this.label18.Text = "P3,Bт";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label17
+            // 
+            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label17.Location = new System.Drawing.Point(619, 6);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(69, 25);
+            this.label17.TabIndex = 15;
+            this.label17.Text = "P2,Bт";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label16
+            // 
+            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.Location = new System.Drawing.Point(543, 6);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(69, 25);
+            this.label16.TabIndex = 14;
+            this.label16.Text = "P1,Bт";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label15
+            // 
+            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label15.Location = new System.Drawing.Point(467, 6);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(69, 25);
+            this.label15.TabIndex = 13;
+            this.label15.Text = "I3,A";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label14
+            // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.Location = new System.Drawing.Point(391, 6);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(69, 25);
+            this.label14.TabIndex = 12;
+            this.label14.Text = "I2,A";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label12
+            // 
+            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label12.Location = new System.Drawing.Point(239, 6);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(69, 25);
+            this.label12.TabIndex = 10;
+            this.label12.Text = "I,A";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(163, 6);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(69, 25);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "U,B";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // UTable1TextBox
+            // 
+            this.UTable1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.UTable1TextBox.Location = new System.Drawing.Point(163, 40);
+            this.UTable1TextBox.Name = "UTable1TextBox";
+            this.UTable1TextBox.Size = new System.Drawing.Size(69, 29);
+            this.UTable1TextBox.TabIndex = 1;
+            // 
+            // label13
+            // 
+            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label13.Location = new System.Drawing.Point(315, 6);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(69, 25);
+            this.label13.TabIndex = 11;
+            this.label13.Text = "I1,A";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(4, 6);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(152, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Соединение";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel4.ColumnCount = 2;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.98104F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.01896F));
+            this.tableLayoutPanel4.Controls.Add(this.label25, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.label26, 0, 0);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(65, 471);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(845, 41);
+            this.tableLayoutPanel4.TabIndex = 13;
+            // 
+            // label25
+            // 
+            this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label25.Location = new System.Drawing.Point(543, 8);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(298, 25);
+            this.label25.TabIndex = 2;
+            this.label25.Text = "Вычислено";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label26
+            // 
+            this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label26.Location = new System.Drawing.Point(4, 8);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(532, 25);
+            this.label26.TabIndex = 1;
+            this.label26.Text = "Задано";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // radPageViewPage2
             // 
@@ -948,699 +1633,13 @@
             this.radPageViewPage13.Size = new System.Drawing.Size(950, 682);
             this.radPageViewPage13.Text = "Лабораторная работа №13";
             // 
-            // radPanel1
-            // 
-            this.radPanel1.Controls.Add(this.CalculateSecondTableButton);
-            this.radPanel1.Controls.Add(this.CalculateFirstTableDataButton);
-            this.radPanel1.Controls.Add(this.tableLayoutPanel5);
-            this.radPanel1.Controls.Add(this.tableLayoutPanel6);
-            this.radPanel1.Controls.Add(this.SecondTableLayoutPanel);
-            this.radPanel1.Controls.Add(this.FirstTableLayoutPanel);
-            this.radPanel1.Controls.Add(this.tableLayoutPanel4);
-            this.radPanel1.Controls.Add(this.tableLayoutPanel2);
-            this.radPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radPanel1.Location = new System.Drawing.Point(0, 0);
-            this.radPanel1.Name = "radPanel1";
-            this.radPanel1.Size = new System.Drawing.Size(990, 682);
-            this.radPanel1.TabIndex = 0;
-            this.radPanel1.Text = "radPanel1";
-            // 
-            // label23
-            // 
-            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label23.Location = new System.Drawing.Point(3, 8);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(498, 25);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "Задано";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label24
-            // 
-            this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label24.Location = new System.Drawing.Point(507, 8);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(335, 25);
-            this.label24.TabIndex = 2;
-            this.label24.Text = "Вычислено";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.76331F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.23669F));
-            this.tableLayoutPanel2.Controls.Add(this.label24, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label23, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(13, 204);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(845, 41);
-            this.tableLayoutPanel2.TabIndex = 1;
-            // 
-            // label26
-            // 
-            this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label26.Location = new System.Drawing.Point(4, 8);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(532, 25);
-            this.label26.TabIndex = 1;
-            this.label26.Text = "Задано";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label25
-            // 
-            this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label25.Location = new System.Drawing.Point(543, 8);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(298, 25);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "Вычислено";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel4.ColumnCount = 2;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.98104F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.01896F));
-            this.tableLayoutPanel4.Controls.Add(this.label25, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.label26, 0, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(13, 204);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(845, 41);
-            this.tableLayoutPanel4.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(4, 6);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Соединение";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label13
-            // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.Location = new System.Drawing.Point(315, 6);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(69, 25);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "I1,A";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // UTable1TextBox
-            // 
-            this.UTable1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.UTable1TextBox.Location = new System.Drawing.Point(163, 40);
-            this.UTable1TextBox.Name = "UTable1TextBox";
-            this.UTable1TextBox.Size = new System.Drawing.Size(69, 29);
-            this.UTable1TextBox.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(163, 6);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 25);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "U,B";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label12
-            // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(239, 6);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 25);
-            this.label12.TabIndex = 10;
-            this.label12.Text = "I,A";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label14
-            // 
-            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.Location = new System.Drawing.Point(391, 6);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(69, 25);
-            this.label14.TabIndex = 12;
-            this.label14.Text = "I2,A";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label15
-            // 
-            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.Location = new System.Drawing.Point(467, 6);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(69, 25);
-            this.label15.TabIndex = 13;
-            this.label15.Text = "I3,A";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label16
-            // 
-            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label16.Location = new System.Drawing.Point(543, 6);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(69, 25);
-            this.label16.TabIndex = 14;
-            this.label16.Text = "P1,Bт";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label17
-            // 
-            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label17.Location = new System.Drawing.Point(619, 6);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(69, 25);
-            this.label17.TabIndex = 15;
-            this.label17.Text = "P2,Bт";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label18
-            // 
-            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label18.Location = new System.Drawing.Point(695, 6);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(69, 25);
-            this.label18.TabIndex = 16;
-            this.label18.Text = "P3,Bт";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label19
-            // 
-            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label19.Location = new System.Drawing.Point(771, 6);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(70, 25);
-            this.label19.TabIndex = 17;
-            this.label19.Text = "P,Bт";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label20
-            // 
-            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label20.Location = new System.Drawing.Point(4, 42);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(152, 25);
-            this.label20.TabIndex = 18;
-            this.label20.Text = "Параллельное";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ITable1TextBox
-            // 
-            this.ITable1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ITable1TextBox.Location = new System.Drawing.Point(239, 40);
-            this.ITable1TextBox.Name = "ITable1TextBox";
-            this.ITable1TextBox.Size = new System.Drawing.Size(69, 29);
-            this.ITable1TextBox.TabIndex = 2;
-            // 
-            // I1Table1TextBox
-            // 
-            this.I1Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.I1Table1TextBox.Location = new System.Drawing.Point(315, 40);
-            this.I1Table1TextBox.Name = "I1Table1TextBox";
-            this.I1Table1TextBox.Size = new System.Drawing.Size(69, 29);
-            this.I1Table1TextBox.TabIndex = 3;
-            // 
-            // I2Table1TextBox
-            // 
-            this.I2Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.I2Table1TextBox.Location = new System.Drawing.Point(391, 40);
-            this.I2Table1TextBox.Name = "I2Table1TextBox";
-            this.I2Table1TextBox.Size = new System.Drawing.Size(69, 29);
-            this.I2Table1TextBox.TabIndex = 4;
-            // 
-            // I3Table1TextBox
-            // 
-            this.I3Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.I3Table1TextBox.Location = new System.Drawing.Point(467, 40);
-            this.I3Table1TextBox.Name = "I3Table1TextBox";
-            this.I3Table1TextBox.Size = new System.Drawing.Size(69, 29);
-            this.I3Table1TextBox.TabIndex = 5;
-            // 
-            // P1Table1TextBox
-            // 
-            this.P1Table1TextBox.Enabled = false;
-            this.P1Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.P1Table1TextBox.Location = new System.Drawing.Point(543, 40);
-            this.P1Table1TextBox.Name = "P1Table1TextBox";
-            this.P1Table1TextBox.Size = new System.Drawing.Size(69, 29);
-            this.P1Table1TextBox.TabIndex = 6;
-            // 
-            // P2Table1TextBox
-            // 
-            this.P2Table1TextBox.Enabled = false;
-            this.P2Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.P2Table1TextBox.Location = new System.Drawing.Point(619, 40);
-            this.P2Table1TextBox.Name = "P2Table1TextBox";
-            this.P2Table1TextBox.Size = new System.Drawing.Size(69, 29);
-            this.P2Table1TextBox.TabIndex = 7;
-            // 
-            // P3Table1TextBox
-            // 
-            this.P3Table1TextBox.Enabled = false;
-            this.P3Table1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.P3Table1TextBox.Location = new System.Drawing.Point(695, 40);
-            this.P3Table1TextBox.Name = "P3Table1TextBox";
-            this.P3Table1TextBox.Size = new System.Drawing.Size(69, 29);
-            this.P3Table1TextBox.TabIndex = 8;
-            // 
-            // PTable1TextBox
-            // 
-            this.PTable1TextBox.Enabled = false;
-            this.PTable1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PTable1TextBox.Location = new System.Drawing.Point(771, 40);
-            this.PTable1TextBox.Name = "PTable1TextBox";
-            this.PTable1TextBox.Size = new System.Drawing.Size(69, 29);
-            this.PTable1TextBox.TabIndex = 9;
-            // 
-            // FirstTableLayoutPanel
-            // 
-            this.FirstTableLayoutPanel.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.FirstTableLayoutPanel.ColumnCount = 10;
-            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19F));
-            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.FirstTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.FirstTableLayoutPanel.Controls.Add(this.PTable1TextBox, 9, 1);
-            this.FirstTableLayoutPanel.Controls.Add(this.P3Table1TextBox, 8, 1);
-            this.FirstTableLayoutPanel.Controls.Add(this.P2Table1TextBox, 7, 1);
-            this.FirstTableLayoutPanel.Controls.Add(this.P1Table1TextBox, 6, 1);
-            this.FirstTableLayoutPanel.Controls.Add(this.I3Table1TextBox, 5, 1);
-            this.FirstTableLayoutPanel.Controls.Add(this.I2Table1TextBox, 4, 1);
-            this.FirstTableLayoutPanel.Controls.Add(this.I1Table1TextBox, 3, 1);
-            this.FirstTableLayoutPanel.Controls.Add(this.ITable1TextBox, 2, 1);
-            this.FirstTableLayoutPanel.Controls.Add(this.label20, 0, 1);
-            this.FirstTableLayoutPanel.Controls.Add(this.label19, 9, 0);
-            this.FirstTableLayoutPanel.Controls.Add(this.label18, 8, 0);
-            this.FirstTableLayoutPanel.Controls.Add(this.label17, 7, 0);
-            this.FirstTableLayoutPanel.Controls.Add(this.label16, 6, 0);
-            this.FirstTableLayoutPanel.Controls.Add(this.label15, 5, 0);
-            this.FirstTableLayoutPanel.Controls.Add(this.label14, 4, 0);
-            this.FirstTableLayoutPanel.Controls.Add(this.label12, 2, 0);
-            this.FirstTableLayoutPanel.Controls.Add(this.label2, 1, 0);
-            this.FirstTableLayoutPanel.Controls.Add(this.UTable1TextBox, 1, 1);
-            this.FirstTableLayoutPanel.Controls.Add(this.label13, 3, 0);
-            this.FirstTableLayoutPanel.Controls.Add(this.label1, 0, 0);
-            this.FirstTableLayoutPanel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.FirstTableLayoutPanel.Location = new System.Drawing.Point(13, 242);
-            this.FirstTableLayoutPanel.Name = "FirstTableLayoutPanel";
-            this.FirstTableLayoutPanel.RowCount = 2;
-            this.FirstTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.FirstTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.FirstTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.FirstTableLayoutPanel.Size = new System.Drawing.Size(845, 74);
-            this.FirstTableLayoutPanel.TabIndex = 7;
-            // 
-            // UTable2TextBox
-            // 
-            this.UTable2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.UTable2TextBox.Location = new System.Drawing.Point(172, 40);
-            this.UTable2TextBox.Name = "UTable2TextBox";
-            this.UTable2TextBox.Size = new System.Drawing.Size(73, 29);
-            this.UTable2TextBox.TabIndex = 10;
-            // 
-            // label22
-            // 
-            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label22.Location = new System.Drawing.Point(332, 6);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(73, 25);
-            this.label22.TabIndex = 11;
-            this.label22.Text = "I1,A";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label21
-            // 
-            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label21.Location = new System.Drawing.Point(4, 6);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(161, 25);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Соединение";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label11
-            // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(172, 6);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(73, 25);
-            this.label11.TabIndex = 9;
-            this.label11.Text = "U,B";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label10
-            // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(252, 6);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(73, 25);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "I,A";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label9
-            // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(412, 6);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(73, 25);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "I2,A";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label8
-            // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(492, 6);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 25);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "I3,A";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label7
-            // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(572, 6);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 25);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "P1,Bт";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(652, 6);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 25);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "P2,Bт";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(732, 6);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 25);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "P3,Bт";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(812, 6);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 25);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "P,Bт";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(4, 44);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(161, 21);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "Последовательное";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ITable2TextBox
-            // 
-            this.ITable2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ITable2TextBox.Location = new System.Drawing.Point(252, 40);
-            this.ITable2TextBox.Name = "ITable2TextBox";
-            this.ITable2TextBox.Size = new System.Drawing.Size(73, 29);
-            this.ITable2TextBox.TabIndex = 11;
-            // 
-            // I1Table2TextBox
-            // 
-            this.I1Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.I1Table2TextBox.Location = new System.Drawing.Point(332, 40);
-            this.I1Table2TextBox.Name = "I1Table2TextBox";
-            this.I1Table2TextBox.Size = new System.Drawing.Size(73, 29);
-            this.I1Table2TextBox.TabIndex = 12;
-            // 
-            // I2Table2TextBox
-            // 
-            this.I2Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.I2Table2TextBox.Location = new System.Drawing.Point(412, 40);
-            this.I2Table2TextBox.Name = "I2Table2TextBox";
-            this.I2Table2TextBox.Size = new System.Drawing.Size(73, 29);
-            this.I2Table2TextBox.TabIndex = 13;
-            // 
-            // I3Table2TextBox
-            // 
-            this.I3Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.I3Table2TextBox.Location = new System.Drawing.Point(492, 40);
-            this.I3Table2TextBox.Name = "I3Table2TextBox";
-            this.I3Table2TextBox.Size = new System.Drawing.Size(73, 29);
-            this.I3Table2TextBox.TabIndex = 14;
-            // 
-            // P1Table2TextBox
-            // 
-            this.P1Table2TextBox.Enabled = false;
-            this.P1Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.P1Table2TextBox.Location = new System.Drawing.Point(572, 40);
-            this.P1Table2TextBox.Name = "P1Table2TextBox";
-            this.P1Table2TextBox.Size = new System.Drawing.Size(73, 29);
-            this.P1Table2TextBox.TabIndex = 15;
-            // 
-            // P2Table2TextBox
-            // 
-            this.P2Table2TextBox.Enabled = false;
-            this.P2Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.P2Table2TextBox.Location = new System.Drawing.Point(652, 40);
-            this.P2Table2TextBox.Name = "P2Table2TextBox";
-            this.P2Table2TextBox.Size = new System.Drawing.Size(73, 29);
-            this.P2Table2TextBox.TabIndex = 16;
-            // 
-            // P3Table2TextBox
-            // 
-            this.P3Table2TextBox.Enabled = false;
-            this.P3Table2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.P3Table2TextBox.Location = new System.Drawing.Point(732, 40);
-            this.P3Table2TextBox.Name = "P3Table2TextBox";
-            this.P3Table2TextBox.Size = new System.Drawing.Size(73, 29);
-            this.P3Table2TextBox.TabIndex = 17;
-            // 
-            // PTable2TextBox
-            // 
-            this.PTable2TextBox.Enabled = false;
-            this.PTable2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PTable2TextBox.Location = new System.Drawing.Point(812, 40);
-            this.PTable2TextBox.Name = "PTable2TextBox";
-            this.PTable2TextBox.Size = new System.Drawing.Size(73, 29);
-            this.PTable2TextBox.TabIndex = 18;
-            // 
-            // SecondTableLayoutPanel
-            // 
-            this.SecondTableLayoutPanel.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.SecondTableLayoutPanel.ColumnCount = 10;
-            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19F));
-            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.SecondTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9F));
-            this.SecondTableLayoutPanel.Controls.Add(this.PTable2TextBox, 9, 1);
-            this.SecondTableLayoutPanel.Controls.Add(this.P3Table2TextBox, 8, 1);
-            this.SecondTableLayoutPanel.Controls.Add(this.P2Table2TextBox, 7, 1);
-            this.SecondTableLayoutPanel.Controls.Add(this.P1Table2TextBox, 6, 1);
-            this.SecondTableLayoutPanel.Controls.Add(this.I3Table2TextBox, 5, 1);
-            this.SecondTableLayoutPanel.Controls.Add(this.I2Table2TextBox, 4, 1);
-            this.SecondTableLayoutPanel.Controls.Add(this.I1Table2TextBox, 3, 1);
-            this.SecondTableLayoutPanel.Controls.Add(this.ITable2TextBox, 2, 1);
-            this.SecondTableLayoutPanel.Controls.Add(this.label3, 0, 1);
-            this.SecondTableLayoutPanel.Controls.Add(this.label4, 9, 0);
-            this.SecondTableLayoutPanel.Controls.Add(this.label5, 8, 0);
-            this.SecondTableLayoutPanel.Controls.Add(this.label6, 7, 0);
-            this.SecondTableLayoutPanel.Controls.Add(this.label7, 6, 0);
-            this.SecondTableLayoutPanel.Controls.Add(this.label8, 5, 0);
-            this.SecondTableLayoutPanel.Controls.Add(this.label9, 4, 0);
-            this.SecondTableLayoutPanel.Controls.Add(this.label10, 2, 0);
-            this.SecondTableLayoutPanel.Controls.Add(this.label11, 1, 0);
-            this.SecondTableLayoutPanel.Controls.Add(this.label21, 0, 0);
-            this.SecondTableLayoutPanel.Controls.Add(this.label22, 3, 0);
-            this.SecondTableLayoutPanel.Controls.Add(this.UTable2TextBox, 1, 1);
-            this.SecondTableLayoutPanel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SecondTableLayoutPanel.Location = new System.Drawing.Point(13, 531);
-            this.SecondTableLayoutPanel.Name = "SecondTableLayoutPanel";
-            this.SecondTableLayoutPanel.RowCount = 2;
-            this.SecondTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.SecondTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.SecondTableLayoutPanel.Size = new System.Drawing.Size(894, 74);
-            this.SecondTableLayoutPanel.TabIndex = 8;
-            // 
-            // label30
-            // 
-            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label30.Location = new System.Drawing.Point(3, 8);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(528, 25);
-            this.label30.TabIndex = 1;
-            this.label30.Text = "Задано";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label29
-            // 
-            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label29.Location = new System.Drawing.Point(537, 8);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(354, 25);
-            this.label29.TabIndex = 2;
-            this.label29.Text = "Вычислено";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel6
-            // 
-            this.tableLayoutPanel6.ColumnCount = 2;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.76331F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.23669F));
-            this.tableLayoutPanel6.Controls.Add(this.label29, 1, 0);
-            this.tableLayoutPanel6.Controls.Add(this.label30, 0, 0);
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(13, 493);
-            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-            this.tableLayoutPanel6.RowCount = 1;
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(894, 41);
-            this.tableLayoutPanel6.TabIndex = 10;
-            // 
-            // label28
-            // 
-            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label28.Location = new System.Drawing.Point(4, 8);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(561, 25);
-            this.label28.TabIndex = 1;
-            this.label28.Text = "Задано";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label27
-            // 
-            this.label27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label27.Location = new System.Drawing.Point(572, 8);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(318, 25);
-            this.label27.TabIndex = 2;
-            this.label27.Text = "Вычислено";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel5.ColumnCount = 2;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.7178F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.2822F));
-            this.tableLayoutPanel5.Controls.Add(this.label27, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label28, 0, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(13, 493);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(894, 41);
-            this.tableLayoutPanel5.TabIndex = 9;
-            // 
-            // CalculateFirstTableDataButton
-            // 
-            this.CalculateFirstTableDataButton.Location = new System.Drawing.Point(647, 317);
-            this.CalculateFirstTableDataButton.Name = "CalculateFirstTableDataButton";
-            this.CalculateFirstTableDataButton.Size = new System.Drawing.Size(118, 56);
-            this.CalculateFirstTableDataButton.TabIndex = 9;
-            this.CalculateFirstTableDataButton.Text = "Посчитать";
-            this.CalculateFirstTableDataButton.Click += new System.EventHandler(this.CalculateFirstTableDataButton_Click);
-            // 
-            // CalculateSecondTableButton
-            // 
-            this.CalculateSecondTableButton.Location = new System.Drawing.Point(683, 611);
-            this.CalculateSecondTableButton.Name = "CalculateSecondTableButton";
-            this.CalculateSecondTableButton.Size = new System.Drawing.Size(118, 56);
-            this.CalculateSecondTableButton.TabIndex = 12;
-            this.CalculateSecondTableButton.Text = "Посчитать";
-            this.CalculateSecondTableButton.Click += new System.EventHandler(this.CalculateSecondTableButton_Click);
+            // radButton1
+            // 
+            this.radButton1.Location = new System.Drawing.Point(74, 1112);
+            this.radButton1.Name = "radButton1";
+            this.radButton1.Size = new System.Drawing.Size(322, 56);
+            this.radButton1.TabIndex = 21;
+            this.radButton1.Text = "Посчитать";
             // 
             // LabsForm
             // 
@@ -1668,6 +1667,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPageView)).EndInit();
             this.TheoryPageView.ResumeLayout(false);
             this.radPageViewPage1.ResumeLayout(false);
+            this.radScrollablePanel1.PanelContainer.ResumeLayout(false);
+            this.radScrollablePanel1.PanelContainer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radScrollablePanel1)).EndInit();
+            this.radScrollablePanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstTablePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CalculateSecondTableButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CalculateFirstTableDataButton)).EndInit();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
+            this.SecondTableLayoutPanel.ResumeLayout(false);
+            this.SecondTableLayoutPanel.PerformLayout();
+            this.FirstTableLayoutPanel.ResumeLayout(false);
+            this.FirstTableLayoutPanel.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
             this.radPageViewPage2.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
             this.tableLayoutPanel8.PerformLayout();
@@ -1677,22 +1692,7 @@
             this.tableLayoutPanel7.PerformLayout();
             this.tableLayoutPanel9.ResumeLayout(false);
             this.tableLayoutPanel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
-            this.radPanel1.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel4.PerformLayout();
-            this.FirstTableLayoutPanel.ResumeLayout(false);
-            this.FirstTableLayoutPanel.PerformLayout();
-            this.SecondTableLayoutPanel.ResumeLayout(false);
-            this.SecondTableLayoutPanel.PerformLayout();
-            this.tableLayoutPanel6.ResumeLayout(false);
-            this.tableLayoutPanel6.PerformLayout();
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CalculateFirstTableDataButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CalculateSecondTableButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -1769,15 +1769,15 @@
         private System.Windows.Forms.TextBox textBox56;
         private System.Windows.Forms.TextBox textBox57;
         private System.Windows.Forms.Label label35;
-        private Telerik.WinControls.UI.RadPanel radPanel1;
+        private Telerik.WinControls.UI.RadScrollablePanel radScrollablePanel1;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox FirstTablePictureBox;
         private Telerik.WinControls.UI.RadButton CalculateSecondTableButton;
         private Telerik.WinControls.UI.RadButton CalculateFirstTableDataButton;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
         private System.Windows.Forms.TableLayoutPanel SecondTableLayoutPanel;
         private System.Windows.Forms.TextBox PTable2TextBox;
         private System.Windows.Forms.TextBox P3Table2TextBox;
@@ -1823,8 +1823,9 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
+        private Telerik.WinControls.UI.RadButton radButton1;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
     }
 }

@@ -184,5 +184,11 @@
     <None Include="Resources\Tests.png" />
     <None Include="Resources\gorgeous-icon-homes-on-home-icon-png-image-search-results-icon-homes.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lab2_clip_image002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lab2_clip_image002_0000.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
