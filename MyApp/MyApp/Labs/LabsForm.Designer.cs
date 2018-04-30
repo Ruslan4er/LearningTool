@@ -349,7 +349,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(396, 69);
+            this.label23.Location = new System.Drawing.Point(452, 43);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(44, 13);
             this.label23.TabIndex = 23;
@@ -377,6 +377,7 @@
             // 
             // CalculateSecondTableButton
             // 
+            this.CalculateSecondTableButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CalculateSecondTableButton.Location = new System.Drawing.Point(615, 1093);
             this.CalculateSecondTableButton.Name = "CalculateSecondTableButton";
             this.CalculateSecondTableButton.Size = new System.Drawing.Size(322, 56);
@@ -386,6 +387,7 @@
             // 
             // CalculateFirstTableDataButton
             // 
+            this.CalculateFirstTableDataButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CalculateFirstTableDataButton.Location = new System.Drawing.Point(608, 589);
             this.CalculateFirstTableDataButton.Name = "CalculateFirstTableDataButton";
             this.CalculateFirstTableDataButton.Size = new System.Drawing.Size(302, 56);

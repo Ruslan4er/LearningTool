@@ -1,20 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Threading;
-using System.Windows.Forms;
-using MyApp.Labs;
-using MyApp.Tests;
+﻿using MyApp.Labs;
 using MyApp.Theory;
-using Telerik.WinControls;
+using System;
 using Telerik.WinControls.UI;
 
 namespace MyApp
 {
-    public partial class MainMenuForm : Telerik.WinControls.UI.RadForm
+    public partial class MainMenuForm : RadForm
     {
         public MainMenuForm()
         {
@@ -30,17 +21,17 @@ namespace MyApp
         private void TheoryPanel_Click(object sender, EventArgs e)
         {
             var frm = new TheoryForm();
-            this.Hide();
+            Hide();
             frm.ShowDialog();
-            this.Show();
+            Show();
         }
-        
+
         private void LabsPanel_Click(object sender, EventArgs e)
         {
             var frm = new LabsForm();
-            this.Hide();
+            Hide();
             frm.ShowDialog();
-            this.Show();
+            Show();
         }
 
         private void TestingPanel_Click(object sender, EventArgs e)

@@ -1,19 +1,15 @@
-﻿using System;
+﻿using MyApp.DAL;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using MyApp.DAL;
-using MyApp.Theory;
 using Telerik.WinControls;
 using Telerik.WinControls.UI;
 
 namespace MyApp.Tests
 {
-    public partial class TestsForm : Telerik.WinControls.UI.RadForm
+    public partial class TestsForm : RadForm
     {
         public TestsForm(int chapterId)
         {
@@ -91,7 +87,6 @@ namespace MyApp.Tests
         private void CloseFormPictureBox_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
-            //Close();
         }
 
         private void NextQuestionButton_Click(object sender, EventArgs e)

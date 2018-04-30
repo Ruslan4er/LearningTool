@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+﻿using MyApp.DAL;
+using System;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MyApp.DAL;
 using Telerik.WinControls;
 
 namespace MyApp.Authorization
@@ -49,13 +44,12 @@ namespace MyApp.Authorization
             task.Start();
             if (!task.Result)
                 RadMessageBox.Show(@"Пользователь с таким логином не найден");
-            //MessageBox.Show(@"Пользователь с таким логином не найден");
             else
             {
                 var frm = new MainMenuForm();
-                this.Visible = false;
+                Visible = false;
                 frm.ShowDialog();
-                this.Visible = true;
+                Visible = true;
             }
         }
 

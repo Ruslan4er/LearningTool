@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using MyApp.DAL;
+using System;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using MyApp.DAL;
 using Telerik.WinControls;
 using Telerik.WinControls.UI;
 
 namespace MyApp.Authorization
 {
-    public partial class RegistrationNewUserForm : Telerik.WinControls.UI.RadForm
+    public partial class RegistrationNewUserForm : RadForm
     {
         public RegistrationNewUserForm()
         {
@@ -40,8 +36,8 @@ namespace MyApp.Authorization
             using (var context = new LearningToolDBEntities())
             {
                 var users = from user in context.Users
-                    where user.Login == LoginTextBox.Text
-                    select user;
+                            where user.Login == LoginTextBox.Text
+                            select user;
                 return !users.Any();
             }
 
@@ -55,7 +51,6 @@ namespace MyApp.Authorization
                 {
                     Login = LoginTextBox.Text,
                     Password = PasswordTextBox.Text,
-
                 };
                 context.Users.Add(user);
                 context.SaveChanges();
@@ -67,6 +62,7 @@ namespace MyApp.Authorization
                     //Groupe = groupe,
                     Id = user.Id
                 };
+
                 context.UserInformations.Add(userInfo);
                 context.SaveChanges();
             }

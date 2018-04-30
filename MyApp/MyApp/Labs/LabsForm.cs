@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Windows.Forms;
 using Telerik.WinControls;
 using Telerik.WinControls.UI;
 
 namespace MyApp.Labs
 {
-    public partial class LabsForm : Telerik.WinControls.UI.RadForm
+    public partial class LabsForm : RadForm
     {
         public LabsForm()
         {
@@ -32,16 +27,16 @@ namespace MyApp.Labs
                 item.Font = newfont;
         }
 
-        private void CalculateFirstT(int U, int I, int I1, int I2, int I3)
+        private void CalculateFirstT(int u, int i, int i1, int i2, int i3)
         {
-            P1Table1TextBox.Text = (I1 * U).ToString();
-            P2Table1TextBox.Text = (I2 * U).ToString();
-            P3Table1TextBox.Text = (I3 * U).ToString();
-            PTable1TextBox.Text = (I * U).ToString();
+            P1Table1TextBox.Text = (i1 * u).ToString();
+            P2Table1TextBox.Text = (i2 * u).ToString();
+            P3Table1TextBox.Text = (i3 * u).ToString();
+            PTable1TextBox.Text = (i * u).ToString();
             DisableFields(FirstTableLayoutPanel);
         }
 
-        private void DisableFields(TableLayoutPanel table)
+        private static void DisableFields(TableLayoutPanel table)
         {
             var counter = 0;
             foreach (var tb in table.Controls.OfType<TextBox>())
@@ -55,17 +50,15 @@ namespace MyApp.Labs
             }
         }
 
-        private void CalculateSecondT(int U, int I, int I1, int I2, int I3)
+        private void CalculateSecondT(int u, int i, int i1, int i2, int i3)
         {
-            P1Table2TextBox.Text = (I1 * U).ToString();
-            P2Table2TextBox.Text = (I2 * U).ToString();
-            P3Table2TextBox.Text = (I3 * U).ToString();
-            PTable2TextBox.Text = (I * U).ToString();
+            P1Table2TextBox.Text = (i1 * u).ToString();
+            P2Table2TextBox.Text = (i2 * u).ToString();
+            P3Table2TextBox.Text = (i3 * u).ToString();
+            PTable2TextBox.Text = (i * u).ToString();
             DisableFields(SecondTableLayoutPanel);
         }
-
-
-
+        
         private static bool IsFieldFill(TableLayoutPanel table)
         {
             var counter = 0;
@@ -73,7 +66,7 @@ namespace MyApp.Labs
             {
                 if (counter > 4)
                     break;
-                if (string.IsNullOrEmpty(tb.Text) || !int.TryParse(tb.Text, out var a))
+                if (string.IsNullOrEmpty(tb.Text) || !int.TryParse(tb.Text, out var _))
                     return false;
                 counter++;
             }
@@ -93,24 +86,24 @@ namespace MyApp.Labs
 
         private void CalculateFirstTable()
         {
-            var U = int.Parse(UTable1TextBox.Text);
-            var I = int.Parse(ITable1TextBox.Text);
-            var I1 = int.Parse(I1Table1TextBox.Text);
-            var I2 = int.Parse(I2Table1TextBox.Text);
-            var I3 = int.Parse(I3Table1TextBox.Text);
+            var u = int.Parse(UTable1TextBox.Text);
+            var i = int.Parse(ITable1TextBox.Text);
+            var i1 = int.Parse(I1Table1TextBox.Text);
+            var i2 = int.Parse(I2Table1TextBox.Text);
+            var i3 = int.Parse(I3Table1TextBox.Text);
 
-            CalculateFirstT(U, I, I1, I2, I3);
+            CalculateFirstT(u, i, i1, i2, i3);
         }
 
         private void CalculateSecondTable()
         {
-            var U = int.Parse(UTable2TextBox.Text);
-            var I = int.Parse(ITable2TextBox.Text);
-            var I1 = int.Parse(I1Table2TextBox.Text);
-            var I2 = int.Parse(I2Table2TextBox.Text);
-            var I3 = int.Parse(I3Table2TextBox.Text);
+            var u = int.Parse(UTable2TextBox.Text);
+            var i = int.Parse(ITable2TextBox.Text);
+            var i1 = int.Parse(I1Table2TextBox.Text);
+            var i2 = int.Parse(I2Table2TextBox.Text);
+            var i3 = int.Parse(I3Table2TextBox.Text);
 
-            CalculateSecondT(U, I, I1, I2, I3);
+            CalculateSecondT(u, i, i1, i2, i3);
         }
 
         private void CalculateSecondTableButton_Click(object sender, EventArgs e)

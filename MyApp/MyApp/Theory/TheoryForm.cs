@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 using MyApp.Tests;
 using Telerik.WinControls.UI;
@@ -12,6 +13,8 @@ namespace MyApp.Theory
         {
             InitializeComponent();
             SubscribeElements();
+            foreach (var viewer in Controls.OfType<RadPageView>().OfType<RadPdfViewer>())
+                viewer.EnableThumbnails = false;
         }
 
         private int _chapterId;
@@ -106,6 +109,6 @@ namespace MyApp.Theory
             this.Show();
         }
 
-        
+
     }
 }
