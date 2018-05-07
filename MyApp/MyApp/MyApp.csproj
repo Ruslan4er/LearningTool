@@ -190,5 +190,50 @@
   <ItemGroup>
     <None Include="Resources\lab2_clip_image002_0000.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheme1_1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheme1_2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheme2_1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheme2_2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theory1_1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theory1_2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theory2_1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theory2_2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theory2_3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theory2_4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report2_1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report2_2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report2_3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report2_2%28new%29.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

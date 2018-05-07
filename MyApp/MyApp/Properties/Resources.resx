@@ -130,4 +130,49 @@
   <data name="lab2_clip_image002_0000" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lab2_clip_image002_0000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cheme1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheme1_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheme1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheme1_2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheme2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheme2_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheme2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheme2_2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theory1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\theory1_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theory1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\theory1_2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theory2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\theory2_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theory2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\theory2_2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theory2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\theory2_3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theory2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\theory2_4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report2_1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report2_2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report2_3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report2_2_new_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report2_2(new).PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

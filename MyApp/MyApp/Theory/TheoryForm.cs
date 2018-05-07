@@ -39,10 +39,12 @@ namespace MyApp.Theory
 
         private void TheoryForm_Load(object sender, EventArgs e)
         {
-            var newfont = new Font(this.TheoryPageView.Font.FontFamily, 11);
+            var itemFont = new Font(this.TheoryPageView.Font.FontFamily, 11);
+            var titleFont = new Font(this.TheoryPageView.Font.FontFamily, 15, FontStyle.Bold);
             var stripElement = (RadPageViewStripElement)this.TheoryPageView.ViewElement;
             foreach (RadPageViewStripItem item in stripElement.ItemContainer.ItemLayout.Children)
-                item.Font = newfont;
+                item.Font = itemFont;
+            radPageViewItemPage1.Item.Font = titleFont;
         }
 
         private void radPageViewPage1_Click(object sender, EventArgs e)
