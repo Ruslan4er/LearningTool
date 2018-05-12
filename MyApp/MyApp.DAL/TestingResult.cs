@@ -10,10 +10,16 @@
 namespace MyApp.DAL
 {
     using System;
+    using System.Collections.Generic;
     
-    public partial class sp_helpdiagramdefinition_Result
+    public partial class TestingResult
     {
-        public Nullable<int> version { get; set; }
-        public byte[] definition { get; set; }
+        public int Id { get; set; }
+        public System.DateTime Date { get; set; }
+        public int Mark { get; set; }
+        public int UserId { get; set; }
+        public string Chapter { get; set; }
+    
+        public virtual User User { get; set; }
     }
 }

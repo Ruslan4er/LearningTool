@@ -7,14 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System.Collections;
-
 namespace MyApp.DAL
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Answer : IEnumerable
+    public partial class Answer
     {
         public int Id { get; set; }
         public string Text { get; set; }
@@ -22,9 +20,5 @@ namespace MyApp.DAL
         public int QuestionId { get; set; }
     
         public virtual Question Question { get; set; }
-        public IEnumerator GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

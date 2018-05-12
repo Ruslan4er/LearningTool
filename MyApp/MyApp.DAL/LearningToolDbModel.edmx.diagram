@@ -4,17 +4,17 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="e25c11cbe660475ba75f4c99f3173796" Name="Diagram1">
-        <EntityTypeShape EntityType="LearningToolDBModel.Answer" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="LearningToolDBModel.Chapter" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="LearningToolDBModel.Content" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="LearningToolDBModel.Question" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="LearningToolDBModel.sysdiagram" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="LearningToolDBModel.UserInformation" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="LearningToolDBModel.User" Width="1.5" PointX="5.75" PointY="0.875" IsExpanded="true" />
+      <Diagram DiagramId="5cdbb6a2194643759fedc5934a740382" Name="Diagram1">
+        <EntityTypeShape EntityType="LearningToolDBModel.Answer" Width="1.5" PointX="10.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningToolDBModel.Chapter" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningToolDBModel.Question" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningToolDBModel.sysdiagram" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningToolDBModel.TestingResult" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningToolDBModel.UserInformation" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningToolDBModel.User" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
         <AssociationConnector Association="LearningToolDBModel.FK_Answers_Questions" ManuallyRouted="false" />
-        <AssociationConnector Association="LearningToolDBModel.FK_Content_Chapters" ManuallyRouted="false" />
         <AssociationConnector Association="LearningToolDBModel.FK_Questions_Chapters" ManuallyRouted="false" />
+        <AssociationConnector Association="LearningToolDBModel.FK_TestingResults_Users" ManuallyRouted="false" />
         <AssociationConnector Association="LearningToolDBModel.FK_UserInformation_Users" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>

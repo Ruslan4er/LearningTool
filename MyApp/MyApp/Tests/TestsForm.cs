@@ -36,6 +36,31 @@ namespace MyApp.Tests
                 answersList = new List<List<Answer>>();
                 foreach (var question in questionList)
                     answersList.Add(new List<Answer>(question.Answers));
+
+                ChapterNameLabel.Text = context.Chapters.Find(chapterId)?.Name;
+            }
+        }
+
+        private void SaveResult()
+        {
+            using (var context = new LearningToolDBEntities())
+            {
+                try
+                {
+                    context.TestingResults.Add(new TestingResult
+                    {
+                        Date = DateTime.Now,
+                        Mark = correctAnswersCount,
+                        UserId = UserProfile.Id,
+                        Chapter = ChapterNameLabel.Text
+                    });
+                    context.SaveChanges();
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(@"Результат не сохранён. Авторизируйтесь!");
+                }
+                
             }
         }
 
@@ -60,6 +85,7 @@ namespace MyApp.Tests
             {
                 NextQuestionButton.Enabled = false;
                 QuestionLabel.Text = $@"Правильных ответов - {correctAnswersCount}";
+                SaveResult();
                 return;
             }
 

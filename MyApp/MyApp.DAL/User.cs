@@ -14,10 +14,18 @@ namespace MyApp.DAL
     
     public partial class User
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public User()
+        {
+            this.TestingResults = new HashSet<TestingResult>();
+        }
+    
         public int Id { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
     
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<TestingResult> TestingResults { get; set; }
         public virtual UserInformation UserInformation { get; set; }
     }
 }

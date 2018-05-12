@@ -128,6 +128,12 @@
     <Compile Include="Theory\TheoryForm.Designer.cs">
       <DependentUpon>TheoryForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserProfileForms\UserProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserProfileForms\UserProfileForm.Designer.cs">
+      <DependentUpon>UserProfileForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Account\AccountForm.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Theory\TheoryForm.resx">
       <DependentUpon>TheoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProfileForms\UserProfileForm.resx">
+      <DependentUpon>UserProfileForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

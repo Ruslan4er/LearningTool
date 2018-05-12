@@ -29,6 +29,7 @@ namespace MyApp.Authorization
 
         private static void RememberUser(User user)
         {
+            UserProfile.Id = user.Id;
             UserProfile.Login = user.Login;
             UserProfile.Password = user.Login;
             UserProfile.Name = user.UserInformation.Name;
@@ -47,15 +48,14 @@ namespace MyApp.Authorization
             else
             {
                 var frm = new MainMenuForm();
-                Visible = false;
-                frm.ShowDialog();
-                Visible = true;
+                frm.Closed += (s, args) => this.Show();
+                frm.Show();
+                this.Hide();
             }
         }
 
         private void RegistrationLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
             var frm = new RegistrationNewUserForm();
             frm.ShowDialog();
             RadMessageBox.Show(frm.DialogResult == DialogResult.OK

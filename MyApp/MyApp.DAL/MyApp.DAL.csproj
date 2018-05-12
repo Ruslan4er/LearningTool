@@ -55,9 +55,6 @@
     <Compile Include="Chapter.cs">
       <DependentUpon>LearningToolDbModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Content.cs">
-      <DependentUpon>LearningToolDbModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="LearningToolDbModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -77,13 +74,10 @@
     <Compile Include="Question.cs">
       <DependentUpon>LearningToolDbModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>LearningToolDbModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sp_helpdiagrams_Result.cs">
-      <DependentUpon>LearningToolDbModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="sysdiagram.cs">
+      <DependentUpon>LearningToolDbModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TestingResult.cs">
       <DependentUpon>LearningToolDbModel.tt</DependentUpon>
     </Compile>
     <Compile Include="User.cs">

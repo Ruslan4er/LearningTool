@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using MyApp.Authorization;
+using MyApp.UserProfileForms;
 
 namespace MyApp
 {
@@ -16,7 +17,7 @@ namespace MyApp
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new AuthorizationForm());
             //Application.Run(new MainMenuForm());
-            //Application.Run(new LabsForm());
+            //Application.Run(new UserProfileForm(1004));
 
 
         }

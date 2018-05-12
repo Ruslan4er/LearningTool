@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TestsForm));
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.ToTheoryFormPictureBox = new System.Windows.Forms.PictureBox();
             this.label35 = new System.Windows.Forms.Label();
             this.CloseFormPictureBox = new System.Windows.Forms.PictureBox();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
@@ -42,13 +44,12 @@
             this.Answer2RadioButton = new Telerik.WinControls.UI.RadRadioButton();
             this.Answer3RadioButton = new Telerik.WinControls.UI.RadRadioButton();
             this.Answer1RadioButton = new Telerik.WinControls.UI.RadRadioButton();
-            this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
-            this.ToTheoryFormPictureBox = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.ChapterNameLabel = new Telerik.WinControls.UI.RadLabel();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
             this.splitPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ToTheoryFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
             this.splitPanel2.SuspendLayout();
@@ -59,8 +60,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Answer2RadioButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer3RadioButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer1RadioButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ToTheoryFormPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChapterNameLabel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,6 +98,27 @@
             this.splitPanel1.TabStop = false;
             this.splitPanel1.Text = "splitPanel1";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(6, 252);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 20);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Назад к теории";
+            // 
+            // ToTheoryFormPictureBox
+            // 
+            this.ToTheoryFormPictureBox.Image = global::MyApp.Properties.Resources.Tests;
+            this.ToTheoryFormPictureBox.Location = new System.Drawing.Point(10, 141);
+            this.ToTheoryFormPictureBox.Name = "ToTheoryFormPictureBox";
+            this.ToTheoryFormPictureBox.Size = new System.Drawing.Size(110, 131);
+            this.ToTheoryFormPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ToTheoryFormPictureBox.TabIndex = 3;
+            this.ToTheoryFormPictureBox.TabStop = false;
+            this.ToTheoryFormPictureBox.Click += new System.EventHandler(this.ToTheoryFormPictureBox_Click);
+            // 
             // label35
             // 
             this.label35.AutoSize = true;
@@ -122,7 +143,7 @@
             // splitPanel2
             // 
             this.splitPanel2.Controls.Add(this.QuestionGroupBox);
-            this.splitPanel2.Controls.Add(this.radLabel1);
+            this.splitPanel2.Controls.Add(this.ChapterNameLabel);
             this.splitPanel2.Location = new System.Drawing.Point(139, 0);
             this.splitPanel2.Name = "splitPanel2";
             // 
@@ -216,35 +237,14 @@
             this.Answer1RadioButton.TabIndex = 0;
             this.Answer1RadioButton.Text = "Ответ 1";
             // 
-            // radLabel1
+            // ChapterNameLabel
             // 
-            this.radLabel1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radLabel1.Location = new System.Drawing.Point(200, 66);
-            this.radLabel1.Name = "radLabel1";
-            this.radLabel1.Size = new System.Drawing.Size(152, 30);
-            this.radLabel1.TabIndex = 0;
-            this.radLabel1.Text = "Название главы";
-            // 
-            // ToTheoryFormPictureBox
-            // 
-            this.ToTheoryFormPictureBox.Image = global::MyApp.Properties.Resources.Tests;
-            this.ToTheoryFormPictureBox.Location = new System.Drawing.Point(10, 141);
-            this.ToTheoryFormPictureBox.Name = "ToTheoryFormPictureBox";
-            this.ToTheoryFormPictureBox.Size = new System.Drawing.Size(110, 131);
-            this.ToTheoryFormPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ToTheoryFormPictureBox.TabIndex = 3;
-            this.ToTheoryFormPictureBox.TabStop = false;
-            this.ToTheoryFormPictureBox.Click += new System.EventHandler(this.ToTheoryFormPictureBox_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(6, 252);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 20);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Назад к теории";
+            this.ChapterNameLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ChapterNameLabel.Location = new System.Drawing.Point(200, 66);
+            this.ChapterNameLabel.Name = "ChapterNameLabel";
+            this.ChapterNameLabel.Size = new System.Drawing.Size(152, 30);
+            this.ChapterNameLabel.TabIndex = 0;
+            this.ChapterNameLabel.Text = "Название главы";
             // 
             // TestsForm
             // 
@@ -264,6 +264,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
             this.splitPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ToTheoryFormPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
@@ -276,8 +277,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Answer2RadioButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer3RadioButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer1RadioButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ToTheoryFormPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChapterNameLabel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -294,7 +294,7 @@
         private Telerik.WinControls.UI.RadRadioButton Answer2RadioButton;
         private Telerik.WinControls.UI.RadRadioButton Answer3RadioButton;
         private Telerik.WinControls.UI.RadRadioButton Answer1RadioButton;
-        private Telerik.WinControls.UI.RadLabel radLabel1;
+        private Telerik.WinControls.UI.RadLabel ChapterNameLabel;
         private System.Windows.Forms.Button NextQuestionButton;
         private Telerik.WinControls.UI.RadLabel QuestionLabel;
         private Telerik.WinControls.UI.RadLabel QuestionCounterLabel;

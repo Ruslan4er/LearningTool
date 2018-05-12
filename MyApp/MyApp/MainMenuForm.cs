@@ -1,6 +1,7 @@
 ﻿using MyApp.Labs;
 using MyApp.Theory;
 using System;
+using MyApp.UserProfileForms;
 using Telerik.WinControls.UI;
 
 namespace MyApp
@@ -21,25 +22,31 @@ namespace MyApp
         private void TheoryPanel_Click(object sender, EventArgs e)
         {
             var frm = new TheoryForm();
+            frm.Closed += (s, args) => this.Show();
+            frm.Show();
             Hide();
-            frm.ShowDialog();
-            Show();
         }
 
         private void LabsPanel_Click(object sender, EventArgs e)
         {
             var frm = new LabsForm();
+            frm.Closed += (s, args) => this.Show();
+            frm.Show();
             Hide();
-            frm.ShowDialog();
-            Show();
         }
 
         private void TestingPanel_Click(object sender, EventArgs e)
         {
-            //var frm = new TestsForm(2);
-            //this.Visible = false;
-            //frm.ShowDialog();
-            //this.Visible = true;
+
+        }
+
+        private void OpenUserProfileFormButton_Click(object sender, EventArgs e)
+        {
+            var frm = new UserProfileForm(UserProfile.Id);
+            frm.Closed += (s, args) => this.Show();
+            frm.Show();
+            this.Hide();
+            
         }
     }
 }
