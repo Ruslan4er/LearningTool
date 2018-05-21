@@ -62,112 +62,112 @@
             // 
             // LoginTextBox
             // 
-            this.LoginTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LoginTextBox.Location = new System.Drawing.Point(147, 92);
+            this.LoginTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoginTextBox.Location = new System.Drawing.Point(164, 93);
             this.LoginTextBox.Name = "LoginTextBox";
-            this.LoginTextBox.Size = new System.Drawing.Size(145, 23);
+            this.LoginTextBox.Size = new System.Drawing.Size(181, 27);
             this.LoginTextBox.TabIndex = 0;
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PasswordTextBox.Location = new System.Drawing.Point(147, 127);
+            this.PasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordTextBox.Location = new System.Drawing.Point(164, 128);
             this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(145, 23);
+            this.PasswordTextBox.Size = new System.Drawing.Size(181, 27);
             this.PasswordTextBox.TabIndex = 1;
             // 
             // CheckPasswordTextBox
             // 
-            this.CheckPasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CheckPasswordTextBox.Location = new System.Drawing.Point(147, 162);
+            this.CheckPasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CheckPasswordTextBox.Location = new System.Drawing.Point(164, 163);
             this.CheckPasswordTextBox.Name = "CheckPasswordTextBox";
-            this.CheckPasswordTextBox.Size = new System.Drawing.Size(145, 23);
+            this.CheckPasswordTextBox.Size = new System.Drawing.Size(181, 27);
             this.CheckPasswordTextBox.TabIndex = 2;
             // 
             // NameTextBox
             // 
-            this.NameTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NameTextBox.Location = new System.Drawing.Point(147, 197);
+            this.NameTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NameTextBox.Location = new System.Drawing.Point(164, 198);
             this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.Size = new System.Drawing.Size(145, 23);
+            this.NameTextBox.Size = new System.Drawing.Size(181, 27);
             this.NameTextBox.TabIndex = 3;
             // 
             // SecondNameTextBox
             // 
-            this.SecondNameTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SecondNameTextBox.Location = new System.Drawing.Point(147, 233);
+            this.SecondNameTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SecondNameTextBox.Location = new System.Drawing.Point(164, 234);
             this.SecondNameTextBox.Name = "SecondNameTextBox";
-            this.SecondNameTextBox.Size = new System.Drawing.Size(145, 23);
+            this.SecondNameTextBox.Size = new System.Drawing.Size(181, 27);
             this.SecondNameTextBox.TabIndex = 4;
             // 
             // GroupeTextBox
             // 
-            this.GroupeTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.GroupeTextBox.Location = new System.Drawing.Point(147, 268);
+            this.GroupeTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GroupeTextBox.Location = new System.Drawing.Point(164, 269);
             this.GroupeTextBox.Name = "GroupeTextBox";
-            this.GroupeTextBox.Size = new System.Drawing.Size(145, 23);
+            this.GroupeTextBox.Size = new System.Drawing.Size(181, 27);
             this.GroupeTextBox.TabIndex = 5;
             // 
             // radLabel2
             // 
-            this.radLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radLabel2.Location = new System.Drawing.Point(12, 93);
             this.radLabel2.Name = "radLabel2";
-            this.radLabel2.Size = new System.Drawing.Size(44, 21);
+            this.radLabel2.Size = new System.Drawing.Size(54, 25);
             this.radLabel2.TabIndex = 4;
             this.radLabel2.Text = "Логин";
             // 
             // radLabel3
             // 
-            this.radLabel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radLabel3.Location = new System.Drawing.Point(12, 128);
             this.radLabel3.Name = "radLabel3";
-            this.radLabel3.Size = new System.Drawing.Size(53, 21);
+            this.radLabel3.Size = new System.Drawing.Size(64, 25);
             this.radLabel3.TabIndex = 4;
             this.radLabel3.Text = "Пароль";
             // 
             // radLabel4
             // 
-            this.radLabel4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radLabel4.Location = new System.Drawing.Point(12, 163);
             this.radLabel4.Name = "radLabel4";
-            this.radLabel4.Size = new System.Drawing.Size(121, 21);
+            this.radLabel4.Size = new System.Drawing.Size(148, 25);
             this.radLabel4.TabIndex = 5;
             this.radLabel4.Text = "Повторите пароль";
             // 
             // radLabel5
             // 
-            this.radLabel5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radLabel5.Location = new System.Drawing.Point(12, 269);
             this.radLabel5.Name = "radLabel5";
-            this.radLabel5.Size = new System.Drawing.Size(50, 21);
+            this.radLabel5.Size = new System.Drawing.Size(61, 25);
             this.radLabel5.TabIndex = 8;
             this.radLabel5.Text = "Группа";
             // 
             // radLabel6
             // 
-            this.radLabel6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radLabel6.Location = new System.Drawing.Point(12, 234);
             this.radLabel6.Name = "radLabel6";
-            this.radLabel6.Size = new System.Drawing.Size(62, 21);
+            this.radLabel6.Size = new System.Drawing.Size(76, 25);
             this.radLabel6.TabIndex = 6;
             this.radLabel6.Text = "Фамилия";
             // 
             // radLabel7
             // 
-            this.radLabel7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radLabel7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radLabel7.Location = new System.Drawing.Point(12, 198);
             this.radLabel7.Name = "radLabel7";
-            this.radLabel7.Size = new System.Drawing.Size(33, 21);
+            this.radLabel7.Size = new System.Drawing.Size(40, 25);
             this.radLabel7.TabIndex = 7;
             this.radLabel7.Text = "Имя";
             // 
             // CreateUserButton
             // 
-            this.CreateUserButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CreateUserButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CreateUserButton.Location = new System.Drawing.Point(12, 330);
             this.CreateUserButton.Name = "CreateUserButton";
-            this.CreateUserButton.Size = new System.Drawing.Size(135, 48);
+            this.CreateUserButton.Size = new System.Drawing.Size(148, 48);
             this.CreateUserButton.TabIndex = 6;
             this.CreateUserButton.Text = "Регистрация";
             this.CreateUserButton.Click += new System.EventHandler(this.CreateUserButton_Click);
@@ -175,10 +175,10 @@
             // ExitButton
             // 
             this.ExitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.ExitButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExitButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ExitButton.Location = new System.Drawing.Point(174, 330);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(118, 48);
+            this.ExitButton.Size = new System.Drawing.Size(171, 48);
             this.ExitButton.TabIndex = 7;
             this.ExitButton.Text = "Отмена";
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
@@ -186,10 +186,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(59, 18);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(65, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 50);
+            this.label1.Size = new System.Drawing.Size(227, 60);
             this.label1.TabIndex = 11;
             this.label1.Text = "Регистрация нового\r\nпользователя\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -200,7 +200,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.ExitButton;
-            this.ClientSize = new System.Drawing.Size(314, 390);
+            this.ClientSize = new System.Drawing.Size(357, 390);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.CreateUserButton);
@@ -217,10 +217,9 @@
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.LoginTextBox);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(322, 420);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(322, 420);
             this.Name = "RegistrationNewUserForm";
             // 
             // 

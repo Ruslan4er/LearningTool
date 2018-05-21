@@ -33,9 +33,9 @@
             this.TestResultGridView = new Telerik.WinControls.UI.RadGridView();
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
-            this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.CloseFormPictureBox = new System.Windows.Forms.PictureBox();
+            this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.TestResultGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TestResultGridView.MasterTemplate)).BeginInit();
@@ -43,9 +43,9 @@
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
             this.splitPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
             this.splitPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,23 +109,6 @@
             this.splitPanel1.TabStop = false;
             this.splitPanel1.Text = "splitPanel1";
             // 
-            // splitPanel2
-            // 
-            this.splitPanel2.Controls.Add(this.label2);
-            this.splitPanel2.Controls.Add(this.TestResultGridView);
-            this.splitPanel2.Location = new System.Drawing.Point(139, 0);
-            this.splitPanel2.Name = "splitPanel2";
-            // 
-            // 
-            // 
-            this.splitPanel2.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel2.Size = new System.Drawing.Size(1219, 690);
-            this.splitPanel2.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0.4002954F, 0F);
-            this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(85, 0);
-            this.splitPanel2.TabIndex = 1;
-            this.splitPanel2.TabStop = false;
-            this.splitPanel2.Text = "splitPanel2";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -145,12 +128,30 @@
             this.CloseFormPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.CloseFormPictureBox.TabIndex = 7;
             this.CloseFormPictureBox.TabStop = false;
+            this.CloseFormPictureBox.Click += new System.EventHandler(this.CloseFormPictureBox_Click_1);
+            // 
+            // splitPanel2
+            // 
+            this.splitPanel2.Controls.Add(this.label2);
+            this.splitPanel2.Controls.Add(this.TestResultGridView);
+            this.splitPanel2.Location = new System.Drawing.Point(139, 0);
+            this.splitPanel2.Name = "splitPanel2";
+            // 
+            // 
+            // 
+            this.splitPanel2.RootElement.MinSize = new System.Drawing.Size(25, 25);
+            this.splitPanel2.Size = new System.Drawing.Size(1219, 690);
+            this.splitPanel2.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0.4002954F, 0F);
+            this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(85, 0);
+            this.splitPanel2.TabIndex = 1;
+            this.splitPanel2.TabStop = false;
+            this.splitPanel2.Text = "splitPanel2";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(266, 40);
+            this.label2.Location = new System.Drawing.Point(324, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(344, 25);
             this.label2.TabIndex = 1;
@@ -176,10 +177,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
             this.splitPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
             this.splitPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 

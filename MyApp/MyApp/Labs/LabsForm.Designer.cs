@@ -32,10 +32,16 @@
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
             this.label35 = new System.Windows.Forms.Label();
+            this.CloseFormPictureBox = new System.Windows.Forms.PictureBox();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.TheoryPageView = new Telerik.WinControls.UI.RadPageView();
             this.radPageViewPage1 = new Telerik.WinControls.UI.RadPageViewPage();
             this.radScrollablePanel1 = new Telerik.WinControls.UI.RadScrollablePanel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.LowLabel = new System.Windows.Forms.Label();
             this.CalculateSecondTableButton = new Telerik.WinControls.UI.RadButton();
             this.CalculateFirstTableDataButton = new Telerik.WinControls.UI.RadButton();
@@ -87,22 +93,35 @@
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.radPageViewPage3 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage4 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage5 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage6 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage7 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage8 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage9 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage10 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage11 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage12 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radPageViewPage13 = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radButton1 = new Telerik.WinControls.UI.RadButton();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
             this.radPageViewPage2 = new Telerik.WinControls.UI.RadPageViewPage();
             this.radScrollablePanel2 = new Telerik.WinControls.UI.RadScrollablePanel();
+            this.CalculateFourthTableButton = new Telerik.WinControls.UI.RadButton();
+            this.CalculateThirdTableButton = new Telerik.WinControls.UI.RadButton();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.R1Table3_2TextBox = new System.Windows.Forms.TextBox();
+            this.R2Table3_2TextBox = new System.Windows.Forms.TextBox();
+            this.RTable3_2TextBox = new System.Windows.Forms.TextBox();
+            this.R3Table3_2TextBox = new System.Windows.Forms.TextBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.R3Table3_1TextBox = new System.Windows.Forms.TextBox();
+            this.RTable3_1TextBox = new System.Windows.Forms.TextBox();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.R2Table3_1TextBox = new System.Windows.Forms.TextBox();
+            this.R1Table3_1TextBox = new System.Windows.Forms.TextBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -137,39 +156,20 @@
             this.U1Table4_1TextBox = new System.Windows.Forms.TextBox();
             this.UTable4_1TextBox = new System.Windows.Forms.TextBox();
             this.RTable4_1TextBox = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.R1Table3_2TextBox = new System.Windows.Forms.TextBox();
-            this.R2Table3_2TextBox = new System.Windows.Forms.TextBox();
-            this.RTable3_2TextBox = new System.Windows.Forms.TextBox();
-            this.R3Table3_2TextBox = new System.Windows.Forms.TextBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.R3Table3_1TextBox = new System.Windows.Forms.TextBox();
-            this.RTable3_1TextBox = new System.Windows.Forms.TextBox();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.R2Table3_1TextBox = new System.Windows.Forms.TextBox();
-            this.R1Table3_1TextBox = new System.Windows.Forms.TextBox();
-            this.CalculateThirdTableButton = new Telerik.WinControls.UI.RadButton();
-            this.CalculateFourthTableButton = new Telerik.WinControls.UI.RadButton();
-            this.CloseFormPictureBox = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.radPageViewPage3 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage4 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage5 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage6 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage7 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage8 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage9 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage10 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage11 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage12 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radPageViewPage13 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.radButton1 = new Telerik.WinControls.UI.RadButton();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.FirstTablePictureBox = new System.Windows.Forms.PictureBox();
             this.label23 = new System.Windows.Forms.Label();
@@ -177,6 +177,7 @@
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
             this.splitPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
             this.splitPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPageView)).BeginInit();
@@ -185,31 +186,27 @@
             ((System.ComponentModel.ISupportInitialize)(this.radScrollablePanel1)).BeginInit();
             this.radScrollablePanel1.PanelContainer.SuspendLayout();
             this.radScrollablePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CalculateSecondTableButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CalculateFirstTableDataButton)).BeginInit();
             this.tableLayoutPanel5.SuspendLayout();
             this.SecondTableLayoutPanel.SuspendLayout();
             this.FirstTableLayoutPanel.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             this.radPageViewPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radScrollablePanel2)).BeginInit();
             this.radScrollablePanel2.PanelContainer.SuspendLayout();
             this.radScrollablePanel2.SuspendLayout();
-            this.tableLayoutPanel7.SuspendLayout();
-            this.tableLayoutPanel9.SuspendLayout();
-            this.tableLayoutPanel8.SuspendLayout();
-            this.tableLayoutPanel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CalculateThirdTableButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CalculateFourthTableButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CalculateThirdTableButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            this.tableLayoutPanel8.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -217,6 +214,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.tableLayoutPanel7.SuspendLayout();
+            this.tableLayoutPanel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FirstTablePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
@@ -264,6 +264,17 @@
             this.label35.TabIndex = 2;
             this.label35.Text = "Домой";
             // 
+            // CloseFormPictureBox
+            // 
+            this.CloseFormPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("CloseFormPictureBox.Image")));
+            this.CloseFormPictureBox.Location = new System.Drawing.Point(21, 24);
+            this.CloseFormPictureBox.Name = "CloseFormPictureBox";
+            this.CloseFormPictureBox.Size = new System.Drawing.Size(89, 89);
+            this.CloseFormPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.CloseFormPictureBox.TabIndex = 1;
+            this.CloseFormPictureBox.TabStop = false;
+            this.CloseFormPictureBox.Click += new System.EventHandler(this.CloseFormPictureBox_Click);
+            // 
             // splitPanel2
             // 
             this.splitPanel2.AutoScroll = true;
@@ -299,7 +310,7 @@
             this.TheoryPageView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TheoryPageView.Location = new System.Drawing.Point(0, 0);
             this.TheoryPageView.Name = "TheoryPageView";
-            this.TheoryPageView.SelectedPage = this.radPageViewPage2;
+            this.TheoryPageView.SelectedPage = this.radPageViewPage1;
             this.TheoryPageView.Size = new System.Drawing.Size(1230, 750);
             this.TheoryPageView.TabIndex = 1;
             this.TheoryPageView.ViewMode = Telerik.WinControls.UI.PageViewMode.Backstage;
@@ -313,7 +324,7 @@
             // 
             this.radPageViewPage1.AutoScroll = true;
             this.radPageViewPage1.Controls.Add(this.radScrollablePanel1);
-            this.radPageViewPage1.ItemSize = new System.Drawing.SizeF(168F, 25F);
+            this.radPageViewPage1.ItemSize = new System.Drawing.SizeF(170F, 45F);
             this.radPageViewPage1.Location = new System.Drawing.Point(225, 4);
             this.radPageViewPage1.Name = "radPageViewPage1";
             this.radPageViewPage1.Size = new System.Drawing.Size(1001, 742);
@@ -346,6 +357,56 @@
             this.radScrollablePanel1.Size = new System.Drawing.Size(1001, 742);
             this.radScrollablePanel1.TabIndex = 0;
             this.radScrollablePanel1.Click += new System.EventHandler(this.radScrollablePanel1_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::MyApp.Properties.Resources.Report1;
+            this.pictureBox6.Location = new System.Drawing.Point(163, 1296);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(651, 379);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox6.TabIndex = 32;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::MyApp.Properties.Resources.cheme1_2;
+            this.pictureBox5.Location = new System.Drawing.Point(178, 768);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(631, 256);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox5.TabIndex = 31;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::MyApp.Properties.Resources.cheme1_1;
+            this.pictureBox4.Location = new System.Drawing.Point(215, 543);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(574, 209);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox4.TabIndex = 30;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::MyApp.Properties.Resources.theory1_2;
+            this.pictureBox3.Location = new System.Drawing.Point(163, 1030);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(646, 231);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 29;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::MyApp.Properties.Resources.theory1_1;
+            this.pictureBox2.Location = new System.Drawing.Point(158, 19);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(651, 518);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 28;
+            this.pictureBox2.TabStop = false;
             // 
             // LowLabel
             // 
@@ -958,129 +1019,12 @@
             this.label26.Text = "Задано";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // radPageViewPage3
-            // 
-            this.radPageViewPage3.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage3.Location = new System.Drawing.Point(225, 4);
-            this.radPageViewPage3.Name = "radPageViewPage3";
-            this.radPageViewPage3.Size = new System.Drawing.Size(1001, 742);
-            this.radPageViewPage3.Text = "Лабораторная работа №3";
-            // 
-            // radPageViewPage4
-            // 
-            this.radPageViewPage4.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage4.Location = new System.Drawing.Point(225, 4);
-            this.radPageViewPage4.Name = "radPageViewPage4";
-            this.radPageViewPage4.Size = new System.Drawing.Size(950, 682);
-            this.radPageViewPage4.Text = "Лабораторная работа №4";
-            // 
-            // radPageViewPage5
-            // 
-            this.radPageViewPage5.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage5.Location = new System.Drawing.Point(305, 4);
-            this.radPageViewPage5.Name = "radPageViewPage5";
-            this.radPageViewPage5.Size = new System.Drawing.Size(950, 682);
-            this.radPageViewPage5.Text = "Лабораторная работа №5";
-            // 
-            // radPageViewPage6
-            // 
-            this.radPageViewPage6.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage6.Location = new System.Drawing.Point(305, 4);
-            this.radPageViewPage6.Name = "radPageViewPage6";
-            this.radPageViewPage6.Size = new System.Drawing.Size(950, 682);
-            this.radPageViewPage6.Text = "Лабораторная работа №6";
-            // 
-            // radPageViewPage7
-            // 
-            this.radPageViewPage7.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage7.Location = new System.Drawing.Point(305, 4);
-            this.radPageViewPage7.Name = "radPageViewPage7";
-            this.radPageViewPage7.Size = new System.Drawing.Size(950, 682);
-            this.radPageViewPage7.Text = "Лабораторная работа №7";
-            // 
-            // radPageViewPage8
-            // 
-            this.radPageViewPage8.AutoScroll = true;
-            this.radPageViewPage8.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage8.Location = new System.Drawing.Point(225, 4);
-            this.radPageViewPage8.Name = "radPageViewPage8";
-            this.radPageViewPage8.Size = new System.Drawing.Size(990, 682);
-            this.radPageViewPage8.Text = "Лабораторная работа №8";
-            // 
-            // radPageViewPage9
-            // 
-            this.radPageViewPage9.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage9.Location = new System.Drawing.Point(225, 4);
-            this.radPageViewPage9.Name = "radPageViewPage9";
-            this.radPageViewPage9.Size = new System.Drawing.Size(950, 682);
-            this.radPageViewPage9.Text = "Лабораторная работа №9";
-            // 
-            // radPageViewPage10
-            // 
-            this.radPageViewPage10.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage10.Location = new System.Drawing.Point(305, 4);
-            this.radPageViewPage10.Name = "radPageViewPage10";
-            this.radPageViewPage10.Size = new System.Drawing.Size(950, 682);
-            this.radPageViewPage10.Text = "Лабораторная работа №10";
-            // 
-            // radPageViewPage11
-            // 
-            this.radPageViewPage11.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage11.Location = new System.Drawing.Point(305, 4);
-            this.radPageViewPage11.Name = "radPageViewPage11";
-            this.radPageViewPage11.Size = new System.Drawing.Size(950, 682);
-            this.radPageViewPage11.Text = "Лабораторная работа №11";
-            // 
-            // radPageViewPage12
-            // 
-            this.radPageViewPage12.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage12.Location = new System.Drawing.Point(305, 4);
-            this.radPageViewPage12.Name = "radPageViewPage12";
-            this.radPageViewPage12.Size = new System.Drawing.Size(950, 682);
-            this.radPageViewPage12.Text = "Лабораторная работа №12";
-            // 
-            // radPageViewPage13
-            // 
-            this.radPageViewPage13.ItemSize = new System.Drawing.SizeF(168F, 25F);
-            this.radPageViewPage13.Location = new System.Drawing.Point(305, 4);
-            this.radPageViewPage13.Name = "radPageViewPage13";
-            this.radPageViewPage13.Size = new System.Drawing.Size(950, 682);
-            this.radPageViewPage13.Text = "Лабораторная работа №13";
-            // 
-            // radButton1
-            // 
-            this.radButton1.Location = new System.Drawing.Point(74, 1110);
-            this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(322, 56);
-            this.radButton1.TabIndex = 21;
-            this.radButton1.Text = "Посчитать";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label30.Location = new System.Drawing.Point(381, 1069);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(296, 20);
-            this.label30.TabIndex = 26;
-            this.label30.Text = "Схема 2 - последовательное соединение";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label29.Location = new System.Drawing.Point(353, 572);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(266, 20);
-            this.label29.TabIndex = 25;
-            this.label29.Text = "Схема 1 - параллельное соединение";
-            // 
             // radPageViewPage2
             // 
             this.radPageViewPage2.AutoScroll = true;
             this.radPageViewPage2.BackColor = System.Drawing.Color.White;
             this.radPageViewPage2.Controls.Add(this.radScrollablePanel2);
-            this.radPageViewPage2.ItemSize = new System.Drawing.SizeF(168F, 25F);
+            this.radPageViewPage2.ItemSize = new System.Drawing.SizeF(170F, 45F);
             this.radPageViewPage2.Location = new System.Drawing.Point(225, 4);
             this.radPageViewPage2.Name = "radPageViewPage2";
             this.radPageViewPage2.Size = new System.Drawing.Size(1001, 742);
@@ -1113,6 +1057,300 @@
             this.radScrollablePanel2.PanelContainer.Size = new System.Drawing.Size(982, 740);
             this.radScrollablePanel2.Size = new System.Drawing.Size(1001, 742);
             this.radScrollablePanel2.TabIndex = 0;
+            // 
+            // CalculateFourthTableButton
+            // 
+            this.CalculateFourthTableButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CalculateFourthTableButton.Location = new System.Drawing.Point(680, 3310);
+            this.CalculateFourthTableButton.Name = "CalculateFourthTableButton";
+            this.CalculateFourthTableButton.Size = new System.Drawing.Size(240, 56);
+            this.CalculateFourthTableButton.TabIndex = 21;
+            this.CalculateFourthTableButton.Text = "Посчитать";
+            this.CalculateFourthTableButton.Click += new System.EventHandler(this.CalculateFourthTableButton_Click);
+            // 
+            // CalculateThirdTableButton
+            // 
+            this.CalculateThirdTableButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CalculateThirdTableButton.Location = new System.Drawing.Point(595, 2974);
+            this.CalculateThirdTableButton.Name = "CalculateThirdTableButton";
+            this.CalculateThirdTableButton.Size = new System.Drawing.Size(130, 56);
+            this.CalculateThirdTableButton.TabIndex = 7;
+            this.CalculateThirdTableButton.Text = "Посчитать";
+            this.CalculateThirdTableButton.Click += new System.EventHandler(this.CalculateThirdTableButton_Click);
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = global::MyApp.Properties.Resources.Report2_3;
+            this.pictureBox15.Location = new System.Drawing.Point(146, 3401);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(721, 186);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox15.TabIndex = 29;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = global::MyApp.Properties.Resources.Report2_2_new_;
+            this.pictureBox14.Location = new System.Drawing.Point(147, 3046);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(688, 83);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox14.TabIndex = 28;
+            this.pictureBox14.TabStop = false;
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel8.ColumnCount = 2;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 69.51567F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.48433F));
+            this.tableLayoutPanel8.Controls.Add(this.label33, 1, 0);
+            this.tableLayoutPanel8.Controls.Add(this.label34, 0, 0);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(293, 2824);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 1;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(432, 43);
+            this.tableLayoutPanel8.TabIndex = 27;
+            // 
+            // label33
+            // 
+            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label33.Location = new System.Drawing.Point(303, 9);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(125, 25);
+            this.label33.TabIndex = 2;
+            this.label33.Text = "Вычислено";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label34
+            // 
+            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label34.Location = new System.Drawing.Point(4, 9);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(292, 25);
+            this.label34.TabIndex = 1;
+            this.label34.Text = "Измерено";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel10.ColumnCount = 4;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.56522F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.67633F));
+            this.tableLayoutPanel10.Controls.Add(this.R1Table3_2TextBox, 0, 2);
+            this.tableLayoutPanel10.Controls.Add(this.R2Table3_2TextBox, 0, 2);
+            this.tableLayoutPanel10.Controls.Add(this.RTable3_2TextBox, 0, 2);
+            this.tableLayoutPanel10.Controls.Add(this.R3Table3_2TextBox, 0, 2);
+            this.tableLayoutPanel10.Controls.Add(this.label51, 2, 0);
+            this.tableLayoutPanel10.Controls.Add(this.label52, 1, 0);
+            this.tableLayoutPanel10.Controls.Add(this.R3Table3_1TextBox, 2, 1);
+            this.tableLayoutPanel10.Controls.Add(this.RTable3_1TextBox, 3, 1);
+            this.tableLayoutPanel10.Controls.Add(this.label53, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.label54, 3, 0);
+            this.tableLayoutPanel10.Controls.Add(this.R2Table3_1TextBox, 1, 1);
+            this.tableLayoutPanel10.Controls.Add(this.R1Table3_1TextBox, 0, 1);
+            this.tableLayoutPanel10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(293, 2867);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 3;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(432, 101);
+            this.tableLayoutPanel10.TabIndex = 26;
+            // 
+            // R1Table3_2TextBox
+            // 
+            this.R1Table3_2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.R1Table3_2TextBox.Location = new System.Drawing.Point(4, 66);
+            this.R1Table3_2TextBox.Name = "R1Table3_2TextBox";
+            this.R1Table3_2TextBox.Size = new System.Drawing.Size(96, 29);
+            this.R1Table3_2TextBox.TabIndex = 4;
+            // 
+            // R2Table3_2TextBox
+            // 
+            this.R2Table3_2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.R2Table3_2TextBox.Location = new System.Drawing.Point(111, 66);
+            this.R2Table3_2TextBox.Name = "R2Table3_2TextBox";
+            this.R2Table3_2TextBox.Size = new System.Drawing.Size(96, 29);
+            this.R2Table3_2TextBox.TabIndex = 5;
+            // 
+            // RTable3_2TextBox
+            // 
+            this.RTable3_2TextBox.Enabled = false;
+            this.RTable3_2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RTable3_2TextBox.Location = new System.Drawing.Point(302, 66);
+            this.RTable3_2TextBox.Name = "RTable3_2TextBox";
+            this.RTable3_2TextBox.Size = new System.Drawing.Size(120, 29);
+            this.RTable3_2TextBox.TabIndex = 24;
+            // 
+            // R3Table3_2TextBox
+            // 
+            this.R3Table3_2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.R3Table3_2TextBox.Location = new System.Drawing.Point(218, 66);
+            this.R3Table3_2TextBox.Name = "R3Table3_2TextBox";
+            this.R3Table3_2TextBox.Size = new System.Drawing.Size(73, 29);
+            this.R3Table3_2TextBox.TabIndex = 6;
+            // 
+            // label51
+            // 
+            this.label51.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label51.Location = new System.Drawing.Point(218, 1);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(77, 25);
+            this.label51.TabIndex = 10;
+            this.label51.Text = "R3, Ом";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label52
+            // 
+            this.label52.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label52.Location = new System.Drawing.Point(111, 1);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(100, 25);
+            this.label52.TabIndex = 9;
+            this.label52.Text = "R2, Ом";
+            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // R3Table3_1TextBox
+            // 
+            this.R3Table3_1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.R3Table3_1TextBox.Location = new System.Drawing.Point(218, 30);
+            this.R3Table3_1TextBox.Name = "R3Table3_1TextBox";
+            this.R3Table3_1TextBox.Size = new System.Drawing.Size(73, 29);
+            this.R3Table3_1TextBox.TabIndex = 3;
+            // 
+            // RTable3_1TextBox
+            // 
+            this.RTable3_1TextBox.Enabled = false;
+            this.RTable3_1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RTable3_1TextBox.Location = new System.Drawing.Point(302, 30);
+            this.RTable3_1TextBox.Name = "RTable3_1TextBox";
+            this.RTable3_1TextBox.Size = new System.Drawing.Size(120, 29);
+            this.RTable3_1TextBox.TabIndex = 5;
+            // 
+            // label53
+            // 
+            this.label53.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label53.Location = new System.Drawing.Point(4, 1);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(100, 25);
+            this.label53.TabIndex = 0;
+            this.label53.Text = "R1, Ом";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label54
+            // 
+            this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label54.Location = new System.Drawing.Point(302, 1);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(126, 25);
+            this.label54.TabIndex = 11;
+            this.label54.Text = "Rобщ, Ом";
+            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // R2Table3_1TextBox
+            // 
+            this.R2Table3_1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.R2Table3_1TextBox.Location = new System.Drawing.Point(111, 30);
+            this.R2Table3_1TextBox.Name = "R2Table3_1TextBox";
+            this.R2Table3_1TextBox.Size = new System.Drawing.Size(96, 29);
+            this.R2Table3_1TextBox.TabIndex = 2;
+            // 
+            // R1Table3_1TextBox
+            // 
+            this.R1Table3_1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.R1Table3_1TextBox.Location = new System.Drawing.Point(4, 30);
+            this.R1Table3_1TextBox.Name = "R1Table3_1TextBox";
+            this.R1Table3_1TextBox.Size = new System.Drawing.Size(96, 29);
+            this.R1Table3_1TextBox.TabIndex = 1;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(160, 2359);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(716, 449);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox13.TabIndex = 25;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::MyApp.Properties.Resources.theory2_4;
+            this.pictureBox12.Location = new System.Drawing.Point(170, 2048);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(664, 305);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox12.TabIndex = 24;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::MyApp.Properties.Resources.theory2_3;
+            this.pictureBox11.Location = new System.Drawing.Point(162, 1519);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(713, 523);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox11.TabIndex = 23;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::MyApp.Properties.Resources.cheme2_2;
+            this.pictureBox10.Location = new System.Drawing.Point(242, 1082);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(488, 415);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox10.TabIndex = 22;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::MyApp.Properties.Resources.cheme2_1;
+            this.pictureBox9.Location = new System.Drawing.Point(227, 830);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(503, 246);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox9.TabIndex = 21;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::MyApp.Properties.Resources.theory2_2;
+            this.pictureBox8.Location = new System.Drawing.Point(138, 481);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(705, 343);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox8.TabIndex = 20;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::MyApp.Properties.Resources.theory2_1;
+            this.pictureBox7.Location = new System.Drawing.Point(129, 19);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(737, 456);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox7.TabIndex = 19;
+            this.pictureBox7.TabStop = false;
             // 
             // tableLayoutPanel7
             // 
@@ -1496,360 +1734,122 @@
             this.RTable4_1TextBox.Size = new System.Drawing.Size(101, 29);
             this.RTable4_1TextBox.TabIndex = 14;
             // 
-            // tableLayoutPanel8
-            // 
-            this.tableLayoutPanel8.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel8.ColumnCount = 2;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 69.51567F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.48433F));
-            this.tableLayoutPanel8.Controls.Add(this.label33, 1, 0);
-            this.tableLayoutPanel8.Controls.Add(this.label34, 0, 0);
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(293, 2824);
-            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-            this.tableLayoutPanel8.RowCount = 1;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(432, 43);
-            this.tableLayoutPanel8.TabIndex = 27;
-            // 
-            // label33
-            // 
-            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label33.Location = new System.Drawing.Point(303, 9);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(125, 25);
-            this.label33.TabIndex = 2;
-            this.label33.Text = "Вычислено";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label34
-            // 
-            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label34.Location = new System.Drawing.Point(4, 9);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(292, 25);
-            this.label34.TabIndex = 1;
-            this.label34.Text = "Измерено";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel10
-            // 
-            this.tableLayoutPanel10.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel10.ColumnCount = 4;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.56522F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.67633F));
-            this.tableLayoutPanel10.Controls.Add(this.R1Table3_2TextBox, 0, 2);
-            this.tableLayoutPanel10.Controls.Add(this.R2Table3_2TextBox, 0, 2);
-            this.tableLayoutPanel10.Controls.Add(this.RTable3_2TextBox, 0, 2);
-            this.tableLayoutPanel10.Controls.Add(this.R3Table3_2TextBox, 0, 2);
-            this.tableLayoutPanel10.Controls.Add(this.label51, 2, 0);
-            this.tableLayoutPanel10.Controls.Add(this.label52, 1, 0);
-            this.tableLayoutPanel10.Controls.Add(this.R3Table3_1TextBox, 2, 1);
-            this.tableLayoutPanel10.Controls.Add(this.RTable3_1TextBox, 3, 1);
-            this.tableLayoutPanel10.Controls.Add(this.label53, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.label54, 3, 0);
-            this.tableLayoutPanel10.Controls.Add(this.R2Table3_1TextBox, 1, 1);
-            this.tableLayoutPanel10.Controls.Add(this.R1Table3_1TextBox, 0, 1);
-            this.tableLayoutPanel10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(293, 2867);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 3;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(432, 101);
-            this.tableLayoutPanel10.TabIndex = 26;
-            // 
-            // R1Table3_2TextBox
-            // 
-            this.R1Table3_2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.R1Table3_2TextBox.Location = new System.Drawing.Point(4, 66);
-            this.R1Table3_2TextBox.Name = "R1Table3_2TextBox";
-            this.R1Table3_2TextBox.Size = new System.Drawing.Size(96, 29);
-            this.R1Table3_2TextBox.TabIndex = 4;
-            // 
-            // R2Table3_2TextBox
-            // 
-            this.R2Table3_2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.R2Table3_2TextBox.Location = new System.Drawing.Point(111, 66);
-            this.R2Table3_2TextBox.Name = "R2Table3_2TextBox";
-            this.R2Table3_2TextBox.Size = new System.Drawing.Size(96, 29);
-            this.R2Table3_2TextBox.TabIndex = 5;
-            // 
-            // RTable3_2TextBox
-            // 
-            this.RTable3_2TextBox.Enabled = false;
-            this.RTable3_2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RTable3_2TextBox.Location = new System.Drawing.Point(302, 66);
-            this.RTable3_2TextBox.Name = "RTable3_2TextBox";
-            this.RTable3_2TextBox.Size = new System.Drawing.Size(120, 29);
-            this.RTable3_2TextBox.TabIndex = 24;
-            // 
-            // R3Table3_2TextBox
-            // 
-            this.R3Table3_2TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.R3Table3_2TextBox.Location = new System.Drawing.Point(218, 66);
-            this.R3Table3_2TextBox.Name = "R3Table3_2TextBox";
-            this.R3Table3_2TextBox.Size = new System.Drawing.Size(73, 29);
-            this.R3Table3_2TextBox.TabIndex = 6;
-            // 
-            // label51
-            // 
-            this.label51.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label51.Location = new System.Drawing.Point(218, 1);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(77, 25);
-            this.label51.TabIndex = 10;
-            this.label51.Text = "R3, Ом";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label52
-            // 
-            this.label52.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label52.Location = new System.Drawing.Point(111, 1);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(100, 25);
-            this.label52.TabIndex = 9;
-            this.label52.Text = "R2, Ом";
-            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // R3Table3_1TextBox
-            // 
-            this.R3Table3_1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.R3Table3_1TextBox.Location = new System.Drawing.Point(218, 30);
-            this.R3Table3_1TextBox.Name = "R3Table3_1TextBox";
-            this.R3Table3_1TextBox.Size = new System.Drawing.Size(73, 29);
-            this.R3Table3_1TextBox.TabIndex = 3;
-            // 
-            // RTable3_1TextBox
-            // 
-            this.RTable3_1TextBox.Enabled = false;
-            this.RTable3_1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RTable3_1TextBox.Location = new System.Drawing.Point(302, 30);
-            this.RTable3_1TextBox.Name = "RTable3_1TextBox";
-            this.RTable3_1TextBox.Size = new System.Drawing.Size(120, 29);
-            this.RTable3_1TextBox.TabIndex = 5;
-            // 
-            // label53
-            // 
-            this.label53.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label53.Location = new System.Drawing.Point(4, 1);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(100, 25);
-            this.label53.TabIndex = 0;
-            this.label53.Text = "R1, Ом";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label54
-            // 
-            this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label54.Location = new System.Drawing.Point(302, 1);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(126, 25);
-            this.label54.TabIndex = 11;
-            this.label54.Text = "Rобщ, Ом";
-            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // R2Table3_1TextBox
-            // 
-            this.R2Table3_1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.R2Table3_1TextBox.Location = new System.Drawing.Point(111, 30);
-            this.R2Table3_1TextBox.Name = "R2Table3_1TextBox";
-            this.R2Table3_1TextBox.Size = new System.Drawing.Size(96, 29);
-            this.R2Table3_1TextBox.TabIndex = 2;
-            // 
-            // R1Table3_1TextBox
-            // 
-            this.R1Table3_1TextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.R1Table3_1TextBox.Location = new System.Drawing.Point(4, 30);
-            this.R1Table3_1TextBox.Name = "R1Table3_1TextBox";
-            this.R1Table3_1TextBox.Size = new System.Drawing.Size(96, 29);
-            this.R1Table3_1TextBox.TabIndex = 1;
-            // 
-            // CalculateThirdTableButton
-            // 
-            this.CalculateThirdTableButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CalculateThirdTableButton.Location = new System.Drawing.Point(595, 2974);
-            this.CalculateThirdTableButton.Name = "CalculateThirdTableButton";
-            this.CalculateThirdTableButton.Size = new System.Drawing.Size(130, 56);
-            this.CalculateThirdTableButton.TabIndex = 7;
-            this.CalculateThirdTableButton.Text = "Посчитать";
-            this.CalculateThirdTableButton.Click += new System.EventHandler(this.CalculateThirdTableButton_Click);
-            // 
-            // CalculateFourthTableButton
-            // 
-            this.CalculateFourthTableButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CalculateFourthTableButton.Location = new System.Drawing.Point(680, 3310);
-            this.CalculateFourthTableButton.Name = "CalculateFourthTableButton";
-            this.CalculateFourthTableButton.Size = new System.Drawing.Size(240, 56);
-            this.CalculateFourthTableButton.TabIndex = 21;
-            this.CalculateFourthTableButton.Text = "Посчитать";
-            this.CalculateFourthTableButton.Click += new System.EventHandler(this.CalculateFourthTableButton_Click);
-            // 
-            // CloseFormPictureBox
-            // 
-            this.CloseFormPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("CloseFormPictureBox.Image")));
-            this.CloseFormPictureBox.Location = new System.Drawing.Point(21, 24);
-            this.CloseFormPictureBox.Name = "CloseFormPictureBox";
-            this.CloseFormPictureBox.Size = new System.Drawing.Size(89, 89);
-            this.CloseFormPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.CloseFormPictureBox.TabIndex = 1;
-            this.CloseFormPictureBox.TabStop = false;
-            this.CloseFormPictureBox.Click += new System.EventHandler(this.CloseFormPictureBox_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::MyApp.Properties.Resources.Report1;
-            this.pictureBox6.Location = new System.Drawing.Point(163, 1296);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(651, 379);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox6.TabIndex = 32;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::MyApp.Properties.Resources.cheme1_2;
-            this.pictureBox5.Location = new System.Drawing.Point(178, 768);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(631, 256);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox5.TabIndex = 31;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::MyApp.Properties.Resources.cheme1_1;
-            this.pictureBox4.Location = new System.Drawing.Point(215, 543);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(574, 209);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox4.TabIndex = 30;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::MyApp.Properties.Resources.theory1_2;
-            this.pictureBox3.Location = new System.Drawing.Point(163, 1030);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(646, 231);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 29;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::MyApp.Properties.Resources.theory1_1;
-            this.pictureBox2.Location = new System.Drawing.Point(158, 19);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(651, 518);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 28;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = global::MyApp.Properties.Resources.Report2_3;
-            this.pictureBox15.Location = new System.Drawing.Point(146, 3401);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(721, 186);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox15.TabIndex = 29;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::MyApp.Properties.Resources.Report2_2_new_;
-            this.pictureBox14.Location = new System.Drawing.Point(147, 3046);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(688, 83);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox14.TabIndex = 28;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(160, 2359);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(716, 449);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox13.TabIndex = 25;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::MyApp.Properties.Resources.theory2_4;
-            this.pictureBox12.Location = new System.Drawing.Point(170, 2048);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(664, 305);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox12.TabIndex = 24;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::MyApp.Properties.Resources.theory2_3;
-            this.pictureBox11.Location = new System.Drawing.Point(162, 1519);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(713, 523);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox11.TabIndex = 23;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::MyApp.Properties.Resources.cheme2_2;
-            this.pictureBox10.Location = new System.Drawing.Point(242, 1082);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(488, 415);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox10.TabIndex = 22;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::MyApp.Properties.Resources.cheme2_1;
-            this.pictureBox9.Location = new System.Drawing.Point(227, 830);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(503, 246);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox9.TabIndex = 21;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::MyApp.Properties.Resources.theory2_2;
-            this.pictureBox8.Location = new System.Drawing.Point(138, 481);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(705, 343);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox8.TabIndex = 20;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::MyApp.Properties.Resources.theory2_1;
-            this.pictureBox7.Location = new System.Drawing.Point(129, 19);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(737, 456);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox7.TabIndex = 19;
-            this.pictureBox7.TabStop = false;
+            // radPageViewPage3
+            // 
+            this.radPageViewPage3.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage3.Location = new System.Drawing.Point(225, 4);
+            this.radPageViewPage3.Name = "radPageViewPage3";
+            this.radPageViewPage3.Size = new System.Drawing.Size(1001, 742);
+            this.radPageViewPage3.Text = "Лабораторная работа №3";
+            // 
+            // radPageViewPage4
+            // 
+            this.radPageViewPage4.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage4.Location = new System.Drawing.Point(225, 4);
+            this.radPageViewPage4.Name = "radPageViewPage4";
+            this.radPageViewPage4.Size = new System.Drawing.Size(950, 682);
+            this.radPageViewPage4.Text = "Лабораторная работа №4";
+            // 
+            // radPageViewPage5
+            // 
+            this.radPageViewPage5.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage5.Location = new System.Drawing.Point(305, 4);
+            this.radPageViewPage5.Name = "radPageViewPage5";
+            this.radPageViewPage5.Size = new System.Drawing.Size(950, 682);
+            this.radPageViewPage5.Text = "Лабораторная работа №5";
+            // 
+            // radPageViewPage6
+            // 
+            this.radPageViewPage6.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage6.Location = new System.Drawing.Point(305, 4);
+            this.radPageViewPage6.Name = "radPageViewPage6";
+            this.radPageViewPage6.Size = new System.Drawing.Size(950, 682);
+            this.radPageViewPage6.Text = "Лабораторная работа №6";
+            // 
+            // radPageViewPage7
+            // 
+            this.radPageViewPage7.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage7.Location = new System.Drawing.Point(305, 4);
+            this.radPageViewPage7.Name = "radPageViewPage7";
+            this.radPageViewPage7.Size = new System.Drawing.Size(950, 682);
+            this.radPageViewPage7.Text = "Лабораторная работа №7";
+            // 
+            // radPageViewPage8
+            // 
+            this.radPageViewPage8.AutoScroll = true;
+            this.radPageViewPage8.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage8.Location = new System.Drawing.Point(225, 4);
+            this.radPageViewPage8.Name = "radPageViewPage8";
+            this.radPageViewPage8.Size = new System.Drawing.Size(990, 682);
+            this.radPageViewPage8.Text = "Лабораторная работа №8";
+            // 
+            // radPageViewPage9
+            // 
+            this.radPageViewPage9.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage9.Location = new System.Drawing.Point(225, 4);
+            this.radPageViewPage9.Name = "radPageViewPage9";
+            this.radPageViewPage9.Size = new System.Drawing.Size(950, 682);
+            this.radPageViewPage9.Text = "Лабораторная работа №9";
+            // 
+            // radPageViewPage10
+            // 
+            this.radPageViewPage10.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage10.Location = new System.Drawing.Point(305, 4);
+            this.radPageViewPage10.Name = "radPageViewPage10";
+            this.radPageViewPage10.Size = new System.Drawing.Size(950, 682);
+            this.radPageViewPage10.Text = "Лабораторная работа №10";
+            // 
+            // radPageViewPage11
+            // 
+            this.radPageViewPage11.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage11.Location = new System.Drawing.Point(305, 4);
+            this.radPageViewPage11.Name = "radPageViewPage11";
+            this.radPageViewPage11.Size = new System.Drawing.Size(950, 682);
+            this.radPageViewPage11.Text = "Лабораторная работа №11";
+            // 
+            // radPageViewPage12
+            // 
+            this.radPageViewPage12.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage12.Location = new System.Drawing.Point(305, 4);
+            this.radPageViewPage12.Name = "radPageViewPage12";
+            this.radPageViewPage12.Size = new System.Drawing.Size(950, 682);
+            this.radPageViewPage12.Text = "Лабораторная работа №12";
+            // 
+            // radPageViewPage13
+            // 
+            this.radPageViewPage13.ItemSize = new System.Drawing.SizeF(170F, 45F);
+            this.radPageViewPage13.Location = new System.Drawing.Point(305, 4);
+            this.radPageViewPage13.Name = "radPageViewPage13";
+            this.radPageViewPage13.Size = new System.Drawing.Size(950, 682);
+            this.radPageViewPage13.Text = "Лабораторная работа №13";
+            // 
+            // radButton1
+            // 
+            this.radButton1.Location = new System.Drawing.Point(74, 1110);
+            this.radButton1.Name = "radButton1";
+            this.radButton1.Size = new System.Drawing.Size(322, 56);
+            this.radButton1.TabIndex = 21;
+            this.radButton1.Text = "Посчитать";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label30.Location = new System.Drawing.Point(381, 1069);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(296, 20);
+            this.label30.TabIndex = 26;
+            this.label30.Text = "Схема 2 - последовательное соединение";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label29.Location = new System.Drawing.Point(353, 572);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(266, 20);
+            this.label29.TabIndex = 25;
+            this.label29.Text = "Схема 1 - параллельное соединение";
             // 
             // pictureBox1
             // 
@@ -1892,7 +1892,7 @@
             // 
             // 
             this.RootElement.ApplyShapeToControl = true;
-            this.Text = "LabsForm";
+            this.Text = "ЭСО \"Основы электроники\"";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.LabsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).EndInit();
@@ -1900,6 +1900,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
             this.splitPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPageView)).EndInit();
@@ -1910,6 +1911,11 @@
             this.radScrollablePanel1.PanelContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radScrollablePanel1)).EndInit();
             this.radScrollablePanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CalculateSecondTableButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CalculateFirstTableDataButton)).EndInit();
             this.tableLayoutPanel5.ResumeLayout(false);
@@ -1920,31 +1926,20 @@
             this.FirstTableLayoutPanel.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             this.radPageViewPage2.ResumeLayout(false);
             this.radPageViewPage2.PerformLayout();
             this.radScrollablePanel2.PanelContainer.ResumeLayout(false);
             this.radScrollablePanel2.PanelContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radScrollablePanel2)).EndInit();
             this.radScrollablePanel2.ResumeLayout(false);
-            this.tableLayoutPanel7.ResumeLayout(false);
-            this.tableLayoutPanel7.PerformLayout();
-            this.tableLayoutPanel9.ResumeLayout(false);
-            this.tableLayoutPanel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CalculateFourthTableButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CalculateThirdTableButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.tableLayoutPanel8.ResumeLayout(false);
             this.tableLayoutPanel8.PerformLayout();
             this.tableLayoutPanel10.ResumeLayout(false);
             this.tableLayoutPanel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CalculateThirdTableButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CalculateFourthTableButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
@@ -1952,6 +1947,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.tableLayoutPanel7.ResumeLayout(false);
+            this.tableLayoutPanel7.PerformLayout();
+            this.tableLayoutPanel9.ResumeLayout(false);
+            this.tableLayoutPanel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FirstTablePictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();

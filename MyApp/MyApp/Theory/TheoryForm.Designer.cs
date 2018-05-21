@@ -199,7 +199,7 @@
             this.TheoryPageView.Location = new System.Drawing.Point(0, 0);
             this.TheoryPageView.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.TheoryPageView.Name = "TheoryPageView";
-            this.TheoryPageView.SelectedPage = this.radPageViewPage1;
+            this.TheoryPageView.SelectedPage = this.radPageViewItemPage1;
             this.TheoryPageView.Size = new System.Drawing.Size(1219, 690);
             this.TheoryPageView.TabIndex = 0;
             this.TheoryPageView.ViewMode = Telerik.WinControls.UI.PageViewMode.Backstage;
@@ -406,7 +406,7 @@
             // 
             // 
             this.RootElement.ApplyShapeToControl = true;
-            this.Text = "TheoryForm1";
+            this.Text = "ЭСО \"Основы электроники\"";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.TheoryForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).EndInit();

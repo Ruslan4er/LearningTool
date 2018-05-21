@@ -37,9 +37,9 @@
             this.CloseFormPictureBox = new System.Windows.Forms.PictureBox();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.QuestionGroupBox = new System.Windows.Forms.GroupBox();
+            this.NextQuestionButton = new Telerik.WinControls.UI.RadButton();
             this.QuestionCounterLabel = new Telerik.WinControls.UI.RadLabel();
             this.QuestionLabel = new Telerik.WinControls.UI.RadLabel();
-            this.NextQuestionButton = new System.Windows.Forms.Button();
             this.Answer4RadioButton = new Telerik.WinControls.UI.RadRadioButton();
             this.Answer2RadioButton = new Telerik.WinControls.UI.RadRadioButton();
             this.Answer3RadioButton = new Telerik.WinControls.UI.RadRadioButton();
@@ -54,6 +54,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
             this.splitPanel2.SuspendLayout();
             this.QuestionGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NextQuestionButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionCounterLabel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionLabel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer4RadioButton)).BeginInit();
@@ -159,9 +160,9 @@
             // 
             // QuestionGroupBox
             // 
+            this.QuestionGroupBox.Controls.Add(this.NextQuestionButton);
             this.QuestionGroupBox.Controls.Add(this.QuestionCounterLabel);
             this.QuestionGroupBox.Controls.Add(this.QuestionLabel);
-            this.QuestionGroupBox.Controls.Add(this.NextQuestionButton);
             this.QuestionGroupBox.Controls.Add(this.Answer4RadioButton);
             this.QuestionGroupBox.Controls.Add(this.Answer2RadioButton);
             this.QuestionGroupBox.Controls.Add(this.Answer3RadioButton);
@@ -171,6 +172,16 @@
             this.QuestionGroupBox.Size = new System.Drawing.Size(658, 370);
             this.QuestionGroupBox.TabIndex = 1;
             this.QuestionGroupBox.TabStop = false;
+            // 
+            // NextQuestionButton
+            // 
+            this.NextQuestionButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextQuestionButton.Location = new System.Drawing.Point(186, 298);
+            this.NextQuestionButton.Name = "NextQuestionButton";
+            this.NextQuestionButton.Size = new System.Drawing.Size(150, 57);
+            this.NextQuestionButton.TabIndex = 6;
+            this.NextQuestionButton.Text = "Далее";
+            this.NextQuestionButton.Click += new System.EventHandler(this.NextQuestionButton_Click);
             // 
             // QuestionCounterLabel
             // 
@@ -190,16 +201,6 @@
             this.QuestionLabel.Size = new System.Drawing.Size(108, 24);
             this.QuestionLabel.TabIndex = 4;
             this.QuestionLabel.Text = "Текст вопроса";
-            // 
-            // NextQuestionButton
-            // 
-            this.NextQuestionButton.Location = new System.Drawing.Point(198, 298);
-            this.NextQuestionButton.Name = "NextQuestionButton";
-            this.NextQuestionButton.Size = new System.Drawing.Size(123, 62);
-            this.NextQuestionButton.TabIndex = 3;
-            this.NextQuestionButton.Text = "Далее";
-            this.NextQuestionButton.UseVisualStyleBackColor = true;
-            this.NextQuestionButton.Click += new System.EventHandler(this.NextQuestionButton_Click);
             // 
             // Answer4RadioButton
             // 
@@ -240,7 +241,7 @@
             // ChapterNameLabel
             // 
             this.ChapterNameLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ChapterNameLabel.Location = new System.Drawing.Point(200, 66);
+            this.ChapterNameLabel.Location = new System.Drawing.Point(216, 51);
             this.ChapterNameLabel.Name = "ChapterNameLabel";
             this.ChapterNameLabel.Size = new System.Drawing.Size(152, 30);
             this.ChapterNameLabel.TabIndex = 0;
@@ -257,7 +258,7 @@
             // 
             // 
             this.RootElement.ApplyShapeToControl = true;
-            this.Text = "TestsForm";
+            this.Text = "ЭСО \"Основы электроники\"";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).EndInit();
             this.radSplitContainer1.ResumeLayout(false);
@@ -271,6 +272,7 @@
             this.splitPanel2.PerformLayout();
             this.QuestionGroupBox.ResumeLayout(false);
             this.QuestionGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NextQuestionButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionCounterLabel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionLabel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer4RadioButton)).EndInit();
@@ -295,11 +297,11 @@
         private Telerik.WinControls.UI.RadRadioButton Answer3RadioButton;
         private Telerik.WinControls.UI.RadRadioButton Answer1RadioButton;
         private Telerik.WinControls.UI.RadLabel ChapterNameLabel;
-        private System.Windows.Forms.Button NextQuestionButton;
         private Telerik.WinControls.UI.RadLabel QuestionLabel;
         private Telerik.WinControls.UI.RadLabel QuestionCounterLabel;
         private System.Windows.Forms.GroupBox QuestionGroupBox;
         private System.Windows.Forms.PictureBox ToTheoryFormPictureBox;
         private System.Windows.Forms.Label label1;
+        private Telerik.WinControls.UI.RadButton NextQuestionButton;
     }
 }

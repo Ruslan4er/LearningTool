@@ -20,10 +20,9 @@ namespace MyApp.UserProfileForms
             this._userId = userId;
             InitializeComponent();
             FillGrid();
-            
+
         }
-
-
+        
         private void FillGrid()
         {
             using (var context = new LearningToolDBEntities())
@@ -36,10 +35,7 @@ namespace MyApp.UserProfileForms
                             Result = tr.Mark,
                             Date = tr.Date
                         };
-                foreach (var value in x)
-                {
-                   
-                }
+
 
                 TestResultGridView.DataSource = x.ToList();
                 TestResultGridView.Columns[0].HeaderText = @"Глава";
@@ -61,6 +57,11 @@ namespace MyApp.UserProfileForms
         private void OpenTestsFormPictureBox_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void CloseFormPictureBox_Click_1(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

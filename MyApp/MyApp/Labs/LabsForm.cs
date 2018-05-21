@@ -22,7 +22,7 @@ namespace MyApp.Labs
 
         private void LabsForm_Load(object sender, EventArgs e)
         {
-            var textFont = new Font(this.TheoryPageView.Font.FontFamily, 11);
+            var textFont = new Font(this.TheoryPageView.Font.FontFamily, 12);
             var stripElement = (RadPageViewStripElement)this.TheoryPageView.ViewElement;
             foreach (RadPageViewStripItem item in stripElement.ItemContainer.ItemLayout.Children)
                 item.Font = textFont;

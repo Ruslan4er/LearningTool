@@ -244,5 +244,14 @@
   <ItemGroup>
     <None Include="Resources\Report2_2%28new%29.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laba4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\termins3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Теория2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
