@@ -40,7 +40,6 @@
             this.NextQuestionButton = new Telerik.WinControls.UI.RadButton();
             this.QuestionCounterLabel = new Telerik.WinControls.UI.RadLabel();
             this.QuestionLabel = new Telerik.WinControls.UI.RadLabel();
-            this.Answer4RadioButton = new Telerik.WinControls.UI.RadRadioButton();
             this.Answer2RadioButton = new Telerik.WinControls.UI.RadRadioButton();
             this.Answer3RadioButton = new Telerik.WinControls.UI.RadRadioButton();
             this.Answer1RadioButton = new Telerik.WinControls.UI.RadRadioButton();
@@ -57,7 +56,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.NextQuestionButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionCounterLabel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionLabel)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Answer4RadioButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer2RadioButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer3RadioButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer1RadioButton)).BeginInit();
@@ -163,7 +161,6 @@
             this.QuestionGroupBox.Controls.Add(this.NextQuestionButton);
             this.QuestionGroupBox.Controls.Add(this.QuestionCounterLabel);
             this.QuestionGroupBox.Controls.Add(this.QuestionLabel);
-            this.QuestionGroupBox.Controls.Add(this.Answer4RadioButton);
             this.QuestionGroupBox.Controls.Add(this.Answer2RadioButton);
             this.QuestionGroupBox.Controls.Add(this.Answer3RadioButton);
             this.QuestionGroupBox.Controls.Add(this.Answer1RadioButton);
@@ -201,15 +198,6 @@
             this.QuestionLabel.Size = new System.Drawing.Size(108, 24);
             this.QuestionLabel.TabIndex = 4;
             this.QuestionLabel.Text = "Текст вопроса";
-            // 
-            // Answer4RadioButton
-            // 
-            this.Answer4RadioButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Answer4RadioButton.Location = new System.Drawing.Point(7, 237);
-            this.Answer4RadioButton.Name = "Answer4RadioButton";
-            this.Answer4RadioButton.Size = new System.Drawing.Size(75, 24);
-            this.Answer4RadioButton.TabIndex = 2;
-            this.Answer4RadioButton.Text = "Ответ 4";
             // 
             // Answer2RadioButton
             // 
@@ -275,7 +263,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.NextQuestionButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionCounterLabel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionLabel)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Answer4RadioButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer2RadioButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer3RadioButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Answer1RadioButton)).EndInit();
@@ -292,7 +279,6 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.PictureBox CloseFormPictureBox;
         private Telerik.WinControls.UI.SplitPanel splitPanel2;
-        private Telerik.WinControls.UI.RadRadioButton Answer4RadioButton;
         private Telerik.WinControls.UI.RadRadioButton Answer2RadioButton;
         private Telerik.WinControls.UI.RadRadioButton Answer3RadioButton;
         private Telerik.WinControls.UI.RadRadioButton Answer1RadioButton;

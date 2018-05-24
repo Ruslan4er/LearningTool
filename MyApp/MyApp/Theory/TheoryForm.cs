@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 using MyApp.Tests;
+using Telerik.WinControls;
 using Telerik.WinControls.UI;
 
 namespace MyApp.Theory
@@ -103,6 +104,11 @@ namespace MyApp.Theory
 
         private void OpenTestsFormPictureBox_Click(object sender, EventArgs e)
         {
+            if (_chapterId == 0)
+            {
+                RadMessageBox.Show("Выберите главу");
+                return;
+            }
             var frm = new TestsForm(_chapterId);
             frm.Closed += (s, args) => Show(); 
             frm.Load += (s, args) => Hide();
