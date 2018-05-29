@@ -119,6 +119,18 @@ namespace MyApp.Theory
             //this.Show();
         }
 
-
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (_chapterId == 0)
+            {
+                RadMessageBox.Show("Выберите главу");
+                return;
+            }
+            printDialog1.ShowDialog();
+            //printDocument1.DocumentName = Application.StartupPath + "\\Content\\Theory\\1.pdf";
+            //printDocument1.PrinterSettings = printDialog1.PrinterSettings;
+            //printDocument1.PrinterSettings.PrintFileName = Application.StartupPath + "\\Content\\Theory\\1.pdf";
+            //printDocument1.Print();
+        }
     }
 }

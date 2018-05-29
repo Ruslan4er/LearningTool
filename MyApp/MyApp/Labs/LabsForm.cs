@@ -247,10 +247,15 @@ namespace MyApp.Labs
             R3Table4_2TextBox.ReadOnly = true;
         }
 
-        private static bool IsFieldsFill(List<TextBox> textBoxesList)
+        private static bool IsFieldsFill(IEnumerable<TextBox> textBoxesList)
         {
             return textBoxesList.All(textBox => !string.IsNullOrEmpty(textBox.Text));
         }
 
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            var printDialog1 = new PrintDialog();
+            printDialog1.ShowDialog();
+        }
     }
 }

@@ -193,7 +193,7 @@
             // QuestionLabel
             // 
             this.QuestionLabel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.QuestionLabel.Location = new System.Drawing.Point(88, 75);
+            this.QuestionLabel.Location = new System.Drawing.Point(37, 77);
             this.QuestionLabel.Name = "QuestionLabel";
             this.QuestionLabel.Size = new System.Drawing.Size(108, 24);
             this.QuestionLabel.TabIndex = 4;

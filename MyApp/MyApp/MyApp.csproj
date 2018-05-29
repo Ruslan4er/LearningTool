@@ -83,12 +83,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account\AccountForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Account\AccountForm.Designer.cs">
-      <DependentUpon>AccountForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Authorization\AuthorizationForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +94,12 @@
     </Compile>
     <Compile Include="Authorization\RegistrationNewUserForm.Designer.cs">
       <DependentUpon>RegistrationNewUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Glossarius\GlossariusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glossarius\GlossariusForm.Designer.cs">
+      <DependentUpon>GlossariusForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Labs\LabsForm.cs">
       <SubType>Form</SubType>
@@ -134,14 +134,14 @@
     <Compile Include="UserProfileForms\UserProfileForm.Designer.cs">
       <DependentUpon>UserProfileForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Account\AccountForm.resx">
-      <DependentUpon>AccountForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Authorization\AuthorizationForm.resx">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Authorization\RegistrationNewUserForm.resx">
       <DependentUpon>RegistrationNewUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glossarius\GlossariusForm.resx">
+      <DependentUpon>GlossariusForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Labs\LabsForm.resx">
       <DependentUpon>LabsForm.cs</DependentUpon>
@@ -252,6 +252,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Теория2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Рисунок1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

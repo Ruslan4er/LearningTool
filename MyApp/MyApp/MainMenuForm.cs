@@ -1,7 +1,8 @@
 ﻿using MyApp.Labs;
 using MyApp.Theory;
-using System;
 using MyApp.UserProfileForms;
+using System;
+using MyApp.Glossarius;
 using Telerik.WinControls.UI;
 
 namespace MyApp
@@ -37,7 +38,10 @@ namespace MyApp
 
         private void TestingPanel_Click(object sender, EventArgs e)
         {
-
+            var frm = new GlossariusForm();
+            frm.Closed += (s, args) => this.Show();
+            frm.Show();
+            Hide();
         }
 
         private void OpenUserProfileFormButton_Click(object sender, EventArgs e)
@@ -46,7 +50,11 @@ namespace MyApp
             frm.Closed += (s, args) => this.Show();
             frm.Show();
             this.Hide();
-            
+        }
+
+        private void OpenHelpButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Help.chm");
         }
     }
 }

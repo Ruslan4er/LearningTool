@@ -7,13 +7,18 @@ using System.Text;
 using System.Windows.Forms;
 using Telerik.WinControls;
 
-namespace MyApp.Account
+namespace MyApp.Glossarius
 {
-    public partial class AccountForm : Telerik.WinControls.UI.RadForm
+    public partial class GlossariusForm : Telerik.WinControls.UI.RadForm
     {
-        public AccountForm()
+        public GlossariusForm()
         {
             InitializeComponent();
+        }
+
+        private void CloseFormPictureBox_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

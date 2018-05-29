@@ -30,31 +30,33 @@
         {
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
+            this.TheoryPanel = new System.Windows.Forms.PictureBox();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
+            this.LabsPanel = new System.Windows.Forms.PictureBox();
             this.splitPanel3 = new Telerik.WinControls.UI.SplitPanel();
+            this.TestingPanel = new System.Windows.Forms.PictureBox();
             this.splitPanel4 = new Telerik.WinControls.UI.SplitPanel();
             this.OpenUserProfileFormButton = new Telerik.WinControls.UI.RadButton();
             this.CloseFormButton = new Telerik.WinControls.UI.RadButton();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
-            this.TheoryPanel = new System.Windows.Forms.PictureBox();
-            this.LabsPanel = new System.Windows.Forms.PictureBox();
-            this.TestingPanel = new System.Windows.Forms.PictureBox();
+            this.OpenHelpButton = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
             this.splitPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TheoryPanel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
             this.splitPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LabsPanel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel3)).BeginInit();
             this.splitPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TestingPanel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel4)).BeginInit();
             this.splitPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.OpenUserProfileFormButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseFormButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TheoryPanel)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LabsPanel)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TestingPanel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OpenHelpButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,6 +92,18 @@
             this.splitPanel1.TabStop = false;
             this.splitPanel1.Text = "splitPanel1";
             // 
+            // TheoryPanel
+            // 
+            this.TheoryPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TheoryPanel.Image = global::MyApp.Properties.Resources.Теория2;
+            this.TheoryPanel.Location = new System.Drawing.Point(0, 0);
+            this.TheoryPanel.Name = "TheoryPanel";
+            this.TheoryPanel.Size = new System.Drawing.Size(332, 686);
+            this.TheoryPanel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.TheoryPanel.TabIndex = 0;
+            this.TheoryPanel.TabStop = false;
+            this.TheoryPanel.Click += new System.EventHandler(this.TheoryPanel_Click);
+            // 
             // splitPanel2
             // 
             this.splitPanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -104,6 +118,17 @@
             this.splitPanel2.TabIndex = 1;
             this.splitPanel2.TabStop = false;
             this.splitPanel2.Text = "splitPanel2";
+            // 
+            // LabsPanel
+            // 
+            this.LabsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LabsPanel.Image = global::MyApp.Properties.Resources.laba4;
+            this.LabsPanel.Location = new System.Drawing.Point(0, 0);
+            this.LabsPanel.Name = "LabsPanel";
+            this.LabsPanel.Size = new System.Drawing.Size(332, 686);
+            this.LabsPanel.TabIndex = 1;
+            this.LabsPanel.TabStop = false;
+            this.LabsPanel.Click += new System.EventHandler(this.LabsPanel_Click);
             // 
             // splitPanel3
             // 
@@ -120,9 +145,21 @@
             this.splitPanel3.TabStop = false;
             this.splitPanel3.Text = "splitPanel3";
             // 
+            // TestingPanel
+            // 
+            this.TestingPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TestingPanel.Image = global::MyApp.Properties.Resources.termins3;
+            this.TestingPanel.Location = new System.Drawing.Point(0, 0);
+            this.TestingPanel.Name = "TestingPanel";
+            this.TestingPanel.Size = new System.Drawing.Size(332, 686);
+            this.TestingPanel.TabIndex = 1;
+            this.TestingPanel.TabStop = false;
+            this.TestingPanel.Click += new System.EventHandler(this.TestingPanel_Click);
+            // 
             // splitPanel4
             // 
             this.splitPanel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitPanel4.Controls.Add(this.OpenHelpButton);
             this.splitPanel4.Controls.Add(this.OpenUserProfileFormButton);
             this.splitPanel4.Controls.Add(this.CloseFormButton);
             this.splitPanel4.Controls.Add(this.UserNameLabel);
@@ -142,7 +179,7 @@
             // 
             this.OpenUserProfileFormButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.OpenUserProfileFormButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.OpenUserProfileFormButton.Location = new System.Drawing.Point(75, 478);
+            this.OpenUserProfileFormButton.Location = new System.Drawing.Point(75, 374);
             this.OpenUserProfileFormButton.Name = "OpenUserProfileFormButton";
             this.OpenUserProfileFormButton.Size = new System.Drawing.Size(207, 76);
             this.OpenUserProfileFormButton.TabIndex = 7;
@@ -181,39 +218,16 @@
             this.Label3.TabIndex = 4;
             this.Label3.Text = "Приветствуем,";
             // 
-            // TheoryPanel
+            // OpenHelpButton
             // 
-            this.TheoryPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TheoryPanel.Image = global::MyApp.Properties.Resources.Теория2;
-            this.TheoryPanel.Location = new System.Drawing.Point(0, 0);
-            this.TheoryPanel.Name = "TheoryPanel";
-            this.TheoryPanel.Size = new System.Drawing.Size(332, 686);
-            this.TheoryPanel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.TheoryPanel.TabIndex = 0;
-            this.TheoryPanel.TabStop = false;
-            this.TheoryPanel.Click += new System.EventHandler(this.TheoryPanel_Click);
-            // 
-            // LabsPanel
-            // 
-            this.LabsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LabsPanel.Image = global::MyApp.Properties.Resources.laba4;
-            this.LabsPanel.Location = new System.Drawing.Point(0, 0);
-            this.LabsPanel.Name = "LabsPanel";
-            this.LabsPanel.Size = new System.Drawing.Size(332, 686);
-            this.LabsPanel.TabIndex = 1;
-            this.LabsPanel.TabStop = false;
-            this.LabsPanel.Click += new System.EventHandler(this.LabsPanel_Click);
-            // 
-            // TestingPanel
-            // 
-            this.TestingPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TestingPanel.Image = global::MyApp.Properties.Resources.termins3;
-            this.TestingPanel.Location = new System.Drawing.Point(0, 0);
-            this.TestingPanel.Name = "TestingPanel";
-            this.TestingPanel.Size = new System.Drawing.Size(332, 686);
-            this.TestingPanel.TabIndex = 1;
-            this.TestingPanel.TabStop = false;
-            this.TestingPanel.Click += new System.EventHandler(this.TestingPanel_Click);
+            this.OpenHelpButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.OpenHelpButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.OpenHelpButton.Location = new System.Drawing.Point(75, 493);
+            this.OpenHelpButton.Name = "OpenHelpButton";
+            this.OpenHelpButton.Size = new System.Drawing.Size(207, 76);
+            this.OpenHelpButton.TabIndex = 8;
+            this.OpenHelpButton.Text = "Справка";
+            this.OpenHelpButton.Click += new System.EventHandler(this.OpenHelpButton_Click);
             // 
             // MainMenuForm
             // 
@@ -232,18 +246,19 @@
             this.radSplitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.TheoryPanel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.LabsPanel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel3)).EndInit();
             this.splitPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.TestingPanel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel4)).EndInit();
             this.splitPanel4.ResumeLayout(false);
             this.splitPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.OpenUserProfileFormButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseFormButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TheoryPanel)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LabsPanel)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TestingPanel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OpenHelpButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -263,5 +278,6 @@
         private System.Windows.Forms.Label UserNameLabel;
         private System.Windows.Forms.Label Label3;
         private Telerik.WinControls.UI.RadButton OpenUserProfileFormButton;
+        private Telerik.WinControls.UI.RadButton OpenHelpButton;
     }
 }

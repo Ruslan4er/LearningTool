@@ -173,6 +173,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.FirstTablePictureBox = new System.Windows.Forms.PictureBox();
             this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
@@ -219,6 +221,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FirstTablePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -233,12 +236,14 @@
             // 
             // 
             this.radSplitContainer1.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.radSplitContainer1.Size = new System.Drawing.Size(1370, 750);
+            this.radSplitContainer1.Size = new System.Drawing.Size(1362, 742);
             this.radSplitContainer1.TabIndex = 0;
             this.radSplitContainer1.TabStop = false;
             // 
             // splitPanel1
             // 
+            this.splitPanel1.Controls.Add(this.label24);
+            this.splitPanel1.Controls.Add(this.pictureBox16);
             this.splitPanel1.Controls.Add(this.label35);
             this.splitPanel1.Controls.Add(this.CloseFormPictureBox);
             this.splitPanel1.Location = new System.Drawing.Point(0, 0);
@@ -247,7 +252,7 @@
             // 
             // 
             this.splitPanel1.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel1.Size = new System.Drawing.Size(136, 750);
+            this.splitPanel1.Size = new System.Drawing.Size(135, 742);
             this.splitPanel1.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(-0.4002954F, 0F);
             this.splitPanel1.SizeInfo.SplitterCorrection = new System.Drawing.Size(-421, 0);
             this.splitPanel1.TabIndex = 0;
@@ -279,13 +284,13 @@
             // 
             this.splitPanel2.AutoScroll = true;
             this.splitPanel2.Controls.Add(this.TheoryPageView);
-            this.splitPanel2.Location = new System.Drawing.Point(140, 0);
+            this.splitPanel2.Location = new System.Drawing.Point(139, 0);
             this.splitPanel2.Name = "splitPanel2";
             // 
             // 
             // 
             this.splitPanel2.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel2.Size = new System.Drawing.Size(1230, 750);
+            this.splitPanel2.Size = new System.Drawing.Size(1223, 742);
             this.splitPanel2.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0.4002954F, 0F);
             this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(421, 0);
             this.splitPanel2.TabIndex = 1;
@@ -311,7 +316,7 @@
             this.TheoryPageView.Location = new System.Drawing.Point(0, 0);
             this.TheoryPageView.Name = "TheoryPageView";
             this.TheoryPageView.SelectedPage = this.radPageViewPage1;
-            this.TheoryPageView.Size = new System.Drawing.Size(1230, 750);
+            this.TheoryPageView.Size = new System.Drawing.Size(1223, 742);
             this.TheoryPageView.TabIndex = 1;
             this.TheoryPageView.ViewMode = Telerik.WinControls.UI.PageViewMode.Backstage;
             ((Telerik.WinControls.UI.RadPageViewBackstageElement)(this.TheoryPageView.GetChildAt(0))).ItemFitMode = Telerik.WinControls.UI.StripViewItemFitMode.FillHeight;
@@ -327,7 +332,7 @@
             this.radPageViewPage1.ItemSize = new System.Drawing.SizeF(170F, 45F);
             this.radPageViewPage1.Location = new System.Drawing.Point(225, 4);
             this.radPageViewPage1.Name = "radPageViewPage1";
-            this.radPageViewPage1.Size = new System.Drawing.Size(1001, 742);
+            this.radPageViewPage1.Size = new System.Drawing.Size(994, 734);
             this.radPageViewPage1.Text = "Лабораторная работа №1";
             // 
             // radScrollablePanel1
@@ -352,9 +357,9 @@
             this.radScrollablePanel1.PanelContainer.Controls.Add(this.SecondTableLayoutPanel);
             this.radScrollablePanel1.PanelContainer.Controls.Add(this.FirstTableLayoutPanel);
             this.radScrollablePanel1.PanelContainer.Controls.Add(this.tableLayoutPanel4);
-            this.radScrollablePanel1.PanelContainer.Size = new System.Drawing.Size(982, 740);
+            this.radScrollablePanel1.PanelContainer.Size = new System.Drawing.Size(975, 732);
             this.radScrollablePanel1.PanelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.radScrollablePanel1_PanelContainer_Paint);
-            this.radScrollablePanel1.Size = new System.Drawing.Size(1001, 742);
+            this.radScrollablePanel1.Size = new System.Drawing.Size(994, 734);
             this.radScrollablePanel1.TabIndex = 0;
             this.radScrollablePanel1.Click += new System.EventHandler(this.radScrollablePanel1_Click);
             // 
@@ -1880,12 +1885,34 @@
             this.label23.TabIndex = 27;
             this.label23.Text = "label23";
             // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label24.Location = new System.Drawing.Point(34, 260);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(60, 20);
+            this.label24.TabIndex = 10;
+            this.label24.Text = "Печать";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = global::MyApp.Properties.Resources.Рисунок1;
+            this.pictureBox16.Location = new System.Drawing.Point(3, 139);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(124, 128);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 9;
+            this.pictureBox16.TabStop = false;
+            this.pictureBox16.Click += new System.EventHandler(this.pictureBox16_Click);
+            // 
             // LabsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1370, 750);
+            this.ClientSize = new System.Drawing.Size(1362, 742);
             this.Controls.Add(this.radSplitContainer1);
             this.Name = "LabsForm";
             // 
@@ -1954,6 +1981,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FirstTablePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -2105,5 +2133,7 @@
         private Telerik.WinControls.UI.RadButton CalculateFourthTableButton;
         private Telerik.WinControls.UI.RadButton CalculateThirdTableButton;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.PictureBox pictureBox16;
     }
 }

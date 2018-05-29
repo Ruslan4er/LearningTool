@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TheoryForm));
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.CloseFormPictureBox = new System.Windows.Forms.PictureBox();
             this.label35 = new System.Windows.Forms.Label();
@@ -56,10 +58,13 @@
             this.TheoryPdfViewer8 = new Telerik.WinControls.UI.RadPdfViewer();
             this.radPageViewPage9 = new Telerik.WinControls.UI.RadPageViewPage();
             this.TheoryPdfViewer9 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
             this.splitPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OpenTestsFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
@@ -105,6 +110,8 @@
             // 
             // splitPanel1
             // 
+            this.splitPanel1.Controls.Add(this.label2);
+            this.splitPanel1.Controls.Add(this.pictureBox1);
             this.splitPanel1.Controls.Add(this.label1);
             this.splitPanel1.Controls.Add(this.CloseFormPictureBox);
             this.splitPanel1.Controls.Add(this.label35);
@@ -121,6 +128,28 @@
             this.splitPanel1.TabIndex = 0;
             this.splitPanel1.TabStop = false;
             this.splitPanel1.Text = "splitPanel1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(36, 415);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(60, 20);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Печать";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MyApp.Properties.Resources.Рисунок1;
+            this.pictureBox1.Location = new System.Drawing.Point(5, 294);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(124, 128);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -394,6 +423,10 @@
             this.TheoryPdfViewer9.TabIndex = 1;
             this.TheoryPdfViewer9.ThumbnailsScaleFactor = 0.15F;
             // 
+            // printDialog1
+            // 
+            this.printDialog1.UseEXDialog = true;
+            // 
             // TheoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -414,6 +447,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
             this.splitPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseFormPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OpenTestsFormPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
@@ -472,5 +506,9 @@
         private System.Windows.Forms.PictureBox CloseFormPictureBox;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.PictureBox OpenTestsFormPictureBox;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PrintDialog printDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }
